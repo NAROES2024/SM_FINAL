@@ -3,7 +3,7 @@ const EventData = [
       id: 1,
       name: "Aqua-Innovate",
       link: "/AquaMOD",
-      poster: "img/event/AquaInnovate.jpg",
+      poster: "img/event/AquaInnovate.png",
       description:
         "Aqua-Innovate is an event that gives an unique opportunity to showcase your skills in a real-life setting. It challenges participants to unleash their creativity and critical thinking by modifying a vessel in a way that improves its efficiency in terms of both usage and cost. By participating in this event, you'll have the chance to create something that boosts your problem-solving abilities.",
       teamSize: "1",
@@ -75,7 +75,7 @@ const EventData = [
       id: 2,
       name: "Deep Sea Dispustes",
       link: "/dispustes",
-      poster: "img/event/DeepSeaDispustes.jpg",
+      poster: "img/event/DeepSeaDispustes.png",
       description:
         "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
       teamSize: "3-4",
@@ -143,7 +143,7 @@ const EventData = [
       id: 3,
       name: "CRYPTIC CLUES",
       link: "/CrypticClues",
-      poster: "img/event/CrypticClues.jpg",
+      poster: "img/event/CrypticClues.png",
       description:
         "Welcome to the thrilling treasure hunt of Samudra Manthan 2023! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
       fee: "₹100",
@@ -200,7 +200,7 @@ const EventData = [
       id: 4,
       name: "Boat Wars",
       link: "/Boatwars",
-      poster: "img/event/BoatWars.jpg",
+      poster: "img/event/BoatWars.png",
       description:
         "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
       fee: "₹100",
@@ -253,7 +253,7 @@ const EventData = [
       id: 5,
       name: "Quizathon",
       link: "/Quizathon",
-      poster: "img/event/Quizathon.jpg",
+      poster: "img/event/Quizathon.png",
       description:
         "Quizathon stands out as a unique general knowledge competition that welcomes individuals passionate about quizzing to join. The event primarily centers around a format of posing questions and providing answers. Its main audience comprises those enthusiastic        about deepening their understanding of the ocean, naval architecture, and the art of solving puzzles. In addition to being an enjoyable experience, this event serves as a creative means of self-evaluation.",
       fee: "₹100",
@@ -309,7 +309,7 @@ const EventData = [
       id: 6,
       name: "Aqua-Exposure",
       link: "/Aquaexposure",
-      poster: "img/event/AquaExposure.jpg",
+      poster: "img/event/AquaExposure.png",
       description:
         "This event aims to showcase the significance of ocean engineering and naval architecture through captivating and original photographs. It also encourages ethical responsibility among photographers, emphasizing integrity and authenticity in their art, creating a platform to celebrate these fields while upholding high creative and professional standards.",
       fee: "₹100",
@@ -363,7 +363,7 @@ const EventData = [
       id: 7,
       name: "WaveQuest",
       link: "/Wavequest",
-      poster: "img/event/WaveQuest.jpg",
+      poster: "img/event/WaveQuest.png",
       description:
         "WaveQuest is an exhilarating Ocean Engineering Case Study Competition that challenges participants to tackle real-world ocean engineering problems, igniting ingenuity, collaboration, critical thinking, and problem-solving skills. Participants navigate offshore structures, marine renewable energy, coastal management, and underwater systems, blending innovation and expertise to unravel maritime complexities and create solutions that resonate with the ever-evolving tides of innovation. WaveQuest is a journey beyond the ordinary, propelling participants to the forefront of modern engineering, where possibilities converge with the ocean of imagination.",
       fee: "₹100",
@@ -422,7 +422,7 @@ const EventData = [
           id: 8,
           name: "Ocean Oddessy",
           link: "/Oceanoddessy",
-          poster: "img/event/Oceanoddessy.jpg",
+          poster: "img/event/Oceanoddessy.png",
           description:
             "In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles. Research plays a crucial role in this process, as it enables individuals     from around the globe to gather pertinent information  and guide innovation towards the correct course of action. Samudramanthan, Indian Institute of Technology, Kharagpur, is committed to cultivating a culture of research and innovation in our nation.",
           fee: "₹100",
