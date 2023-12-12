@@ -11,7 +11,7 @@ import Gallery from './pages/Gallery';
 import Register from './pages/Register';
 import Cap from './pages/Cap';
 import Schedule from './pages/Schedule';
-
+import Events from './pages/Events';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ function App() {
         {EventData.map((event) => (
           <Route path={event.link} element={<Event event={event} />} />
         ))}
+        <Route path ="/event" element={<Events/>}/>
         <Route path="/about" element={<About />} />
         <Route path='/team' element={<SmTeam />} />
         <Route path="/gallery" element={<Gallery />} />

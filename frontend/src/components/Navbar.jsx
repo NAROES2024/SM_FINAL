@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from 'react-scroll';
+import { Link } from "react-router-dom";
+
 function Navbar(page) {
   const home = page.page === "home" ? " active" : "";
   const about = page.page === "about" ? " active" : "";
@@ -7,6 +8,7 @@ function Navbar(page) {
   const team = page.page === "team" ? " active" : "";
   const cap = page.page === "cap" ? " active" : "";
   const schedule = page.page === "schedule" ? " active" : "";
+  const event = page.page === "events" ? " active" : "";
   
   function logout() {
     localStorage.removeItem("token");
@@ -16,63 +18,56 @@ function Navbar(page) {
 
   return (
     <>
-      <nav class="navbar sticky-top shadow-sm navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <a href="/" class="navbar-brand p-0">
-          <h1 class="m-0">Samudramanthan</h1>
-        </a>
+      <nav className="navbar sticky-top shadow-sm navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <Link to="/" className="navbar-brand p-0">
+          <h1 className="m-0">Samudramanthan</h1>
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="fa fa-bars"></span>
+          <span className="fa fa-bars"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto py-0">
-            <a href="/" class={"nav-item nav-link" + home}>
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <div className="navbar-nav ml-auto py-0">
+            <Link to="/" className={"nav-item nav-link" + home}>
               Home
-            </a>
-            <Link
-            class={"nav-item nav-link" + schedule}
-            to="feature"  // Replace with the ID or name of your event section component
-            spy={true}
-            smooth={true}
-            offset={-70} // Adjust this value based on your layout (to account for fixed navbar)
-            duration={500}
-          >
-            Events
             </Link>
-            <a href="/about" class={"nav-item nav-link" + about}>
+            <Link to="/event" className={"nav-item nav-link" + event}>
+              Events
+            </Link>
+            <Link to="/about" className={"nav-item nav-link" + about}>
               About
-            </a>
-            <a href="/gallery" class={"nav-item nav-link" + gallery}>
+            </Link>
+            <Link to="/gallery" className={"nav-item nav-link" + gallery}>
               Gallery
-            </a>
-            <a href="/team" class={"nav-item nav-link" + team}>
+            </Link>
+            <Link to="/team" className={"nav-item nav-link" + team}>
               Our Team
-            </a>
-            <a href="/cap" class={"nav-item nav-link" + cap}>
+            </Link>
+            <Link to="/cap" className={"nav-item nav-link" + cap}>
               CAP
-            </a>
-            <a href="/schedule" class={"nav-item nav-link" + schedule}>
+            </Link>
+            <Link to="/schedule" className={"nav-item nav-link" + schedule}>
               Schedule
-            </a>
+            </Link>
           </div>
           {localStorage.getItem("token") ? (
-            <a
+            <button
               onClick={logout}
-              class="btn btn-green-gredient rounded-pill py-2 px-4 navbar-nav"
+              className="btn btn-green-gredient rounded-pill py-2 px-4 navbar-nav"
             >
               Logout
-            </a>
+            </button>
           ) : (
-            <a
-              href="/register"
-              class="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
+            <Link
+              to="/register"
+              className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
               Login
-            </a>
+            </Link>
           )}
         </div>
       </nav>

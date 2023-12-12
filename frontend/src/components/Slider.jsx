@@ -5,8 +5,9 @@ import "react-image-gallery/styles/css/image-gallery.css";
 export default function Slider() {
   const images = [
     {
-      original: "https://picsum.photos/id/1018/1000/600/",
+      original: "img/gall2019.jpg",
       thumbnail: "https://picsum.photos/id/1018/250/150/",
+      originalTitle: "Kya bolu aaaaabbbbbbbb"
     },
     {
       original: "https://picsum.photos/id/1015/1000/600/",
@@ -15,6 +16,7 @@ export default function Slider() {
     {
       original: "https://picsum.photos/id/1019/1000/600/",
       thumbnail: "https://picsum.photos/id/1019/250/150/",
+      
     },
   ];
 

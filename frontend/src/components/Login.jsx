@@ -23,7 +23,6 @@ export default function Login() {
           console.log(res);
           if (res.data.message === "login successful") {
             localStorage.setItem("token", res.data.token);
-            localStorage.setItem("smid", smid);
             alert("Login Successful");
             window.location.href = "/";
           } else {
@@ -50,13 +49,13 @@ export default function Login() {
                     <input
                       type="text"
                       class="form-control"
-                      id="smid"
-                      placeholder="Your smid"
-                      name="smid"
+                      id="email"
+                      placeholder="Your email"
+                      name="email"
                       onChange={(e) => setSmid(e.target.value)}
                       required
                     />
-                    <label for="sm id">SM Id</label>
+                    <label for="sm id">Email</label>
                   </div>
                 </div>
                 <div class="col-md-6">
