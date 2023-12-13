@@ -16,7 +16,7 @@ function Footer() {
                 Technology Kharagpur Kharagpur, West Bengal 721302 India
               </p>
               <p>
-                <i class="fa fa-phone-alt me-3"></i>9307403993 / 9325000320 (web Heads)
+                <i class="fa fa-phone-alt me-3"></i>9307403993 / 9325000320 
               </p>
               <p>
                 <i class="fa fa-envelope me-3"></i>
@@ -40,6 +40,9 @@ function Footer() {
               <a class="btn btn-link" href="/">
                 Home
               </a>
+              <a class="btn btn-link" href="/event">
+                Events
+              </a>
               <a class="btn btn-link" href="/about">
                 About Us
               </a>
@@ -48,6 +51,12 @@ function Footer() {
               </a>
               <a class="btn btn-link" href="team">
                 Our Team
+              </a>
+              <a class="btn btn-link" href="/cap">
+                CAP
+              </a>
+              <a class="btn btn-link" href="/schedule">
+              Schedule
               </a>
             </div>
           </div>
