@@ -690,3 +690,42 @@ h6,
     color: var(--dark);
     scale: 1.1;
 }
+
+.Spons{
+    height: 500px;
+  } 
+  
+
+  .spons_width{
+    width: 70%;
+  }
+  
+  .my-2{
+    justify-content: center;
+  }
+  
+  .spons_width2{
+    width: 50%;
+  }
+  
+  .spons_width3{
+    width: 33.333%;
+    
+  }
+  
+  .spons_txt{
+    text-align: center;
+  }
+  
+  .other_sponsors{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+.spons_txt{
+    text-align: center;
+
+}
+

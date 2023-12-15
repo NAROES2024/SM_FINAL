@@ -24,9 +24,7 @@ export default function History() {
                                         <img src="/img/history/pic1_1.jpg" class="card-img-top" alt="..."/>
                                         <div class="card-body">
                                             <h4>Samudramanthan 2023</h4>
-                                            <p>Despesite of being conducted online we saw the record bearking
-                                                participation. In total 9 events
-                                                where conducted.</p>
+                                            <p>The 15th edition of Samudramanthan featured a lineup of 9 diverse events, showcasing the outstanding commitment and active involvement of students, elevating this edition to one of unparalleled success.</p>
                                         </div>
                                     </div>
                                 </div>
