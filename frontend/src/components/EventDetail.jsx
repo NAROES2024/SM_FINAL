@@ -9,7 +9,7 @@ function EventDetail({link}) {
   const [modalShow, setModalShow] = React.useState(false);
   const [user, setUser] = React.useState({});
   const [isRegistered, setIsRegistered] = React.useState(false);
-
+  
   if (localStorage.getItem("token")) {
 
     async function check() {
@@ -25,7 +25,7 @@ function EventDetail({link}) {
 
   async function details() {
     const data = await axios
-      .post("http://localhost:5000/razorpay" + event.link, {
+      .post("http://localhost:5000/razorpay/" + event.link, {
         token: localStorage.getItem("token"),
       })
       .then((t) => t.data);
@@ -56,11 +56,11 @@ function EventDetail({link}) {
           </div>
 
           <div class="row">
-            <div class="col-lg-8 mb-3">
+            <div class="col-lg-8 mb-3 wow fadeInUp">
               <img src={event.poster} class="img-fluid" alt="" />
-              <p class="mt-4 text-center">{event.description}</p>
+              <p class="mt-4">{event.description}</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 wow fadeInUp">
               <div class="course-info d-flex justify-content-between align-items-center mb-2">
                 <h5>Team Size</h5>
                 <p>{event.teamSize}</p>
@@ -105,7 +105,7 @@ function EventDetail({link}) {
                 </p>
               </div>
 
-              {localStorage.getItem("token") ? (
+              {JSON.parse(localStorage.getItem("token")) ? (
                 <div class="course-info d-flex justify-content-between align-items-center mb-2">
                   <h5>Register Event</h5>
                   {isRegistered ? (
@@ -147,7 +147,7 @@ function EventDetail({link}) {
           </div>
         </div>
 
-        <div class="container text-center" data-aos="fade-up">
+        <div class="container text" data-aos="fade-up">
           <div class="row">
             <div class="col-lg-3">
               <ul class="nav nav-tabs flex-column">

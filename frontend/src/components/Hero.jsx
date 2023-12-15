@@ -1,4 +1,5 @@
-import React from "react";  
+import React from "react";
+import { Link } from "react-scroll";  
 
 function Hero() {
 
@@ -22,7 +23,12 @@ function Hero() {
                             ) : (
                                 <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
                             )}
-                            <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                            <Link to="footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                            >Contact Us</Link>
                         </div>
                         <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp mt-0" data-wow-delay="0.3s">
                             <img class="img-fluid" src="img/logo.png" alt=""/>
