@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 export default function Login() {
   const [smid, setSmid] = useState("");
   const [password, setPassword] = useState("");
-
+  const nagivate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,9 +22,10 @@ export default function Login() {
         .then((res) => {
           console.log(res);
           if (res.data.message === "login successful") {
-            localStorage.setItem("token", res.data.token);
+            localStorage.setItem("token", JSON.stringify(res.data.token));
+            localStorage.setItem("user", JSON.stringify(res.data.user));
             alert("Login Successful");
-            window.location.href = "/";
+            nagivate("/");
           } else {
             alert("Login Failed");
           }
