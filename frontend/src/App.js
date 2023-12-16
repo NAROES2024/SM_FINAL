@@ -8,7 +8,6 @@ import EventData from './data/EventData';
 import About from './pages/About';
 import SmTeam from './pages/SmTeam';
 import Gallery from './pages/Gallery';
-import Register from './pages/Register';
 import Cap from './pages/Cap';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
@@ -24,7 +23,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path='/team' element={<SmTeam />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path='/register' element={<Register />} />
         <Route path='/cap' element={<Cap />} />
         <Route path='/schedule' element={<Schedule />} />
       </Routes>
