@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import EventDetail from "../components/EventDetail";
 
 function Event({event}){
-    console.log(event)
     return(
         <>
         <div class="container-xxl bg-white p-0">

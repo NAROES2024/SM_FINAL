@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function CapSection() {
   return (
     <>
@@ -49,6 +49,18 @@ export default function CapSection() {
             </div>
           </div>
         </div>
+        <div className="text-center animated slideInRight">
+        <h3 >Want to be the Campus Ambassator?</h3>
+        <Link
+              to="/register"
+              className="btn btn-primary-gradient rounded-pill py-2 px-4 my-2"
+            >
+              Register Here
+        </Link>
+        </div>
+        
+
+
       </div>
     </>
   );

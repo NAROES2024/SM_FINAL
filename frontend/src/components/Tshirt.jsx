@@ -1,30 +1,29 @@
 import React from "react";
-import axios from "axios";
-import TshirtModal from "./TshirtModel";
 
+import { Link } from "react-router-dom";
 function Tshirt() {
-  const [modalShow, setModalShow] = React.useState(false);
-  const [user, setUser] = React.useState({});
+  // const [modalShow, setModalShow] = React.useState(false);
+  // const [user, setUser] = React.useState({});
 
-  async function details() {
-    const data = await axios
-      .post("http://localhost:5000/razorpay/tshirt", {
-        token: localStorage.getItem("token"),
-      })
-      .then((t) => t.data);
+  // async function details() {
+  //   const data = await axios
+  //     .post("http://localhost:5000/razorpay/tshirt", {
+  //       token: localStorage.getItem("token"),
+  //     })
+  //     .then((t) => t.data);
 
-    //set user and add link to data
-    setUser({
-      name: data.name,
-      email: data.email,
-      contact: data.contact,
-      id: data.id,
-      sm_id: data.sm_id,
-      amount: data.amount,
-      currency: data.currency,
-    });
-    setModalShow(true);
-  }
+  //   //set user and add link to data
+  //   setUser({
+  //     name: data.name,
+  //     email: data.email,
+  //     contact: data.contact,
+  //     id: data.id,
+  //     sm_id: data.sm_id,
+  //     amount: data.amount,
+  //     currency: data.currency,
+  //   });
+  //   setModalShow(true);
+  // }
   return (
     <div class="container-xxl py-5">
       <div class="container py-5 px-lg-5">
@@ -47,21 +46,21 @@ function Tshirt() {
             </p>
             <div class="row g-4">
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                {localStorage.getItem("token") ? (
+                {/* {localStorage.getItem("token") ? ( */}
                   <>
-                    <a
-                      onClick={details}
+                    <Link
+                      to="/"
                       class="d-flex btn bg-primary-gradient rounded py-3 px-4"
                     >
                       <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>
                       <div class="ms-3">
                         <p class="text-white mb-0">Available</p>
-                        <h5 class="text-white mb-0">Buy Now</h5>
+                        <h5 class="text-white mb-0">Register</h5>
                       </div>
-                    </a>
+                    </Link>
                   </>
-                ) : (
-                  <>
+                {/* ) : ( */}
+                  {/* <>
                     <a
                       href="/register"
                       class="d-flex bg-primary-gradient rounded py-3 px-4"
@@ -69,19 +68,19 @@ function Tshirt() {
                       <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>
                       <div class="ms-3">
                         <p class="text-white mb-0">Available</p>
-                        <h5 class="text-white mb-0">Buy Now</h5>
+                        <h5 class="text-white mb-0">Register</h5>
                       </div>
                     </a>
-                  </>
-                )}
+                  </> */}
+                {/* )} */}
               </div>
             </div>
-            < TshirtModal
+            {/* < TshirtModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
                 user={user}
                 setUser={setUser}
-                />
+                /> */}
           </div>
         </div>
       </div>

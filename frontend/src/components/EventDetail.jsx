@@ -1,50 +1,49 @@
 import React from "react";
 import EventData from "../data/EventData";
-import axios from "axios";
-import MyVerticallyCenteredModal from "./DetailsModel";
 
+import { Link } from "react-router-dom";
 function EventDetail({link}) {
   const event = EventData.find(({ link:eventlink }) => eventlink === link);
-  console.log(event)
-  const [modalShow, setModalShow] = React.useState(false);
-  const [user, setUser] = React.useState({});
-  const [isRegistered, setIsRegistered] = React.useState(false);
+  // console.log(event)
+  // const [modalShow, setModalShow] = React.useState(false);
+  // const [user, setUser] = React.useState({});
+  // const [isRegistered, setIsRegistered] = React.useState(false);
   
-  if (localStorage.getItem("token")) {
+  // if (localStorage.getItem("token")) {
 
-    async function check() {
-      const data = await axios
-        .post("http://localhost:5000/event/isregistered", {
-          token: localStorage.getItem("token"),
-          link: event.link,
-        })
-        .then((t) => setIsRegistered(t.data));
-    }
-    check();
-  }
+  //   async function check() {
+  //     const data = await axios
+  //       .post("http://localhost:5000/event/isregistered", {
+  //         token: localStorage.getItem("token"),
+  //         link: event.link,
+  //       })
+  //       .then((t) => setIsRegistered(t.data));
+  //   }
+  //   check();
+  // }
 
-  async function details() {
-    const data = await axios
-      .post("http://localhost:5000/razorpay/" + event.link, {
-        token: localStorage.getItem("token"),
-      })
-      .then((t) => t.data);
+  // async function details() {
+  //   const data = await axios
+  //     .post("http://localhost:5000/razorpay/" + event.link, {
+  //       token: localStorage.getItem("token"),
+  //     })
+  //     .then((t) => t.data);
 
-    //set user and add link to data
-    setUser({
-      name: data.name,
-      email: data.email,
-      contact: data.contact,
-      link: event.link,
-      id: data.id,
-      sm_id: data.sm_id,
-      amount: data.amount,
-      currency: data.currency,
-      teamSize: data.teamSize,
-    });
+  //   //set user and add link to data
+  //   setUser({
+  //     name: data.name,
+  //     email: data.email,
+  //     contact: data.contact,
+  //     link: event.link,
+  //     id: data.id,
+  //     sm_id: data.sm_id,
+  //     amount: data.amount,
+  //     currency: data.currency,
+  //     teamSize: data.teamSize,
+  //   });
 
-    setModalShow(true);
-  }
+  //   setModalShow(true);
+  // }
 
   return (
     <>
@@ -93,7 +92,7 @@ function EventDetail({link}) {
                 </p>
               </div>
 
-              <div class="course-info d-flex justify-content-between align-items-center mb-2">
+              {/* <div class="course-info d-flex justify-content-between align-items-center mb-2">
                 <h5>Submission</h5>
                 <p>
                   <a
@@ -103,34 +102,36 @@ function EventDetail({link}) {
                     Form
                   </a>
                 </p>
-              </div>
+              </div> */}
 
-              {JSON.parse(localStorage.getItem("token")) ? (
+              {/* {JSON.parse(localStorage.getItem("token")) ? ( */}
                 <div class="course-info d-flex justify-content-between align-items-center mb-2">
                   <h5>Register Event</h5>
-                  {isRegistered ? (
+                  {/* {isRegistered ? ( */}
                     <p>
-                      <a class="btn btn-green-gredient rounded-pill py-2 px-4">
-                        already registered
-                      </a>
+                      <Link 
+                      to="/"
+                      class="btn btn-green-gredient rounded-pill py-2 px-4">
+                        Register
+                      </Link>
                     </p>
-                  ) : (
+                  {/* ) : (
                     <p>
-                      <a
+                      <Link
                         class="btn btn-secondary-gradient rounded-pill py-2 px-4"
-                        onClick={details}
+                        to="/"
                       >
                         Register Now
-                      </a>
+                      </Link>
                     </p>
                   )}
                   <MyVerticallyCenteredModal
                     show={modalShow}
                     onHide={() => setModalShow(false)}
                     user={user}
-                  />
+                  /> */}
                 </div>
-              ) : (
+              {/* ) : (
                 <div class="course-info d-flex justify-content-between align-items-center mb-2">
                   <h5>Register Event</h5>
                   <p>
@@ -142,7 +143,7 @@ function EventDetail({link}) {
                     </a>
                   </p>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>

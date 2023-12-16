@@ -10,11 +10,11 @@ function Navbar(page) {
   const schedule = page.page === "schedule" ? " active" : "";
   const event = page.page === "events" ? " active" : "";
   
-  function logout() {
-    localStorage.removeItem("token");
-    localStorage.removeItem("smid");
-    window.location.href = "/";
-  }
+  // function logout() {
+  //   localStorage.removeItem("token");
+  //   localStorage.removeItem("smid");
+  //   window.location.href = "/";
+  // }
 
   return (
     <>
@@ -54,21 +54,19 @@ function Navbar(page) {
               Schedule
             </Link>
           </div>
-          {localStorage.getItem("token") ? (
-            <button
+          
+            {/* <button
               onClick={logout}
               className="btn btn-green-gredient rounded-pill py-2 px-4 navbar-nav"
             >
               Logout
-            </button>
-          ) : (
+            </button> */}
             <Link
-              to="/register"
+              to="/"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
-              Login
+              Register
             </Link>
-          )}
         </div>
       </nav>
     </>
