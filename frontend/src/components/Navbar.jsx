@@ -53,6 +53,10 @@ function Navbar(page) {
             <Link to="/schedule" className={"nav-item nav-link" + schedule}>
               Schedule
             </Link>
+            {/* <Link to="/comingsoon" className={"nav-item nav-link" + schedule}>
+             cmc
+            </Link> */}
+
           </div>
           {localStorage.getItem("token") ? (
             <button
