@@ -17,10 +17,10 @@ const ComingSoon = () => {
         <div className="containercoms">
           <div className="comstext">
             <div className="comscoming">
-              Coming
+              <i>COMING</i>
             </div>
             <div className="comssoon">
-              Soon
+              <i>SOON</i>
             </div>
             {/* <div className="gif">
               
