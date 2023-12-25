@@ -12,6 +12,7 @@ import Register from './pages/Register';
 import Cap from './pages/Cap';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
+import Comingsoon from './components/Comingsoon';
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,8 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/cap' element={<Cap />} />
         <Route path='/schedule' element={<Schedule />} />
+        <Route path='/comingsoon' element={<Comingsoon/>} />
+
       </Routes>
     </BrowserRouter>
   );
