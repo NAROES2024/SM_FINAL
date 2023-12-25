@@ -32,7 +32,7 @@ function Tshirt() {
             <img
               class="img-fluid wow fadeInUp"
               data-wow-delay="0.1s"
-              src="img/about.png"
+              src="img/tshirt.png"
             />
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -49,7 +49,7 @@ function Tshirt() {
                 {/* {localStorage.getItem("token") ? ( */}
                   <>
                     <Link
-                      to="/"
+                      to="/comingsoon"
                       class="d-flex btn bg-primary-gradient rounded py-3 px-4"
                     >
                       <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>

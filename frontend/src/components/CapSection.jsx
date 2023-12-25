@@ -52,8 +52,9 @@ export default function CapSection() {
         <div className="text-center animated slideInRight">
         <h3 >Want to be the Campus Ambassator?</h3>
         <Link
-              to="/register"
+              to="https://docs.google.com/forms/d/e/1FAIpQLSdvmPxoLN3wMY7cGvjaP_Ol5dVteTr-JYz-R57k3Ex-4lYemA/viewform"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 my-2"
+              target="_blank"
             >
               Register Here
         </Link>
