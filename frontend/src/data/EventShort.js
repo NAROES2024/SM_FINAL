@@ -43,13 +43,13 @@ const Events = [
   },
   {
     name: "Ocean Oddessey",
-    link: "/paperprep",
+    link: "/Oceanoddessy",
     poster: "img/event/OceanOddessey_Logo.png",
     description:
       " In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles.",
   },
   {
-    name: "Cryptic Clues",
+    name: "Cryptic Clues (Treasure Hunt)",
     link: "/CrypticClues",
     poster: "img/event/CrypticClues_Logo.png",
     description:

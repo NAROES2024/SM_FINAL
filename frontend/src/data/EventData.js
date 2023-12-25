@@ -141,7 +141,7 @@ const EventData = [
     },
     {
       id: 3,
-      name: "CRYPTIC CLUES",
+      name: "CRYPTIC CLUES (TREASURE HUNT)",
       link: "/CrypticClues",
       poster: "img/event/CrypticClues.png",
       description:
