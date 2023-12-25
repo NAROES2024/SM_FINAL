@@ -62,7 +62,7 @@ function Navbar(page) {
               Logout
             </button> */}
             <Link
-              to="/"
+              to="/comingsoon"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
               Register

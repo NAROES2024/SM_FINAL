@@ -11,6 +11,7 @@ import Gallery from './pages/Gallery';
 import Cap from './pages/Cap';
 import Schedule from './pages/Schedule';
 import Events from './pages/Events';
+import ComingSoon from './pages/ComingSoon';
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path='/cap' element={<Cap />} />
         <Route path='/schedule' element={<Schedule />} />
+        <Route path='/comingsoon' element={<ComingSoon />} />
       </Routes>
     </BrowserRouter>
   );

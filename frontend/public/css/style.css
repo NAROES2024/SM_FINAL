@@ -6,6 +6,14 @@
     --dark: #262B47;
 }
 
+/*coming soon*/
+
+.coming_soon{
+    background-image: linear-gradient(90deg, #4294e3 0%, #129bb9 46%, #8f12fd 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 /* Spons Responsive ness */
  @media (max-width: 991px) {
     .new{
