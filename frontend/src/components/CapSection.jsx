@@ -22,19 +22,24 @@ export default function CapSection() {
                 engineering knowledge.
               </p>
               <p>
-                <i class="fa fa-check text-primary-gradient me-3"></i>Join Samudramanthan for marine engineering excellence.
+                <i class="fa fa-check text-primary-gradient me-3"></i>5+ participants brought: Certificate and
+ Website Recognition
               </p>
               <p>
-                <i class="fa fa-check text-primary-gradient me-3"></i>Expand your network with industry professionals and enthusiasts.
+                <i class="fa fa-check text-primary-gradient me-3"></i>15+ participants brought: No participation fee and
+Complimentary merch.
               </p>
               <p class="mb-4">
-                <i class="fa fa-check text-primary-gradient me-3"></i>Gain hands-on experience, improve leadership and communication skills.
+                <i class="fa fa-check text-primary-gradient me-3"></i>20+ participants brought: No accommodation charges.
               </p>
               <p class="mb-4">
-                <i class="fa fa-check text-primary-gradient me-3"></i>Access exclusive resources like research papers and webinars.
+                <i class="fa fa-check text-primary-gradient me-3"></i>30+ participants brought: Amazon vouchers and Gift coupons.
               </p>
               <p class="mb-4">
-                <i class="fa fa-check text-primary-gradient me-3"></i>Make a real impact in the marine engineering industry.
+                <i class="fa fa-check text-primary-gradient me-3"></i>50+ participants brought: Goodies worth 5k+.
+              </p>
+              <p class="mb-4">
+                <i class="fa fa-check text-primary-gradient me-3"></i>For the best campus ambassador an Outstanding Ambassador Award.
               </p>
             </div>
             <div

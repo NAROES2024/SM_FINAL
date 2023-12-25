@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AboutSection() {
     return(
@@ -53,7 +54,7 @@ export default function AboutSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</a>
+                        <Link to="/comingsoon" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</Link>
                     </div>
                     <div class="col-lg-6">
                         <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/logo.png"/>

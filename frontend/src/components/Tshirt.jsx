@@ -51,11 +51,11 @@ function Tshirt() {
                     <Link
                       to="/comingsoon"
                       class="d-flex btn bg-primary-gradient rounded py-3 px-4"
+                      style={{alignItems:"center"}}
                     >
                       <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>
                       <div class="ms-3">
-                        <p class="text-white mb-0">Available</p>
-                        <h5 class="text-white mb-0">Register</h5>
+                        <h5 class="text-white">Register</h5>
                       </div>
                     </Link>
                   </>

@@ -21,7 +21,7 @@ function Hero() {
                                 
                                 {/* <a onClick={logout} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">logout</a> */}
                             {/* ) : ( */}
-                                <a href="/" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
+                                <Link to="/comingsoon" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</Link>
                             {/* )} */}
                             <Link to="footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
                             spy={true}
