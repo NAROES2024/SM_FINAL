@@ -28,7 +28,7 @@ const Events = [
       "In an evolving world with increasing challenges, research becomes vital for innovative solutions. Samudramanthan, IIT, Kharagpur, is dedicated to fostering a culture of research and innovation to address these obstacles.",
   },
   {
-    name: "Deep Sea Dispustes",
+    name: "Deep Sea Disputes",
     link: "/dispustes",
     poster: "img/event/DeepSeaDispustes_Logo.png",
     description:
@@ -42,7 +42,7 @@ const Events = [
       "Quizathon offers a unique quiz competition focused on ocean knowledge, naval architecture, and puzzles. It attracts enthusiasts seeking to enhance their understanding while enjoying a creative self-evaluation experience.",
   },
   {
-    name: "Ocean Oddessey",
+    name: "Ocean Odyssey",
     link: "/Oceanoddessy",
     poster: "img/event/OceanOddessey_Logo.png",
     description:
@@ -53,7 +53,7 @@ const Events = [
     link: "/CrypticClues",
     poster: "img/event/CrypticClues_Logo.png",
     description:
-      "Join Samudra Manthan 2023's thrilling treasure hunt, where sharp minds and keen eyes are key. Solve puzzles, crack codes, and uncover mysteries to discover priceless artifacts. Unleash your inner explorer in this exciting voyage!",
+      "Join Samudramanthan 2024's thrilling treasure hunt, where sharp minds and keen eyes are key. Solve puzzles, crack codes, and uncover mysteries to discover priceless artifacts. Unleash your inner explorer in this exciting voyage!",
   },
 ];
 

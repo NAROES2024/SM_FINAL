@@ -1,6 +1,7 @@
 import React from "react";
 import axios from 'axios';
 import queryString from 'query-string';
+
 function ComingSoon() {
   return (
     <div

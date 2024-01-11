@@ -3,7 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-function Sponsars() {
+function Sponsors() {
   const options = {
     autoplay: true,
     autoplayTimeout: 3000,
@@ -23,7 +23,7 @@ function Sponsars() {
           data-wow-delay="0.1s"
         >
           <h5 class="text-primary-gradient fw-medium">Samudramanthan's</h5>
-          <h1 class="">Our Past Sponsars</h1>
+          <h1 class="">Our Past Sponsors</h1>
           <p class="mb-0">
             Our heartfelt gratitude to our sponsors for their invaluable support
             in making Samudramanthan a great success.
@@ -39,7 +39,7 @@ function Sponsars() {
               <img src="img\Spons\Vedam.png" class="card-img-top" alt="" />
             </div>
           </div>
-          <h5 className="spons_txt my-4">Title Sponser</h5>
+          <h5 className="spons_txt my-4">Title Sponsor</h5>
         </div>
         
 
@@ -49,7 +49,7 @@ function Sponsars() {
               <img src="img\Spons\shoft-2.png" class="card-img-top" alt="" />
             </div>
           </div>
-          <h5 className="spons_txt my-4">Event Sponser</h5>
+          <h5 className="spons_txt my-4">Event Sponsor</h5>
         </div>
         {/* col */}
         <div className="row row-cols-1 row-cols-md-3 g-4 my-2 new animated slideInRight">
@@ -57,21 +57,21 @@ function Sponsars() {
             <div className="card">
               <img src="img\Spons\grse (1).png" class="card-img-top" alt="" />
             </div>
-            <h5 className="spons_txt my-4">Event Sponser</h5>
+            <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
 
           <div className="spons_width3 col">
             <div className="card">
               <img src="img\Spons\shire (1).png" class="card-img-top" alt="" />
             </div>
-            <h5 className="spons_txt my-4">Event Sponser</h5>
+            <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
 
           <div className="spons_width3 col">
             <div className="card">
               <img src="img\Spons\gs (1).png" class="card-img-top" alt="" />
             </div>
-            <h5 className="spons_txt my-4">Event Sponser</h5>
+            <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
         </div>
       </div>
@@ -79,4 +79,4 @@ function Sponsars() {
   );
 }
 
-export default Sponsars;
+export default Sponsors;

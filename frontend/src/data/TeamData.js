@@ -1,6 +1,6 @@
 const TeamData = [
     {
-        name: "Sanjit Jeevaanand",
+        name: "Sanjit Jeevanand",
         position: "President",
         image: "img/team/sanjit.jpg",
         linkedin: "https://www.linkedin.com/in/sanjit-jeevanand/",
@@ -24,10 +24,10 @@ const TeamData = [
         instagram: "https://www.instagram.com/ayush_lohani/",
     },
     {
-        name: "Adesh Ghadge",
+        name: "Adesh Ghadage",
         position: "Web Head",
         image: "img/team/adesh.jpg",
-        linkedin: "http://linkedin.com/in/solomon-surya-sekhar-ankam-443774255",
+        linkedin: "https://www.linkedin.com/in/adeshghadage/",
         facebook: "https://www.facebook.com/adesh.ghadage.96",
         instagram: "https://www.instagram.com/adesh_ghadage/",
     },
@@ -40,7 +40,7 @@ const TeamData = [
         instagram: "https://www.instagram.com/prathamesh.somani.77/",
     },
     {
-        name: "Swagato",
+        name: "Swagoto Surjo Dutta",
         position: "Events Head",
         image: "img/team/swagato.jpg",
         linkedin: "https://www.linkedin.com/in/swagoto-surjo-dutta-19745542/",
@@ -89,7 +89,7 @@ const TeamData = [
     },
     
     {
-        name: "Arup Mahanta",
+        name: "Arup Mahatha",
         position: "PR Head",
         image: "img/team/arup.jpg",
         linkedin: "https://www.linkedin.com/in/arupmahatha/",
@@ -97,7 +97,7 @@ const TeamData = [
         instagram: "https://www.instagram.com/maruptdg/",
     },
     {
-        name: "Akshat lade",
+        name: "Akshat Lade",
         position: "Sponsorship Head",
         image: "img/team/akshat.jpg",
         linkedin: "https://www.linkedin.com/in/akshat-lade-0b3a33223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -114,7 +114,7 @@ const TeamData = [
     },
     
     {
-        name: "Anushika srivastava",
+        name: "Anushika Srivastava",
         position: "Core Sub-Head",
         image: "img/team/anushika.jpg",
         linkedin: "http://www.linkedin.com/in/anushika-srivastava-05ab90256",
@@ -165,7 +165,7 @@ const TeamData = [
         name: "Srestha Gajula",
         position: "Design Sub-Head",
         image: "img/team/shreshta.jpg",
-        linkedin: "https://www.linkedin.com/in/ayush-lohani-901a83134/",
+        linkedin: "https://www.linkedin.com/in/shreshta-gajula-a678a6267/",
         facebook: "https://www.facebook.com/ayush.lohani.7",
         instagram: "",
     },

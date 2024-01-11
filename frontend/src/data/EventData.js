@@ -73,7 +73,7 @@ const EventData = [
   
     {
       id: 2,
-      name: "Deep Sea Dispustes",
+      name: "Deep Sea Disputes",
       link: "/dispustes",
       poster: "img/event/DeepSeaDispustes.png",
       description:
@@ -145,7 +145,7 @@ const EventData = [
       link: "/CrypticClues",
       poster: "img/event/CrypticClues.png",
       description:
-        "Welcome to the thrilling treasure hunt of Samudra Manthan 2023! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
+        "Welcome to the thrilling treasure hunt of Samudramanthan 2024! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
       teamSize:"1",
       fee: "₹100",
       prize: "₹2000",
@@ -418,7 +418,7 @@ const EventData = [
     },
     {
           id: 8,
-          name: "Ocean Oddessy",
+          name: "Ocean Odyssey",
           link: "/Oceanoddessy",
           poster: "img/event/Oceanoddessy.png",
           description:
