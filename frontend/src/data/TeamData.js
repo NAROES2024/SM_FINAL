@@ -83,7 +83,7 @@ const TeamData = [
         name: "Ashish Kumar",
         position: "General Sceretary",
         image: "img/team/ashish.jpg",
-        linkedin: "http://linkedin.com/in/solomon-surya-sekhar-ankam-443774255",
+        linkedin: "https://www.linkedin.com/in/ashish-kumar-443955170/",
         facebook: "https://www.facebook.com/profile.php?id=100009722254419",
         instagram: "https://www.instagram.com/ashish_kumar_iitkgp/",
     },
