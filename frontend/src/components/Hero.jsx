@@ -1,4 +1,5 @@
 import React from "react";
+import { redirect } from "react-router-dom";
 import { Link } from "react-scroll";  
 
 function Hero() {
@@ -8,6 +9,12 @@ function Hero() {
     //     localStorage.removeItem("smid");
     //     window.location.href = "/";
     // }
+
+    //onclick to register button go to https://rzp.io/l/NmRVDe7 
+
+    function register(){
+        window.location.href = "https://rzp.io/l/NmRVDe7";
+    }
 
     return (
         <>
@@ -21,7 +28,7 @@ function Hero() {
                                 
                                 {/* <a onClick={logout} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">logout</a> */}
                             {/* ) : ( */}
-                                <Link to="/comingsoon" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</Link>
+                            <Link onClick={register} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</Link>
                             {/* )} */}
                             <Link to="footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
                             spy={true}

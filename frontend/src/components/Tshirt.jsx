@@ -49,7 +49,7 @@ function Tshirt() {
                 {/* {localStorage.getItem("token") ? ( */}
                   <>
                     <Link
-                      to="/comingsoon"
+                      to="https://rzp.io/l/NmRVDe7"
                       class="d-flex btn bg-primary-gradient rounded py-3 px-4"
                       style={{alignItems:"center"}}
                     >

@@ -45,7 +45,7 @@ const TeamData = [
         image: "img/team/swagato.jpg",
         linkedin: "https://www.linkedin.com/in/swagoto-surjo-dutta-19745542/",
         facebook: "https://www.facebook.com/swagotosurjo.dutta",
-        instagram: "https://www.instagram.com/siddharth_singh_2000/",
+        instagram: "https://www.instagram.com/swegbloo/",
     },
     {
         name: "Anmol Tripathi",
@@ -53,7 +53,7 @@ const TeamData = [
         image: "img/team/anmol.jpg",
         linkedin: "https://www.linkedin.com/in/anmol-tripathi-2849a7240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         facebook: "https://www.facebook.com/profile.php?id=100078673489934",
-        instagram: "https://www.instagram.com/siddharth_singh_2000/",
+        instagram: "https://www.instagram.com/anmolt29._?igsh=MWcwYXgwcm1yNzVzcg%3D%3D",
     },
     {
         name: "Sayali Gaikwad",
@@ -68,7 +68,7 @@ const TeamData = [
         position: "General Sceretary",
         image: "img/team/soloman.jpg",
         linkedin: "http://linkedin.com/in/solomon-surya-sekhar-ankam-443774255",
-        facebook: "",
+        facebook: "https://www.facebook.com/profile.php?id=100075544356046",
         instagram: "https://www.instagram.com/solomon_sekhar/",
     },
     {

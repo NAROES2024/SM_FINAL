@@ -110,7 +110,7 @@ function EventDetail({link}) {
                   {/* {isRegistered ? ( */}
                     <p>
                       <Link 
-                      to="/"
+                      to="https://rzp.io/l/NmRVDe7"
                       class="btn btn-green-gredient rounded-pill py-2 px-4">
                         Register
                       </Link>

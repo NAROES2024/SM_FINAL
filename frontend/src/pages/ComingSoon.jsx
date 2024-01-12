@@ -4,6 +4,7 @@ import queryString from 'query-string';
 
 function ComingSoon() {
   return (
+    <>
     <div
       style={{
         height: "100vh",
@@ -35,6 +36,7 @@ function ComingSoon() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
