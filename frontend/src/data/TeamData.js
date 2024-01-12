@@ -132,7 +132,7 @@ const TeamData = [
     {
         name: "Jagrut Karnavat",
         position: "Core Sub-Head",
-        image: "img/team/jagrut .jpg",
+        image: "img/team/jagrut.jpg",
         linkedin: "https://www.linkedin.com/in/jagrut-karnavat-7b0b28257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         facebook: "https://www.facebook.com/JKThunder279?mibextid=2JQ9oc",
         instagram: "https://www.instagram.com/jkthunder279/",
@@ -140,7 +140,7 @@ const TeamData = [
     {
         name: "Gunashiyaa Elangovan",
         position: "Core Sub-Head",
-        image: "img/team/Gunashiyaa.jpg",
+        image: "img/team/gunashiyaa.jpg",
         linkedin: "http://www.linkedin.com/in/gunashiyaa-elangovan-73027b288",
         facebook: "https://www.facebook.com/profile.php?id=100087417407869&mibextid=2JQ9oc",
         instagram: "https://www.instagram.com/gunashiyaa_02/",

@@ -14,7 +14,7 @@ function Footer() {
               <h4 class="text-white mb-4">Address</h4>
               <p>
                 <i class="fa fa-map-marker-alt me-3"></i>Indian Institute of
-                Technology Kharagpur Kharagpur, West Bengal 721302 India
+                Technology Kharagpur, West Bengal 721302 India
               </p>
               <p>
                 <i class="fa fa-phone-alt me-3"></i>9307403993 / 9325000320 
