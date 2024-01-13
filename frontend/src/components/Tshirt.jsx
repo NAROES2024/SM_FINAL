@@ -40,7 +40,7 @@ function Tshirt() {
             <h1 class="mb-4">Get ready for Samudramanthan</h1>
             <p class="mb-4">
               Embrace the myth's essence with our exclusive Samudramanthan
-              merchandise. From symbolic artefacts to adorned apparel, carry the
+              merchandise. From symbolic artifact to adorned apparel, carry the
               magic of this epic tale in every piece. Explore and own a touch of
               mythology today.
             </p>

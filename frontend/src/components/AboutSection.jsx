@@ -10,7 +10,7 @@ export default function AboutSection() {
                         <h5 class="text-primary-gradient fw-medium">NAROES</h5>
                         <h1 class="mb-4">About Samudramanthan</h1>
                         <p class="mb-4">
-                                 Students from all around India participated actively in Samudramanthan in 23 <br />
+                                 Students from all around India participated actively in Samudramanthan in 2023 <br />
                                  It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
                                  We had the largest participation ever and received praise for the interesting and difficult competitions. <br />
                             </p>
