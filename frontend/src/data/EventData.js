@@ -7,8 +7,8 @@ const EventData = [
       description:
         "Aqua-Innovate is an event that gives an unique opportunity to showcase your skills in a real-life setting. It challenges participants to unleash their creativity and critical thinking by modifying a vessel in a way that improves its efficiency in terms of both usage and cost. By participating in this event, you'll have the chance to create something that boosts your problem-solving abilities.",
       teamSize: "Upto 3",
-      fee: "₹100",
-      prize: "₹25000",
+      fee: "₹150",
+      prize: "₹20000",
       date: "8th March 2024(Tentative)",
       brochure:
         "https://drive.google.com/file/d/12vFPkvK9WfeuJcahIrGYGNsxrWnxU3hS/view?usp=drive_link",
@@ -62,10 +62,10 @@ const EventData = [
           data: [
             "- All teams get participation certificates from Samudra-Manthan IIT Kharagpur.",
             "- Outstanding designs may be featured on their social media.",
-            "- Top 3 teams win cash prizes totaling Rs. 25,000:",
+            "- Top 3 teams win cash prizes totaling Rs. 20,000:",
             "- 1st Place: Rs. 10,000",
-            "- 2nd Place: Rs. 8,000",
-            "- 3rd Place: Rs. 7,000.",
+            "- 2nd Place: Rs. 6,000",
+            "- 3rd Place: Rs. 4,000.",
           ],
         },
       ],
@@ -80,7 +80,7 @@ const EventData = [
         "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
       teamSize: "3-4",
       fee: "₹100",
-      prize: "₹20000",
+      prize: "₹15000",
       date: "16th March 2024",
       brochure:
         "https://drive.google.com/file/d/1-D8Id_tSil1U8eMOkwuettqnC0ulyQxM/view?usp=drive_link",
@@ -133,7 +133,7 @@ const EventData = [
           heading: "Prizes",
           data: [
             "- All participants get participation certificates.",
-            "- Top 3 in the Debate event win a total of ₹20,000.",
+            "- Top 3 in the Debate event win a total of ₹15,000.",
             "- Winners receive e-certificates and social media recognition.",
           ],
         },
@@ -147,8 +147,8 @@ const EventData = [
       description:
         "Welcome to the thrilling treasure hunt of Samudramanthan 2024! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
       teamSize:"1",
-      fee: "₹100",
-      prize: "₹2000",
+      fee: "₹75",
+      prize: "₹12000",
       date: "15th March 2024",
       brochure:
         "https://drive.google.com/file/d/1RLMRAKwgG1khMZDrIMaBX0Sfl4IM13ZT/view?usp=drive_link",
@@ -189,7 +189,7 @@ const EventData = [
           tabId: "4",
           heading: "Prizes",
           data: [
-            "The participant who completes all three stages of cryptic clues by finding the answers will be awarded a 2000 INR cash Prize",
+            "The participants who completes all three stages of cryptic clues by finding the answers will be awarded a total Prize of 12000 INR.",
           ],
         },
       ],
@@ -201,7 +201,7 @@ const EventData = [
       poster: "img/event/BoatWars.png",
       description:
         "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
-      fee: "₹100",
+      fee: "₹150",
       prize: "₹25000",
       date: "16th March 2024",
       teamSize:"2-4",
@@ -255,8 +255,8 @@ const EventData = [
       poster: "img/event/Quizathon.png",
       description:
         "Quizathon stands out as a unique general knowledge competition that welcomes individuals passionate about quizzing to join. The event primarily centers around a format of posing questions and providing answers. Its main audience comprises those enthusiastic        about deepening their understanding of the ocean, naval architecture, and the art of solving puzzles. In addition to being an enjoyable experience, this event serves as a creative means of self-evaluation.",
-      fee: "₹100",
-      prize: "₹25000",
+      fee: "₹120",
+      prize: "₹10000",
       date: "17th March 2024",
       teamSize:"1",
       brochure:
@@ -298,9 +298,9 @@ const EventData = [
           heading: "Prizes",
           data: [
             "The top 3 winners will be awarded cash prizes and certificates.",
-            "1st Prize: ₹10000",
-            "2nd Prize: ₹8000",
-            "3rd Prize: ₹7000",
+            "1st Prize: ₹5000",
+            "2nd Prize: ₹3000",
+            "3rd Prize: ₹2000",
           ],
         },
       ],
@@ -312,8 +312,8 @@ const EventData = [
       poster: "img/event/AquaExposure.png",
       description:
         "This event aims to showcase the significance of ocean engineering and naval architecture through captivating and original photographs. It also encourages ethical responsibility among photographers, emphasizing integrity and authenticity in their art, creating a platform to celebrate these fields while upholding high creative and professional standards.",
-      fee: "₹100",
-      prize: "₹20000",
+      fee: "₹75",
+      prize: "₹6000",
       date: "8th March 2024(Tentative)",
       teamSize:"1",
       brochure:
@@ -324,17 +324,20 @@ const EventData = [
           tabId: "1",
           heading: "Stages and Timeline",
           data: [
-            "First round challenges participants with 15 statements, offering 15 minutes to decide whether each statement is a myth or fact. Correct answers earn +1 point, while wrong answers deduct 0.25 points. Skipping a question does not result in point loss, and only one team member participates in this round.",
-            "Participants encounter images of marine-related subjects, such as mysterious creatures, historical ships, and underwater locations. For each correct identification, they earn 1 point, with a deduction of 0.25 points for incorrect answers. All team members are involved in this round.",
-            "This round resembles a crossword puzzle, featuring 8 crosswords to solve within 15 minutes. Correct answers yield +2 points, while wrong answers deduct 0.5 points. Skipping questions doesn't lead to point loss, and both team members can participate in this stage",
-            "Qualified teams compete in a rapid-fire stage with 7 consecutive questions to answer within 5 minutes. Teams can pass if they don't know the answer. Correct responses earn 5 points, and there are no negative marks. The final winner is determined based on the overall scores",
+            "This is a single-stage competition in which participants have to submit their photographs in the Google Form which will be shared soon to the registered participants.",
+            "Participants must upload their photographs to their Instagram account.",
+            "Each participant can submit a maximum of three photographs and the images must be original and captured by the participant.",
+            "The deadline for this event is 8th March 2024(Tentative).",
           ],
         },
         {
           tabId: "2",
           heading: "Rules And Regulations",
           data: [
-            "In Stage 1, only one team member participates, while both members participate in Stages 2 and 3. The top 5 teams from Stage 2 advance to Stage 3 for the ultimate showdown.The event enforces a strict no-cheating policy, and any serious violations may result in immediate removal from the event or even exclusion from Samudra Manthan 2024.Participants must acknowledge and accept that the decisions made by the judges are final and binding, ensuring fair and equitable competition for all involved.",
+            "The contest is open to individuals of all ages and backgrounds. Participants must have an Instagram account to enter the contest. Photos that have been previously submitted to other contests or plagiarized images are not allowed.",
+            "Participants must include the official event hashtag, such as #OceanEngPhotoContest, in the caption of their photo. Additionally, participants should tag the official event Instagram account (@OceanEngPhotoContest) in the image itself.",
+            "Photographs should be of high quality and resolution. Images must be in JPEG format and should not exceed 10 MB in size. Avoid heavy editing or manipulation that distorts the original subject matter.",
+            "Participants retain full copyright ownership of their images. Engaging in plagiarism within the context of the photography competition will lead to automatic disqualification.",
           ],
         },
         {
@@ -342,10 +345,11 @@ const EventData = [
           heading: "Evaluation Criteria",
           data: [
             "The evaluation will be based on the following criteria:",
-            "1. Creativity",
-            "2. Originality",
-            "3. Relevance to the theme",
-            "4. Overall presentation",
+            "Number of Likes and Shares on Instagram: The primary factor in determining the winners will be the number of likes and shares on Instagram.",
+            "1. Adherence to the Theme (15 Marks): Participants will be evaluated based on their adherence to the given theme, with a maximum of 15 marks",
+            "2. Maximum Number of Likes and Shares (30 Marks): Participants can earn up to 30 marks based on the maximum number of likes and shares received.",
+            "3. Originality and Creative Expression (40 Marks): The judges will assess the entries for originality and creative expression, contributing to a total of 40 marks.",
+            "4. Choice of Design Scheme (15 Marks): Participants will be scored on their choice of design scheme, with a maximum of 15 marks."
           ],
         },
         {
@@ -353,7 +357,7 @@ const EventData = [
           heading: "Prizes",
           data: [
             "The top 3 winners will be awarded cash prizes and certificates.",
-            "The overall prize pool money is ₹20000",
+            "The overall prize pool money is ₹6000",
           ],
         },
       ],
@@ -365,8 +369,8 @@ const EventData = [
       poster: "img/event/WaveQuest.png",
       description:
         "WaveQuest is an exhilarating Ocean Engineering Case Study Competition that challenges participants to tackle real-world ocean engineering problems, igniting ingenuity, collaboration, critical thinking, and problem-solving skills. Participants navigate offshore structures, marine renewable energy, coastal management, and underwater systems, blending innovation and expertise to unravel maritime complexities and create solutions that resonate with the ever-evolving tides of innovation. WaveQuest is a journey beyond the ordinary, propelling participants to the forefront of modern engineering, where possibilities converge with the ocean of imagination.",
-      fee: "₹100",
-      prize: "₹10000",
+      fee: "₹150",
+      prize: "₹15000",
       date: "8th March 2024(Tentative)",
       teamSize:"1-4",
       brochure:
@@ -411,7 +415,7 @@ const EventData = [
           heading: "Prizes",
           data: [
             "The top 3 winners will be awarded cash prizes and certificates.",
-            "The Overall prize money is ₹10000",
+            "The Overall prize money is ₹15000",
           ],
         },
       ],
@@ -423,7 +427,7 @@ const EventData = [
           poster: "img/event/Oceanoddessy.png",
           description:
             "In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles. Research plays a crucial role in this process, as it enables individuals     from around the globe to gather pertinent information  and guide innovation towards the correct course of action. Samudramanthan, Indian Institute of Technology, Kharagpur, is committed to cultivating a culture of research and innovation in our nation.",
-          fee: "₹100",
+          fee: "₹150",
           prize: "₹15000",
           teamSize:"1-4",
           date: "8th March 2024(Tentative)",

@@ -40,28 +40,21 @@ const TeamData = [
         instagram: "https://www.instagram.com/prathamesh.somani.77/",
     },
     {
+        name: "Ashish Kumar",
+        position: "General Sceretary",
+        image: "img/team/ashish.jpg",
+        linkedin: "https://www.linkedin.com/in/ashish-kumar-443955170/",
+        facebook: "https://www.facebook.com/profile.php?id=100009722254419",
+        instagram: "https://www.instagram.com/ashish_kumar_iitkgp/",
+    },
+    
+    {
         name: "Swagoto Surjo Dutta",
-        position: "Events Head",
+        position: "General Sceretary",
         image: "img/team/swagato.jpg",
         linkedin: "https://www.linkedin.com/in/swagoto-surjo-dutta-19745542/",
         facebook: "https://www.facebook.com/swagotosurjo.dutta",
         instagram: "https://www.instagram.com/swegbloo/",
-    },
-    {
-        name: "Anmol Tripathi",
-        position: "Events Head",
-        image: "img/team/anmol.jpg",
-        linkedin: "https://www.linkedin.com/in/anmol-tripathi-2849a7240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        facebook: "https://www.facebook.com/profile.php?id=100078673489934",
-        instagram: "https://www.instagram.com/anmolt29._?igsh=MWcwYXgwcm1yNzVzcg%3D%3D",
-    },
-    {
-        name: "Sayali Gaikwad",
-        position: "Events Head",
-        image: "img/team/sayali.jpg",
-        linkedin: "https://www.linkedin.com/in/sayali-gaikwad-009759247",
-        facebook: "https://www.facebook.com/sayali.gaikwad.1865?mibextid=ZbWKwL",
-        instagram: "https://www.instagram.com/sayalihere/",
     },
     {
         name: "A.Solomon Surya Sekhar",
@@ -80,14 +73,21 @@ const TeamData = [
         instagram: "https://www.instagram.com/_pranee_tha_/",
     },
     {
-        name: "Ashish Kumar",
-        position: "General Sceretary",
-        image: "img/team/ashish.jpg",
-        linkedin: "https://www.linkedin.com/in/ashish-kumar-443955170/",
-        facebook: "https://www.facebook.com/profile.php?id=100009722254419",
-        instagram: "https://www.instagram.com/ashish_kumar_iitkgp/",
+        name: "Anmol Tripathi",
+        position: "Events Head",
+        image: "img/team/anmol.jpg",
+        linkedin: "https://www.linkedin.com/in/anmol-tripathi-2849a7240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        facebook: "https://www.facebook.com/profile.php?id=100078673489934",
+        instagram: "https://www.instagram.com/anmolt29._?igsh=MWcwYXgwcm1yNzVzcg%3D%3D",
     },
-    
+    {
+        name: "Sayali Gaikwad",
+        position: "Events Head",
+        image: "img/team/sayali.jpg",
+        linkedin: "https://www.linkedin.com/in/sayali-gaikwad-009759247",
+        facebook: "https://www.facebook.com/sayali.gaikwad.1865?mibextid=ZbWKwL",
+        instagram: "https://www.instagram.com/sayalihere/",
+    },
     {
         name: "Arup Mahatha",
         position: "PR Head",
@@ -112,7 +112,6 @@ const TeamData = [
         facebook: "https://www.facebook.com/profile.php?id=100046652933549",
         instagram: "https://www.instagram.com/ghost_boy2113/",
     },
-    
     {
         name: "Anushika Srivastava",
         position: "Core Sub-Head",
