@@ -83,7 +83,7 @@ const EventData = [
       prize: "₹15000",
       date: "16th March 2024",
       brochure:
-        "https://drive.google.com/file/d/1-D8Id_tSil1U8eMOkwuettqnC0ulyQxM/view?usp=drive_link",
+        "https://drive.google.com/file/d/19CqAZA9aytYz7XfIy68LvbTl6JNaeT7h/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -189,7 +189,7 @@ const EventData = [
           tabId: "4",
           heading: "Prizes",
           data: [
-            "The participants who completes all three stages of cryptic clues by finding the answers will be awarded a total Prize of 12000 INR.",
+            "Top three participants who completes all three stages of cryptic clues by finding the answers will be awarded a total Prize of 12000 INR.",
           ],
         },
       ],
@@ -206,7 +206,7 @@ const EventData = [
       date: "16th March 2024",
       teamSize:"2-4",
       brochure:
-        "https://drive.google.com/file/d/1IZTwOyFQgpSLfYd5DbDbNTzYB-ZidYXV/view?usp=drive_link",
+        "https://drive.google.com/file/d/1XXKyXWdpXf94RH7-6qvnszorW9xWvWTK/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -260,7 +260,7 @@ const EventData = [
       date: "17th March 2024",
       teamSize:"1",
       brochure:
-        "https://drive.google.com/file/d/1gmubiELe3WKnhI81pqBNJXWl0e9TyKC_/view?usp=drive_link",
+        "https://drive.google.com/file/d/1gW2Pd92JUyQMsCIhhTeZtVR1cbtqtDPh/view",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -317,7 +317,7 @@ const EventData = [
       date: "8th March 2024(Tentative)",
       teamSize:"1",
       brochure:
-        "https://drive.google.com/file/d/1MWHt-zOfIAENnk43FEPkq14LL0lVvukw/view?usp=drive_link",
+        "https://drive.google.com/file/d/1iuiIXoJAt1nWkoUBlIijcdPWUKXEMM9f/view",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -374,7 +374,7 @@ const EventData = [
       date: "8th March 2024(Tentative)",
       teamSize:"1-4",
       brochure:
-        "https://drive.google.com/file/d/1qqP3uPcSVa3PEvrCGpbNQX56h93Rqn3U/view?usp=sharing",
+        "https://drive.google.com/file/d/1HY7EZVQ8iltfXcKPEaRJvOM6pwuJ-rIc/view",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -432,7 +432,7 @@ const EventData = [
           teamSize:"1-4",
           date: "8th March 2024(Tentative)",
           brochure:
-            "https://drive.google.com/drive/folders/1rEQXEvZdw1zVHWxF7NMSR7fFdwK6em1Q",
+            "https://drive.google.com/file/d/1hFKapHUvhRKu1nSjW6wPmpmV69Sason7/view",
           submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
           rulestab: [
             {
