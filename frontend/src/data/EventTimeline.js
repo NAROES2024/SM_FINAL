@@ -19,7 +19,7 @@ const timelinedata=[
     },
     {
         id: 3,
-        title: "Cryptic Clues(Treasure Hunt)",
+        title: "Aqua Innovate Round 2",
         date: "15th March 2023",
         time: "5:00PM - 8:00PM",
         location: "Classroom 3",
@@ -46,7 +46,7 @@ const timelinedata=[
     },
     {
         id: 6,
-        title: "Boat Wars Round",
+        title: "Boat Wars Round 3",
         date: "16th March 2023",
         time: "3:00PM - 5:00PM",
         location: "Pool",
@@ -64,16 +64,16 @@ const timelinedata=[
     },
     {
         id: 8,
-        title: "Quizathon",
+        title: "Deep Sea Dispustes",
         date: "17th March 2023",
         time: "9:00AM - 1:00PM",
-        location: "Classrooms 3 and 5",
+        location: "Seminar Room",
         icon: "ship",
         day:2,
     },
     {
         id: 9,
-        title: "Wave Quest Round 2",
+        title: "Cryptic Clues(Treasure Hunt)",
         date: "17th March 2023",
         time: "2:00PM - 5:00PM",
         location: "Seminar Room",
