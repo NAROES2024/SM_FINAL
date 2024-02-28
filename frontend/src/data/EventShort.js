@@ -23,7 +23,7 @@ const Events = [
   {
     name: "WaveQuest",
     link: "/Wavequest",
-    poster: "img/event/Wavequest_Logo.png",
+    poster: "img/event/WaveQuest_Logo.png",
     description:
       "In an evolving world with increasing challenges, research becomes vital for innovative solutions. Samudramanthan, IIT Kharagpur, is dedicated to fostering a culture of research and innovation to address these obstacles.",
   },
