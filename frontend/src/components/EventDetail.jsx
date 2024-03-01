@@ -81,7 +81,7 @@ function EventDetail({link}) {
               </div>
 
               <div class="course-info d-flex justify-content-between align-items-center mb-2">
-                <h5>Schedule</h5>
+                <h5>Brochure</h5>
                 <p>
                   <a
                     href={event.brochure}
