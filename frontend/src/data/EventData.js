@@ -6,10 +6,10 @@ const EventData = [
       poster: "img/event/AquaInnovate.png",
       description:
         "Aqua-Innovate is an event that gives an unique opportunity to showcase your skills in a real-life setting. It challenges participants to unleash their creativity and critical thinking by modifying a vessel in a way that improves its efficiency in terms of both usage and cost. By participating in this event, you'll have the chance to create something that boosts your problem-solving abilities.",
-      teamSize: "Upto 3",
+      teamSize: "1-3",
       fee: "₹150",
       prize: "₹20000",
-      date: "8th March 2024(Tentative)",
+      date: "10th March 2024",
       brochure:
         "https://drive.google.com/file/d/12vFPkvK9WfeuJcahIrGYGNsxrWnxU3hS/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -78,7 +78,7 @@ const EventData = [
       poster: "img/event/DeepSeaDispustes.png",
       description:
         "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
-      teamSize: "3-4",
+      teamSize: "1-3",
       fee: "₹100",
       prize: "₹15000",
       date: "16th March 2024",
@@ -256,7 +256,7 @@ const EventData = [
       description:
         "Quizathon stands out as a unique general knowledge competition that welcomes individuals passionate about quizzing to join. The event primarily centers around a format of posing questions and providing answers. Its main audience comprises those enthusiastic        about deepening their understanding of the ocean, naval architecture, and the art of solving puzzles. In addition to being an enjoyable experience, this event serves as a creative means of self-evaluation.",
       fee: "₹120",
-      prize: "₹10000",
+      prize: "₹15000",
       date: "17th March 2024",
       teamSize:"1",
       brochure:
@@ -314,7 +314,7 @@ const EventData = [
         "This event aims to showcase the significance of ocean engineering and naval architecture through captivating and original photographs. It also encourages ethical responsibility among photographers, emphasizing integrity and authenticity in their art, creating a platform to celebrate these fields while upholding high creative and professional standards.",
       fee: "₹75",
       prize: "₹6000",
-      date: "8th March 2024(Tentative)",
+      date: "15th March 2024",
       teamSize:"1",
       brochure:
         "https://drive.google.com/file/d/1iuiIXoJAt1nWkoUBlIijcdPWUKXEMM9f/view",
@@ -371,7 +371,7 @@ const EventData = [
         "WaveQuest is an exhilarating Ocean Engineering Case Study Competition that challenges participants to tackle real-world ocean engineering problems, igniting ingenuity, collaboration, critical thinking, and problem-solving skills. Participants navigate offshore structures, marine renewable energy, coastal management, and underwater systems, blending innovation and expertise to unravel maritime complexities and create solutions that resonate with the ever-evolving tides of innovation. WaveQuest is a journey beyond the ordinary, propelling participants to the forefront of modern engineering, where possibilities converge with the ocean of imagination.",
       fee: "₹150",
       prize: "₹15000",
-      date: "8th March 2024(Tentative)",
+      date: "15th March 2024",
       teamSize:"1-4",
       brochure:
         "https://drive.google.com/file/d/1HY7EZVQ8iltfXcKPEaRJvOM6pwuJ-rIc/view",
@@ -430,7 +430,7 @@ const EventData = [
           fee: "₹150",
           prize: "₹15000",
           teamSize:"1-4",
-          date: "8th March 2024(Tentative)",
+          date: "15th March 2024",
           brochure:
             "https://drive.google.com/file/d/1hFKapHUvhRKu1nSjW6wPmpmV69Sason7/view",
           submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",

@@ -19,11 +19,11 @@ const timelinedata=[
     },
     {
         id: 3,
-        title: "Aqua Innovate (Round 2)",
+        title: "Treasure Hunt",
         date: "15th March 2023",
         time: "5:00PM - 8:00PM",
-        location: "Classroom 3",
-        icon: "ship",
+        location: "Seminar Room",
+        icon: "casual",
         day:0,
     },
     {
@@ -37,13 +37,14 @@ const timelinedata=[
     },
     {
         id: 5,
-        title: "Boat Wars (Round 3)",
+        title: "Aqua Innovate (Round 2)",
         date: "16th March 2023",
         time: "2:00PM - 4:00PM",
-        location: "Seminar Room",
-        icon: "casual",
+        location: "Classroom 3",
+        icon: "ship",
         day:1,
     },
+    
     {
         id: 6,
         title: "Guest Lecture",
@@ -91,18 +92,19 @@ const timelinedata=[
     },
     {
         id: 11,
-        title: "Treasure Hunt",
+        title: "Boat Wars (Round 3)",
         date: "17th March 2023",
-        time: "2:00PM - 5:00PM",
+        time: "2:00PM - 4:00PM",
         location: "Seminar Room",
         icon: "casual",
         day:2,
     },
+    
     {
         id: 12,
         title: "Closing Ceremony",
         date: "17th March 2023",
-        time: "5:00PM - 9:00PM",
+        time: "4:00PM - 8:00PM",
         location: "Seminar Room",
         icon: "ship",
         day:2,
