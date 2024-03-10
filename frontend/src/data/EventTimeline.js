@@ -50,7 +50,7 @@ const timelinedata=[
         title: "Guest Lecture",
         date: "16th March 2023",
         time: "4:00PM - 5:00PM",
-        location: "Seminar Roon",
+        location: "Seminar Room",
         icon: "casual",
         day:1,
     },

@@ -34,7 +34,7 @@ function Sponsors() {
         <div className="container my-2"></div>
 
         <div className="row row-cols-1 row-cols-md-1 g-4 my-2 animated slideInRight">
-          <div className="spons_width2 col">
+          <div className="spons_width col">
             <div className="card h-100">
               <img src="img\Spons\Vedam.png" class="card-img-top" alt="" />
             </div>
@@ -67,11 +67,9 @@ function Sponsors() {
             <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
 
-          
-
           <div className="spons_width3 col">
             <div className="card">
-              <img src="img\Spons\HoverRobotix.png" class="card-img-top" alt="" />
+              <img src="img\Spons\custkart (1).png" class="card-img-top" alt="" />
             </div>
             <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
@@ -82,6 +80,14 @@ function Sponsors() {
             </div>
             <h5 className="spons_txt my-4">Design Partner</h5>
           </div>
+
+          <div className="spons_width3 col">
+            <div className="card">
+              <img src="img\Spons\HoverRobotix.png" class="card-img-top" alt="" />
+            </div>
+            <h5 className="spons_txt my-4">Event Sponsor</h5>
+          </div>
+
         </div>
       </div>
     </div>
