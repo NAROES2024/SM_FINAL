@@ -7,13 +7,6 @@ const Events = [
       "Boat Wars: A water-based event where participants battle in boats, kayaks, and canoes. It blends water sports and strategy, aiming for fun and skill in water-based combat, delighting participants and spectators.",
   },
   {
-    name: "Aqua-Innovate",
-    link: "/AquaMOD",
-    poster: "img/event/AquaInnovate_Logo.png",
-    description:
-      "Aqua-Innovate offers a unique platform to demonstrate real-life skills. Participants enhance vessel efficiency through creativity and critical thinking, fostering problem-solving abilities.",
-  },
-  {
     name: "Aqua-Exposure",
     link: "/Aquaexposure",
     poster: "img/event/AquaExposure_Logo.png",

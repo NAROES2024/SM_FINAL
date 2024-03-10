@@ -19,8 +19,8 @@ export default function AboutSection() {
                                 <div class="d-flex">
                                 <i class="fa-solid fa-sack-dollar fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
                                     <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">135000</h2>
-                                        <p class="text-primary-gradient mb-0">Cash Price</p>
+                                        <h2 class="mb-0" data-toggle="counter-up">200000+</h2>
+                                        <p class="text-primary-gradient mb-0">Prize</p>
                                     </div>
                                 </div>
                             </div>

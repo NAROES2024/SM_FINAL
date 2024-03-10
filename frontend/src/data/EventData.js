@@ -1,78 +1,7 @@
 const EventData = [
+    
     {
       id: 1,
-      name: "Aqua-Innovate",
-      link: "/AquaMOD",
-      poster: "img/event/AquaInnovate.png",
-      description:
-        "Aqua-Innovate is an event that gives an unique opportunity to showcase your skills in a real-life setting. It challenges participants to unleash their creativity and critical thinking by modifying a vessel in a way that improves its efficiency in terms of both usage and cost. By participating in this event, you'll have the chance to create something that boosts your problem-solving abilities.",
-      teamSize: "1-3",
-      fee: "₹150",
-      prize: "₹20000",
-      date: "10th March 2024",
-      brochure:
-        "https://drive.google.com/file/d/12vFPkvK9WfeuJcahIrGYGNsxrWnxU3hS/view?usp=drive_link",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
-      rulestab: [
-        {
-          tabId: "1",
-          heading: "Stages and Timeline",
-          data: [
-            "Stages and Timeline Aqua-Innovate has two rounds First submit an abstract If chosen present and answer questions in the next round",
-  
-            " Stage1 Model and Document Submission To participate in Aqua-Innovate follow these steps",
-  
-            " 1 Create a CAD model General Arrangement GA and a fitting documentation explaining your idea",
-            "2 Organise these files in a Google Drive folder named Your_Name_Aqua-Innovate",
-            "3 Email the folder to samudramanthaniitkgp2024@gmail.com",
-            "4 Make sure the files are named as follows Your_Name_Aqua-Innovate_CAD Your_Name_Aqua-Innovate_GA and Your_Name_Aqua-Innovate_Documentation",
-            "5 Include a short 100-150 word description in the email",
-            "6 Any form of deception leads to disqualification",
-  
-            "Stage2 Offline Presentation To showcase your idea",
-  
-            "- Present to judges highlighting why your creation is top-notch and its real-life impact on vessels",
-            "- Location Seminar room in the department",
-            "- Presentation 15 minutes",
-            "- Q&A 5 minutes",
-            "- Submit on the second day of the event",
-          ],
-        },
-        {
-          tabId: "2",
-          heading: "Rules and Regulations",
-          data: [
-            "- Teams can have up to 3 members from different places.",
-            "- Rules and updates are on the Samudra-Manthan website.",
-            "- Technical issues aren't their responsibility.",
-            "- Don't copy. Cheating gets you kicked out.",
-            "- Organisers make final calls in disputes for everyone's benefit.",
-          ],
-        },
-        {
-          tabId: "3",
-          heading: "Evaluation Criteria",
-          data: [
-            "The winners will be selected from the participants with the closest answer Solutions of only the participants with the correct solution/logic will be considered ",
-          ],
-        },
-        {
-          tabId: "4",
-          heading: "Prizes",
-          data: [
-            "- All teams get participation certificates from Samudra-Manthan IIT Kharagpur.",
-            "- Outstanding designs may be featured on their social media.",
-            "- Top 3 teams win cash prizes totaling Rs. 20,000:",
-            "- 1st Place: Rs. 10,000",
-            "- 2nd Place: Rs. 6,000",
-            "- 3rd Place: Rs. 4,000.",
-          ],
-        },
-      ],
-    },
-  
-    {
-      id: 2,
       name: "Deep Sea Disputes",
       link: "/dispustes",
       poster: "img/event/DeepSeaDispustes.png",
@@ -140,7 +69,7 @@ const EventData = [
       ],
     },
     {
-      id: 3,
+      id: 2,
       name: "CRYPTIC CLUES (TREASURE HUNT)",
       link: "/CrypticClues",
       poster: "img/event/CrypticClues.png",
@@ -195,7 +124,7 @@ const EventData = [
       ],
     },
     {
-      id: 4,
+      id: 3,
       name: "Boat Wars",
       link: "/Boatwars",
       poster: "img/event/BoatWars.png",
@@ -249,7 +178,7 @@ const EventData = [
       ],
     },
     {
-      id: 5,
+      id: 4,
       name: "Quizathon",
       link: "/Quizathon",
       poster: "img/event/Quizathon.png",
@@ -306,7 +235,7 @@ const EventData = [
       ],
     },
     {
-      id: 6,
+      id: 5,
       name: "Aqua-Exposure",
       link: "/Aquaexposure",
       poster: "img/event/AquaExposure.png",
@@ -363,7 +292,7 @@ const EventData = [
       ],
     },
     {
-      id: 7,
+      id: 6,
       name: "WaveQuest",
       link: "/Wavequest",
       poster: "img/event/WaveQuest.png",
@@ -421,7 +350,7 @@ const EventData = [
       ],
     },
     {
-          id: 8,
+          id: 7,
           name: "Ocean Odyssey",
           link: "/Oceanoddessy",
           poster: "img/event/Oceanoddessy.png",
