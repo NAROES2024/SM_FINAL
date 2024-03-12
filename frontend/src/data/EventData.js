@@ -129,7 +129,7 @@ const EventData = [
       link: "/Boatwars",
       poster: "img/event/BoatWars.png",
       description:
-        "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
+        "Welcome to the extraordinary Aquatic Mastery Challenge, a thrilling event that brings together the exhilaration of boat racing, and the impressive display of strength in the tug of war. This event will test your knowledge about the basics of the ship and will challenge you to apply your skills for practical use. In the event, your model of the ship will be evaluated for speed, stability, and handling. The event unfolds in three exciting rounds, each designed to test participants' abilities in different aspects of boating excellence. In the Boat Racing Championship, sleek and powerful vessels compete in a series of high-speed races, maneuvering through a challenging course that demands precision and agility. The roar of engines and the splash of water create an electrifying atmosphere, with spectators cheering on their favorite teams from the shore.",
       fee: "₹150",
       prize: "₹25000",
       date: "16th March 2024",

@@ -169,14 +169,6 @@ const TeamData = [
         instagram: "",
     },
     {
-        name: "GSPJ Ronith",
-        position: "Design Sub-Head",
-        image: "img/team/ronith.jpg",
-        linkedin: "https://www.linkedin.com/in/g-s-p-j-ronith?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        facebook: "https://www.facebook.com/gspj.ronith?mibextid=2JQ9oc",
-        instagram: "https://www.instagram.com/maestro_ronith/",
-    },
-    {
         name: "Potala Karthik Naidu",
         position: "Design Sub-Head",
         image: "img/team/karthik.jpg",
