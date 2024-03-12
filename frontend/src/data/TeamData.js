@@ -129,14 +129,6 @@ const TeamData = [
         instagram: "",
     },
     {
-        name: "Jagrut Karnavat",
-        position: "Core Sub-Head",
-        image: "img/team/jagrut.jpg",
-        linkedin: "https://www.linkedin.com/in/jagrut-karnavat-7b0b28257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        facebook: "https://www.facebook.com/JKThunder279?mibextid=2JQ9oc",
-        instagram: "https://www.instagram.com/jkthunder279/",
-    },
-    {
         name: "Gunashiyaa Elangovan",
         position: "Core Sub-Head",
         image: "img/team/gunashiyaa.jpg",
