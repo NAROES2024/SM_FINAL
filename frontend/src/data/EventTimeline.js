@@ -65,7 +65,7 @@ const timelinedata=[
     },
     {
         id: 9,
-        title: "Deep Sea Dispustes",
+        title: "Deep Sea Disputes",
         date: "17th March 2023",
         time: "8:00AM - 12:00PM",
         location: "Seminar Room",
@@ -84,7 +84,7 @@ const timelinedata=[
     {
         id: 11,
         title: "Quizathon",
-        date: "16th March 2023",
+        date: "17th Marh 2023",
         time: "4:00PM - 6:00PM",
         location: "Seminar Room",
         icon: "ship",
