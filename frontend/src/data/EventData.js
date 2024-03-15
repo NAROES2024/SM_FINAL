@@ -187,7 +187,7 @@ const EventData = [
       fee: "₹120",
       prize: "₹15000",
       date: "17th March 2024",
-      teamSize:"1-2,
+      teamSize:"1-2",
       brochure:
         "https://drive.google.com/file/d/1gW2Pd92JUyQMsCIhhTeZtVR1cbtqtDPh/view",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",

@@ -2,7 +2,7 @@ const timelinedata=[
     {
         id: 1,
         title: "Registration",
-        date: "15th March 2023,
+        date: "15th March 2023",
        	time: "8:00AM - 5:00PM",
         location: "Conference Room",
         icon: "casual",
