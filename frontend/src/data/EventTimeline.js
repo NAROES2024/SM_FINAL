@@ -13,7 +13,7 @@ const timelinedata=[
         title: "Inauguration",
         date: "15th March 2023",
         time: "5:00PM - 7:00PM",
-        location: "SN Bose Auditorium",
+        location: "Seminar Room",
         icon: "casual",
         day:0,
     },
