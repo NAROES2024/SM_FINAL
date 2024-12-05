@@ -296,6 +296,7 @@ h6,
 /*** Feature ***/
 .feature-item {
     transition: .5s;
+    height: 600px;
 }
 
 .feature-item:hover {
