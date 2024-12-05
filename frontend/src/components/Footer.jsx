@@ -17,11 +17,11 @@ function Footer() {
                 Technology Kharagpur Kharagpur, West Bengal 721302 India
               </p>
               <p>
-                <i class="fa fa-phone-alt me-3"></i>9307403993 / 9325000320 
+                <i class="fa fa-phone-alt me-3"></i>9451446743 / 8688906547 
               </p>
               <p>
                 <i class="fa fa-envelope me-3"></i>
-                samudramanthan.iitkgp.2024@gmail.com
+                samudramanthan.iitkgp.2025@gmail.com
               </p>
               <div class="d-flex pt-2">
 

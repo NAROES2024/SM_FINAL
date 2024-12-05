@@ -9,7 +9,7 @@ export default function AboutSection() {
                         <h5 class="text-primary-gradient fw-medium">NAROES</h5>
                         <h1 class="mb-4">About Samudramanthan</h1>
                         <p class="mb-4">
-                                 Students from all around India participated actively in Samudramanthan in 23 <br />
+                                 Students from all around India participated actively in Samudramanthan 2024 <br />
                                  It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
                                  We had the largest participation ever and received praise for the interesting and difficult competitions. <br />
                             </p>
@@ -53,7 +53,7 @@ export default function AboutSection() {
                                 </div>
                             </div>
                         </div>
-                        <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</a>
+                        {/* <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Register</a> */}
                     </div>
                     <div class="col-lg-6">
                         <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/logo.png"/>

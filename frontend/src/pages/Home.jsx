@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import EventSection from "../components/EventSection";
-import Tshirt from "../components/Tshirt";
+// import Tshirt from "../components/Tshirt";
 import Sponsars from "../components/Sponsars";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
         </div>
         <Sponsars />
         <EventSection />
-        <Tshirt />
+        {/* <Tshirt /> */}
         <Footer />
         
       </div>

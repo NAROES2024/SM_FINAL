@@ -7,7 +7,7 @@ export default function Team() {
         <div class="container-xxl py-5" id="pricing">
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Samudramanthan 2024</h5>
+                    <h5 class="text-primary-gradient fw-medium">Samudramanthan 2025</h5>
                     <h1 class="mb-5">Team</h1>
                 </div>
                 <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">

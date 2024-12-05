@@ -8,7 +8,7 @@ export default function CapSection() {
           <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <h5 class="text-primary-gradient fw-medium">
-                Campus Ambassador SM'24
+                Campus Ambassador SM'25
               </h5>
               <h1 class="mb-4">Join Samudramanthan as a Campus Ambassador</h1>
               <p class="mb-4">

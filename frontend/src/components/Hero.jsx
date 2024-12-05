@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 
 function Hero() {
 
-    function logout() {
-        localStorage.removeItem("token");
-        localStorage.removeItem("smid");
-        window.location.href = "/";
-    }
+    // function logout() {
+    //     localStorage.removeItem("token");
+    //     localStorage.removeItem("smid");
+    //     window.location.href = "/";
+    // }
 
     return (
         <>
@@ -17,12 +17,12 @@ function Hero() {
                         <div class="col-lg-8 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated slideInDown">Prepare to embark on an Epic Adventure with NAROES</h1>
                             <p class="text-white pb-3 animated slideInDown">Dive deep into the mythical waters of Samudra Manthan, where gods and demons join forces to stir the ocean's depths and reveal its timeless wonders.</p>
-                            {localStorage.getItem("token") ? (
+                            {/* {localStorage.getItem("token") ? (
                                 
                                 <a onClick={logout} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">logout</a>
                             ) : (
                                 <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
-                            )}
+                            )} */}
                             <Link to="footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
                             spy={true}
                             smooth={true}
