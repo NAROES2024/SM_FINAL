@@ -58,7 +58,7 @@ function Navbar(page) {
             </Link> */}
 
           </div>
-          {localStorage.getItem("token") ? (
+          {/* {localStorage.getItem("token") ? (
             <button
               onClick={logout}
               className="btn btn-green-gredient rounded-pill py-2 px-4 navbar-nav"
@@ -72,7 +72,7 @@ function Navbar(page) {
             >
               Login
             </Link>
-          )}
+          )} */}
         </div>
       </nav>
     </>

@@ -1,7 +1,32 @@
 import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import historyData from "../data/HistoryData";
 
-export default function History() {
-
+function History() {
+    const options = {
+        autoplay: false,
+        loop: false,
+        center: false,
+        dots: false,
+        nav: true,      
+        navText: [
+          '<i class="bi bi-chevron-left"></i>',
+          '<i class="bi bi-chevron-right"></i>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          992: {
+            items: 3,
+          },
+        },
+      };
     return(
         <div class="container-xxl py-5" id="pricing">
             <div class="container py-5 px-lg-5">
@@ -16,43 +41,31 @@ export default function History() {
                         accounting for the total participation of more than 2000 participants
                         across
                         both online and offline</p>
-                    <div class="tab-content text-start">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                                <div class="col">
-                                    <div class="card h-100">
-                                        <img src="/img/history/pic1_1.jpg" class="card-img-top" alt="..."/>
-                                        <div class="card-body">
-                                            <h4>Samudramanthan 2023</h4>
-                                            <p>The 15th edition of Samudramanthan featured a lineup of 9 diverse events, showcasing the outstanding commitment and active involvement of students, elevating this edition to one of unparalleled success.</p>
-                                        </div>
-                                    </div>
+                    
+                    <OwlCarousel
+                            className="owl-carousel history-carousel wow fadeInUp"
+                            {...options}
+                    >
+                    {historyData.map((event) => (
+                        <div class="history-item tab-content text-start">
+                            <div class="card h-100">
+                                <img
+                                    class="card-img-top"
+                                    src={event.img}
+                                    alt={`Samudramanthan ${event.year}`}
+                                />
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                                    <h4 class="mb-3">{event.year}</h4>
+                                    <p>{event.desc}</p>
                                 </div>
-                                <div class="col">
-                                    <div class="card h-100">
-                                      <img src="/img/history/pic2_2.jpg" class="card-img-top" alt="..."/>
-                                      <div class="card-body">
-                                        <h4>Samudramanthan 2022</h4>
-                                            <p>Contuining its legacy, Samudramanthan saw high paticipation from students all over India. In
-                                              total 9 events were conducted. </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col">
-                                    <div class="card h-100">
-                                      <img src="/img/history/pic4_4.jpg" class="card-img-top" alt="..."/>
-                                      <div class="card-body">
-                                        <h4>Samudramanthan 2021</h4>
-                                            <p>13th Edition of Samudramanthan. Total 9 events where conducted. High Participation of the
-                                              students made this edition one of the best so far.</p>
-                                      </div>
-                                    </div>
-                                  </div>
                             </div>
                         </div>
-                    </div>
+                    )) }
+                    </OwlCarousel>
                 </div>
             </div>
         </div>
     );
 }
+
+export default History;

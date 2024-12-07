@@ -73,7 +73,7 @@ function CapSection() {
             <>
               <div class="text-center fadeInUp" data-wow-delay="0.1s">
                 <h5 class="text-primary-gradient fw-medium">
-                  SM'24 Campus Ambassador
+                  SM'25 Campus Ambassador
                 </h5>
                 <h1 class="mb-5">Fill out the below form</h1>
               </div>
@@ -204,7 +204,7 @@ function CapSection() {
             <>
               <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h5 class="text-primary-gradient fw-medium">
-                  SM'24 Campus Ambassador
+                  SM'25 Campus Ambassador
                 </h5>
                 <h1 class="mb-5">login to see form</h1>
               </div>
