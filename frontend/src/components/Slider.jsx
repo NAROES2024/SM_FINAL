@@ -1,24 +1,9 @@
 import React from "react";
 import ReactImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import galleryData from "../data/GalleryData";
 
 export default function Slider() {
-  const images = [
-    {
-      original: "img/gall2019.jpg",
-      thumbnail: "https://picsum.photos/id/1018/250/150/",
-      originalTitle: "Kya bolu aaaaabbbbbbbb"
-    },
-    {
-      original: "https://picsum.photos/id/1015/1000/600/",
-      thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-      original: "https://picsum.photos/id/1019/1000/600/",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
-      
-    },
-  ];
 
   return (
     <>
@@ -29,7 +14,7 @@ export default function Slider() {
             <h1 class="mb-5">Glimpses</h1>
           </div>
           <ReactImageGallery
-            items={images}
+            items={galleryData}
             autoPlay={true}
             showPlayButton={false}
             slideDuration={700}

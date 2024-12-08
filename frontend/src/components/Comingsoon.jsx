@@ -1,12 +1,15 @@
 import classes from "./ComingSoon.css";
 import React from "react";
-
+import Navbar from "../components/Navbar";
 
 
 
 const ComingSoon = () => {
   return (
     <>
+      <div class="container-xxl position-relative p-0" id="home">
+        <Navbar page="Schedule"/>
+      </div>
       <div className="comsouterdiv">
         <div
           className="overlaycoms"

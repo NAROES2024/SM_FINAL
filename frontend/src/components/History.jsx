@@ -6,8 +6,8 @@ import historyData from "../data/HistoryData";
 
 function History() {
     const options = {
-        autoplay: false,
-        loop: false,
+        autoplay: true,
+        loop: true,
         center: false,
         dots: false,
         nav: true,      
@@ -15,6 +15,8 @@ function History() {
           '<i class="bi bi-chevron-left"></i>',
           '<i class="bi bi-chevron-right"></i>',
         ],
+        smartSpeed: 600,         
+        autoplaySpeed: 800,
         responsive: {
           0: {
             items: 1,
@@ -43,8 +45,8 @@ function History() {
                         both online and offline</p>
                     
                     <OwlCarousel
-                            className="owl-carousel history-carousel wow fadeInUp"
-                            {...options}
+                        className="owl-carousel history-carousel wow fadeInUp"
+                        {...options}
                     >
                     {historyData.map((event) => (
                         <div class="history-item tab-content text-start">
