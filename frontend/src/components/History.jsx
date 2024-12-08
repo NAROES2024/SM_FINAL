@@ -43,8 +43,8 @@ function History() {
                         both online and offline</p>
                     
                     <OwlCarousel
-                            className="owl-carousel history-carousel wow fadeInUp"
-                            {...options}
+                        className="owl-carousel history-carousel wow fadeInUp"
+                        {...options}
                     >
                     {historyData.map((event) => (
                         <div class="history-item tab-content text-start">
