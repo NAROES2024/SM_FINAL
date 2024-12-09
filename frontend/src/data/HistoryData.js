@@ -1,7 +1,7 @@
 const historyData = [
     {
       year: 2024,
-      img: "/img/history/pic1_1.jpg",
+      img: "/img/history/pic0_0.jpg",
       desc: "The 16th edition of Samudramanthan set new benchmarks of creativity and engagement with 8 dynamic events. This year's fest celebrated innovation, collaboration, and the relentless spirit of the students, leaving a lasting impression on all participants.",
     },
     {

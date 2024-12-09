@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import EventSection from "../components/EventSection";
-// import Tshirt from "../components/Tshirt";
-import Sponsars from "../components/Sponsars";
+import Tshirt from "../components/Tshirt";
+import Sponsors from "../components/Sponsors";
 
 function Home() {
   return (
@@ -14,9 +14,9 @@ function Home() {
           <Navbar page="home" />
           <Hero />
         </div>
-        <Sponsars />
+        <Sponsors />
         <EventSection />
-        {/* <Tshirt /> */}
+        <Tshirt />
         <Footer />
         
       </div>
