@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CapSection from "../components/CapSection";
-import CapFormNew from "../components/CapFormNew";
+import CapForm from "../components/CapForm";
 
 export default function About() {
     return(
@@ -12,7 +12,7 @@ export default function About() {
           <Navbar page="cap"/>
         </div>
         <CapSection />
-        <CapFormNew />
+        <CapForm />
         <Footer />
       </div>
         </>
