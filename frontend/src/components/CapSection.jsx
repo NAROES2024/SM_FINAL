@@ -11,17 +11,16 @@ export default function CapSection() {
                 Campus Ambassador SM'25
               </h5>
               <h1 class="mb-4">Join Samudramanthan as a Campus Ambassador</h1>
-              <p class="mb-4">
-                If you possess a passion for ocean engineering and naval
-                architecture and aspire to contribute to the advancement of
-                these fields, consider the opportunity to become a Campus
-                Ambassador for Samudramanthan at IIT Kharagpur. As a
-                Samudramanthan Campus Ambassador, you will have the opportunity
-                to represent Samudramanthan on your campus, connect with
-                like-minded individuals, and contribute to the growth of marine
-                engineering knowledge.
+              <p class="mb-4 fs-5">
+              The 17th edition of Samudramanthan is set to take place from March 21-23, 2025, at IIT Kharagpur, and we're looking for passionate Campus Ambassadors to help us navigate this incredible journey!
               </p>
-              <p>
+              <p class="mb-4 fs-5">
+              As a Campus Ambassador, you'll have the unique opportunity to represent Samudramanthan, an iconic event in the fields of ocean engineering and naval architecture. This is your chance to expand your network, connect with industry experts, and gain exclusive resources that will set you apart in your future career. Whether you're organizing events, engaging with peers, or spreading the word, you’ll play a key role in promoting these fields and leaving a lasting impact.
+              </p>
+              <p class="mb-4 fs-5">
+              Apply by January 3, 2025, and make your mark in these pioneering fields.
+              </p>
+              {/* <p>
                 <i class="fa fa-check text-primary-gradient me-3"></i>Join Samudramanthan for marine engineering excellence.
               </p>
               <p>
@@ -35,7 +34,7 @@ export default function CapSection() {
               </p>
               <p class="mb-4">
                 <i class="fa fa-check text-primary-gradient me-3"></i>Make a real impact in the marine engineering industry.
-              </p>
+              </p> */}
             </div>
             <div
               class="col-lg-6 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
