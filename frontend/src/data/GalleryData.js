@@ -1,15 +1,30 @@
 const galleryData = [
     {
-        original: "img/gall2019.jpg",
-        thumbnail: "https://picsum.photos/id/1018/250/150/",
+        original: "img/gallery/gall2019.jpg",
+        thumbnail: "img/gallery/gall2019.jpg",
     },
     {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
+        original: "img/gallery/boatwar_1_2022.jpg",
+        thumbnail: "img/gallery/boatwar_1_2022.jpg",
     },
     {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
+        original: "img/gallery/boatwar_2_2022.jpg",
+        thumbnail: "img/gallery/boatwar_2_2022.jpg",
+        
+    },
+    {
+        original: "img/gallery/debate_1_2022.jpg",
+        thumbnail: "img/gallery/debate_1_2022.jpg",
+        
+    },
+    {
+        original: "img/gallery/debate_2_2022.jpg",
+        thumbnail: "img/gallery/debate_2_2022.jpg",
+        
+    },
+    {
+        original: "img/gallery/team_1_2022.jpg",
+        thumbnail: "img/gallery/team_1_2022.jpg",
         
     },
 ]
