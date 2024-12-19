@@ -64,7 +64,7 @@ function Sponsors() {
             <div className="card spons-img">
               <img src="img\Spons\campus-times-square.png" class="card-img-top" alt="" />
             </div>
-            <h5 className="spons_txt my-4">Online Media Sponsor</h5>
+            <h5 className="spons_txt my-4">Online Media Partner</h5>
           </div>
 
           {/* <div className="spons_width3 col">
