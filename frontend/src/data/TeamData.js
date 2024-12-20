@@ -151,14 +151,14 @@ const TeamData = [
         facebook: "https://www.facebook.com/share/18G8ueyirn/?mibextid=LQQJ4d",
         instagram: "",
     },
-    {
-        name: "Toni blair",
-        position: "Design Sub-Head",
-        image: "img/team/toni.jpg",
-        linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
-        facebook: "",
-        instagram: "",
-    },
+    // {
+    //     name: "Toni blair",
+    //     position: "Design Sub-Head",
+    //     image: "img/team/toni.jpg",
+    //     linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
+    //     facebook: "",
+    //     instagram: "",
+    // },
     {
         name: "Jay Patil",
         position: "Core Sub-Head",
@@ -175,22 +175,14 @@ const TeamData = [
         facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
         instagram: "",
     },
-    {
-        name: "Deepraj Choudhary ",
-        position: "Core Sub-Head",
-        image: "img/team/deepraj.jpg",
-        linkedin: "https://www.linkedin.com/in/deepraj-choudhary-aba008297/",
-        facebook: "https://www.facebook.com/share/ucbbJdV3fEo3QYNn/",
-        instagram: "",
-    },
-    {
-        name: "Harsh Rai",
-        position: "Core Sub-Head",
-        image: "img/team/harsh.jpg",
-        linkedin: "https://www.linkedin.com/in/pranit-chaudhary-b414b8286/",
-        facebook: "https://www.facebook.com/profile.php?id=100029291851467",
-        instagram: "",
-    },
+    // {
+    //     name: "Harsh Rai",
+    //     position: "Core Sub-Head",
+    //     image: "img/team/harsh.jpg",
+    //     linkedin: "https://www.linkedin.com/in/pranit-chaudhary-b414b8286/",
+    //     facebook: "https://www.facebook.com/profile.php?id=100029291851467",
+    //     instagram: "",
+    // },
 ]
 
 export default TeamData;
