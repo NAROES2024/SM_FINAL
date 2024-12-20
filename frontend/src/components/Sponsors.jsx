@@ -25,10 +25,9 @@ function Sponsors() {
           <h5 class="text-primary-gradient fw-medium">Samudramanthan's</h5>
           <h1 class="">Our Sponsors</h1>
           <p class="mb-0">
-            Our heartfelt gratitude to our sponsors for their invaluable support
-            in making Samudramanthan a great success.
+          We extend our heartfelt gratitude to our sponsors for their invaluable support in making Samudramanthan a remarkable success.
           </p>
-          <p class="mb-0">Together, we make waves of change.</p>
+          <p class="mb-0">Together, we create waves of change.</p>
         </div>
 
         <div className="container my-2"></div>
