@@ -83,8 +83,8 @@ const TeamData = [
         name: "Srestha Gajula",
         position: "Design Head",
         image: "img/team/shreshta.jpg",
-        linkedin: "https://www.linkedin.com/in/ayush-lohani-901a83134/",
-        facebook: "https://www.facebook.com/ayush.lohani.7",
+        linkedin: "",
+        facebook: "",
         instagram: "",
     }, 
     {
@@ -167,22 +167,22 @@ const TeamData = [
         facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
         instagram: "https://www.instagram.com/jaypatil070/",
     },
-    {
-        name: "Pranav Pathak",
-        position: "Core Sub-Head",
-        image: "img/team/pranav.jpg",
-        linkedin: "https://www.linkedin.com/in/pranav-pathak-5b77972b6/",
-        facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
-        instagram: "",
-    },
     // {
-    //     name: "Harsh Rai",
+    //     name: "Pranav Pathak",
     //     position: "Core Sub-Head",
-    //     image: "img/team/harsh.jpg",
-    //     linkedin: "https://www.linkedin.com/in/pranit-chaudhary-b414b8286/",
-    //     facebook: "https://www.facebook.com/profile.php?id=100029291851467",
+    //     image: "img/team/pranav.jpg",
+    //     linkedin: "https://www.linkedin.com/in/pranav-pathak-5b77972b6/",
+    //     facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
     //     instagram: "",
     // },
+    {
+        name: "Harsh Rai",
+        position: "Core Sub-Head",
+        image: "img/team/harsh.jpg",
+        linkedin: "https://www.linkedin.com/in/harsh-rai-18525618b/",
+        facebook: "https://www.facebook.com/profile.php?id=100029291851467",
+        instagram: "",
+    },
 ]
 
 export default TeamData;
