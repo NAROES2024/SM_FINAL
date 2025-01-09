@@ -33,7 +33,7 @@ function Tshirt() {
             <img
               class="img-fluid wow fadeInUp"
               data-wow-delay="0.1s"
-              src="img/about.png"
+              src="img/merch.png"
             />
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

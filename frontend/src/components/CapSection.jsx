@@ -18,7 +18,7 @@ export default function CapSection() {
               As a Campus Ambassador, you'll have the unique opportunity to represent Samudramanthan, an iconic event in the fields of ocean engineering and naval architecture. This is your chance to expand your network, connect with industry experts, and gain exclusive resources that will set you apart in your future career. Whether you're organizing events, engaging with peers, or spreading the word, you’ll play a key role in promoting these fields and leaving a lasting impact.
               </p>
               <p class="mb-4 fs-5">
-              Apply by January 3, 2025, and make your mark in these pioneering fields.
+              Apply today and seize your chance to make an impact in these pioneering fields.
               </p>
               {/* <p>
                 <i class="fa fa-check text-primary-gradient me-3"></i>Join Samudramanthan for marine engineering excellence.
