@@ -28,12 +28,12 @@ function Tshirt() {
   return (
     <div class="container-xxl py-5">
       <div class="container py-5 px-lg-5">
-        <div class="row g-5 align-items-center">
+        <div class  ="row g-5 align-items-center">
           <div class="col-lg-6">
             <img
-              class="img-fluid wow fadeInUp"
+              class="img-fluid wow fadeInUp merch"
               data-wow-delay="0.1s"
-              src="img/merch.png"
+              src="img/merch.png"  
             />
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

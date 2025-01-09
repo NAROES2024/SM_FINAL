@@ -800,3 +800,9 @@ h6,
     height: 70%; 
     object-fit: cover; 
 }
+
+.merch {
+    height: 500px;
+    justify-content: left;
+    align-items: center;
+}
