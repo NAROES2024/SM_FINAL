@@ -33,16 +33,11 @@ function History() {
         <div class="container-xxl py-5" id="pricing">
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Samudramanthan</h5>
-                    <h1 class="mb-5">History</h1>
+                    <h5 class="text-primary-gradient fw-medium">History</h5>
+                    <h1 class="mb-5">Honoring our Heritage</h1>
                 </div>
                 <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="md-4">Started in 2008, Samudramanthan has come a long way.
-                        Seen
-                        Exponential growth in last 10 years and
-                        accounting for the total participation of more than 2000 participants
-                        across
-                        both online and offline</p>
+                    <p class="md-4">Founded in 2008, Samudramanthan has experienced remarkable growth over the past decade, drawing more than 2,000 participants across both online and offline platforms. Over the years, it has built a rich legacy of fostering talent and innovation.</p>
                     
                     <OwlCarousel
                         className="owl-carousel history-carousel wow fadeInUp"

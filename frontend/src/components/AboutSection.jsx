@@ -10,8 +10,8 @@ export default function AboutSection() {
                         <h1 class="mb-4">About Samudramanthan</h1>
                         <p class="mb-4">
                                  Students from all around India participated actively in Samudramanthan 2024 <br />
-                                 It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
-                                 We had the largest participation ever and received praise for the interesting and difficult competitions. <br />
+                                 The event was a resounding success, thanks to the dedication, enthusiasm, creativity, and hard work of everyone involved. <br />
+                                 This year saw our largest-ever participation, with the competitions earning praise for their engaging and challenging nature. <br />
                             </p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
@@ -39,7 +39,7 @@ export default function AboutSection() {
                                     <i class="fa-solid fa-calendar-days fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
                                     <div class="ms-3">
                                         <h2 class="mb-0" data-toggle="counter-up">8</h2>
-                                        <p class="text-primary-gradient mb-0">Event</p>
+                                        <p class="text-primary-gradient mb-0">Events</p>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ export default function AboutSection() {
                                     <i class="fa-solid fa-people-group fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
                                     <div class="ms-3">
                                         <h2 class="mb-0" data-toggle="counter-up">40</h2>
-                                        <p class="text-secondary-gradient mb-0">Team Member</p>
+                                        <p class="text-secondary-gradient mb-0">Team Members</p>
                                     </div>
                                 </div>
                             </div>
