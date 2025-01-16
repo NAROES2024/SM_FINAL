@@ -66,12 +66,12 @@ function Sponsors() {
             <h5 className="spons_txt my-4">Online Media Partner</h5>
           </div>
 
-          {/* <div className="spons_width3 col">
-            <div className="card">
-              <img src="img\Spons\gs (1).png" class="card-img-top" alt="" />
+          <div className="spons_width3 col">
+            <div className="card spons-img">
+              <img src="img\Spons\irclass.png" class="card-img-top" alt="" />
             </div>
             <h5 className="spons_txt my-4">Event Sponsor</h5>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
