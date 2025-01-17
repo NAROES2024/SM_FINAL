@@ -16,7 +16,7 @@ function Hero() {
                     <div class="row g-5">
                         <div class="col-lg-8 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated slideInDown">Set Sail for Samudramanthan!</h1>
-                            <p class="text-white pb-3 animated slideInDown">Experience a legendary voyage where knowledge, innovation, and exploration converge. Join us as we unravel the mysteries of the ocean and pioneer new waves in ocean engineering and naval architecture.</p>
+                            <p class="text-white pb-3 animated slideInDown">Experience a legendary voyage where knowledge, innovation, and exploration converge. Join us as we unravel the mysteries of the ocean and pioneer new waves in Ocean Engineering and Naval Architecture.</p>
                             {/* {localStorage.getItem("token") ? (
                                 
                                 <a onClick={logout} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">logout</a>
