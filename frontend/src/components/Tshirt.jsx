@@ -40,10 +40,12 @@ function Tshirt() {
             <h5 class="text-primary-gradient fw-medium">Buy now</h5>
             <h1 class="mb-4">Gear up for Samudramanthan</h1>
             <p class="mb-4">
-            Show your spirit with exclusive Samudramanthan merchandise! 
-            From unique artifacts to stylish apparel, each piece reflects the essence of our fest. 
-            Explore the collection and grab yours today.
-            </p>
+           Show your spirit with exclusive Samudramanthan T-shirts and more!  Don’t miss out—register now and grab your merch today!
+<b>Please note: To purchase a T-shirt, you must register and have a valid SM ID.</b>           
+ </p>
+
+
+
             <div class="row g-4">
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 {localStorage.getItem("token") ? (
