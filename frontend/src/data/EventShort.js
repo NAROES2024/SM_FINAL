@@ -32,28 +32,28 @@ const Events = [
     link: "/dispustes",
     poster: "img/event/DeepSeaDispustes_Logo.png",
     description:
-      "Ocean Matters debate fosters critical thinking, research, and public speaking skills. It encourages dynamic discussions on marine conservation, promoting exploration of diverse perspectives.",
+      "Dive into engaging debates with Deep Sea Disputes, where you'll sharpen your critical thinking and public speaking skills. This event sparks lively discussions on marine conservation, encouraging participants to explore different viewpoints and come up with creative solutions to protect our oceans.",
   },
   {
     name: "Quizathon",
     link: "/Quizathon",
     poster: "img/event/Quizathon_Logo.png",
     description:
-      "Quizathon offers a unique quiz competition focused on ocean knowledge, naval architecture, and puzzles. It attracts enthusiasts seeking to enhance their understanding while enjoying a creative self-evaluation experience.",
+      "Test your knowledge and have fun with Quizathon, a unique quiz competition covering ocean science, naval architecture, and challenging puzzles. It’s perfect for enthusiasts looking to deepen their understanding while enjoying a lively and engaging self-evaluation experience.",
   },
   {
     name: "Ocean Oddessey",
     link: "/paperprep",
     poster: "img/event/OceanOddessey_Logo.png",
     description:
-      " In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles.",
+      "In today's rapidly evolving world, daily challenges are becoming increasingly complex. Ocean Odyssey invites you to navigate these difficulties by uncovering innovative solutions and sparking fresh ideas, empowering you to tackle obstacles with creativity and resilience.",
   },
   {
     name: "Cryptic Clues",
     link: "/CrypticClues",
     poster: "img/event/CrypticClues_Logo.png",
     description:
-      "Join Samudra Manthan 2023's thrilling treasure hunt, where sharp minds and keen eyes are key. Solve puzzles, crack codes, and uncover mysteries to discover priceless artifacts. Unleash your inner explorer in this exciting voyage!",
+      "Embark on an exhilarating treasure hunt with Cryptic Clues at Samudramanthan 2025. Put your problem-solving skills to the test as you solve puzzles, crack codes, and unravel mysteries to uncover hidden treasures. Unleash your inner explorer on this thrilling adventure!",
   },
 ];
 
