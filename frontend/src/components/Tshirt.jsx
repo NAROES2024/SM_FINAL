@@ -41,8 +41,6 @@ function Tshirt() {
             <h1 class="mb-4">Gear up for Samudramanthan</h1>
             <p class="mb-4">
            Show your spirit with exclusive Samudramanthan T-shirts and more!  Don’t miss out—register now and grab your merch today!
-<br>
-      
  </p>
 <b>Please note: To purchase a T-shirt, you must register and have a valid SM ID.</b>     
 
