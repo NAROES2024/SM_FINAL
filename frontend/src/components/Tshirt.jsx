@@ -42,8 +42,9 @@ function Tshirt() {
             <p class="mb-4">
            Show your spirit with exclusive Samudramanthan T-shirts and more!  Don’t miss out—register now and grab your merch today!
 <br>
-<b>Please note: To purchase a T-shirt, you must register and have a valid SM ID.</b>           
+      
  </p>
+<b>Please note: To purchase a T-shirt, you must register and have a valid SM ID.</b>     
 
 
 
@@ -59,6 +60,8 @@ function Tshirt() {
                       <div class="ms-3">
                         <p class="text-white mb-0">Available</p>
                         <h5 class="text-white mb-0">Buy Now</h5>
+
+
                       </div>
                     </a>
                   </>
