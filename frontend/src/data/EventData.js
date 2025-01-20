@@ -258,7 +258,7 @@ const EventData = [
         "Quizathon stands out as a unique general knowledge competition that welcomes individuals passionate about quizzing to join. The event primarily centers around a format of posing questions and providing answers. Its main audience comprises those enthusiastic        about deepening their understanding of the ocean, naval architecture, and the art of solving puzzles. In addition to being an enjoyable experience, this event serves as a creative means of self-evaluation.",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1gmubiELe3WKnhI81pqBNJXWl0e9TyKC_/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",

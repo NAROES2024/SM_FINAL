@@ -32,14 +32,14 @@ const Events = [
     link: "/dispustes",
     poster: "img/event/DeepSeaDispustes_Logo.png",
     description:
-      "Dive into engaging debates with Deep Sea Disputes, where you'll sharpen your critical thinking and public speaking skills. This event sparks lively discussions on marine conservation, encouraging participants to explore different viewpoints and come up with creative solutions to protect our oceans.",
+      "Dive into engaging debates with Deep Sea Disputes. This event sparks lively discussions on marine conservation, encouraging participants to explore different viewpoints and come up with creative solutions to protect our oceans.",
   },
   {
     name: "Quizathon",
     link: "/Quizathon",
     poster: "img/event/Quizathon_Logo.png",
     description:
-      "Test your knowledge and have fun with Quizathon, a unique quiz competition covering ocean science, naval architecture, and challenging puzzles. It’s perfect for enthusiasts looking to deepen their understanding while enjoying a lively and engaging self-evaluation experience.",
+      "Test your knowledge and have fun with Quizathon, a unique quiz competition covering ocean science, naval architecture, and challenging puzzles. Perfect for enthusiasts eager to expand their knowledge while enjoying a fun and engaging challenge.",
   },
   {
     name: "Ocean Oddessey",
