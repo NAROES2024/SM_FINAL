@@ -255,7 +255,7 @@ const EventData = [
       link: "/Quizathon",
       poster: "img/event/Quizathon.png",
       description:
-        "Quizathon stands out as a unique general knowledge competition that welcomes individuals passionate about quizzing to join. The event primarily centers around a format of posing questions and providing answers. Its main audience comprises those enthusiastic        about deepening their understanding of the ocean, naval architecture, and the art of solving puzzles. In addition to being an enjoyable experience, this event serves as a creative means of self-evaluation.",
+        "Quizathon is a distinctive general knowledge competition designed for quiz enthusiasts eager to participate. The event revolves around a question-and-answer format, targeting individuals passionate about expanding their knowledge of the ocean, naval architecture, and puzzle-solving. Beyond just being a fun event, it offers participants a unique opportunity for creative self-assessment and personal growth in a relaxed, enjoyable environment.",
       fee: "₹100",
       prize: "₹3000",
       date: "21st March 2025",
@@ -314,7 +314,7 @@ const EventData = [
         "This event aims to showcase the significance of ocean engineering and naval architecture through captivating and original photographs. It also encourages ethical responsibility among photographers, emphasizing integrity and authenticity in their art, creating a platform to celebrate these fields while upholding high creative and professional standards.",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1MWHt-zOfIAENnk43FEPkq14LL0lVvukw/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -368,7 +368,7 @@ const EventData = [
         "WaveQuest is an exhilarating Ocean Engineering Case Study Competition that challenges participants to tackle real-world ocean engineering problems, igniting ingenuity, collaboration, critical thinking, and problem-solving skills. Participants navigate offshore structures, marine renewable energy, coastal management, and underwater systems, blending innovation and expertise to unravel maritime complexities and create solutions that resonate with the ever-evolving tides of innovation. WaveQuest is a journey beyond the ordinary, propelling participants to the forefront of modern engineering, where possibilities converge with the ocean of imagination.",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1qqP3uPcSVa3PEvrCGpbNQX56h93Rqn3U/view?usp=sharing",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -427,7 +427,7 @@ const EventData = [
             "In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles. Research plays a crucial role in this process, as it enables individuals     from around the globe to gather pertinent information  and guide innovation towards the correct course of action. Samudramanthan, Indian Institute of Technology, Kharagpur, is committed to cultivating a culture of research and innovation in our nation.",
           fee: "₹100",
           prize: "₹3000",
-          date: "20th March 2021",
+          date: "21st March 2025",
           brochure:
             "https://drive.google.com/drive/folders/1rEQXEvZdw1zVHWxF7NMSR7fFdwK6em1Q",
           submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
