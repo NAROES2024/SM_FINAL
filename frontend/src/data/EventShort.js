@@ -32,28 +32,28 @@ const Events = [
     link: "/dispustes",
     poster: "img/event/DeepSeaDispustes_Logo.png",
     description:
-      "Dive into engaging debates with Deep Sea Disputes. This event sparks lively discussions on marine conservation, encouraging participants to explore different viewpoints and come up with creative solutions to protect our oceans.",
+      "A dynamic event where passionate debates ignite fresh ideas and creative solutions to protect our oceans for future generations.",
   },
   {
     name: "Quizathon",
     link: "/Quizathon",
     poster: "img/event/Quizathon_Logo.png",
-    description:
-      "Test your knowledge and have fun with Quizathon, a unique quiz competition covering ocean science, naval architecture, and challenging puzzles. Perfect for enthusiasts eager to expand their knowledge while enjoying a fun and engaging challenge.",
+description:
+      "Test your knowledge of ocean science, naval architecture, and puzzles while competing for the ultimate bragging rights.",
   },
   {
     name: "Ocean Oddessey",
     link: "/paperprep",
     poster: "img/event/OceanOddessey_Logo.png",
     description:
-      "In today's rapidly evolving world, daily challenges are becoming increasingly complex. Ocean Odyssey invites you to navigate these difficulties by uncovering innovative solutions and sparking fresh ideas, empowering you to tackle obstacles with creativity and resilience.",
+      "Embark on Ocean Odyssey, facing challenges and sparking solutions to overcome obstacles with creativity and resilience.",
   },
   {
     name: "Cryptic Clues",
     link: "/CrypticClues",
     poster: "img/event/CrypticClues_Logo.png",
     description:
-      "Embark on an exhilarating treasure hunt with Cryptic Clues at Samudramanthan 2025. Put your problem-solving skills to the test as you solve puzzles, crack codes, and unravel mysteries to uncover hidden treasures. Unleash your inner explorer on this thrilling adventure!",
+      "Test your wits by solving puzzles, cracking codes, and uncovering hidden treasures on this thrilling adventure.",
   },
 ];
 

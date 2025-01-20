@@ -9,7 +9,7 @@ const EventData = [
       teamSize: "1",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/12vFPkvK9WfeuJcahIrGYGNsxrWnxU3hS/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -81,7 +81,7 @@ const EventData = [
       teamSize: "3-4",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1-D8Id_tSil1U8eMOkwuettqnC0ulyQxM/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -148,7 +148,7 @@ const EventData = [
         "Welcome to the thrilling treasure hunt of Samudra Manthan 2023! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1RLMRAKwgG1khMZDrIMaBX0Sfl4IM13ZT/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
@@ -205,7 +205,7 @@ const EventData = [
         "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
       fee: "₹100",
       prize: "₹3000",
-      date: "20th March 2021",
+      date: "21st March 2025",
       brochure:
         "https://drive.google.com/file/d/1IZTwOyFQgpSLfYd5DbDbNTzYB-ZidYXV/view?usp=drive_link",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
