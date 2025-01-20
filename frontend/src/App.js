@@ -21,8 +21,8 @@ function App() {
         {EventData.map((event) => (
           <Route path={event.link} element={<Event event={event} />} />
         ))}
-        {/* <Route path ="/event" element={<Events/>}/> */}
-        <Route path ="/event" element={<Comingsoon/>}/>
+        <Route path ="/event" element={<Events/>}/>
+        {/* <Route path ="/event" element={<Comingsoon/>}/> */}
         <Route path="/about" element={<About />} />
         <Route path='/team' element={<SmTeam />} />
         <Route path="/gallery" element={<Gallery />} />
