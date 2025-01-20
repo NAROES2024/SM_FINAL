@@ -4,28 +4,28 @@ const Events = [
     link: "/Boatwars",
     poster: "img/event/BoatWars_Logo.png",
     description:
-      "Boat Wars: A water-based event where participants battle in boats, kayaks, and canoes. It blends water sports and strategy, aiming for fun and skill in water-based combat, delighting participants and spectators.",
+      "An exhilarating water battle where strategy meets skill, as participants navigate boats, kayaks, and canoes in a fight for victory.",
   },
   {
     name: "Aqua-Innovate",
     link: "/AquaMOD",
     poster: "img/event/AquaInnovate_Logo.png",
     description:
-      "Aqua-Innovate offers a unique platform to demonstrate real-life skills. Participants enhance vessel efficiency through creativity and critical thinking, fostering problem-solving abilities.",
+      "Aqua-Innovate lets participants showcase their skills by enhancing vessel efficiency and encouraging critical thinking.",
   },
   {
     name: "Aqua-Exposure",
     link: "/Aquaexposure",
     poster: "img/event/AquaExposure_Logo.png",
     description:
-      "Aqua-Exposure highlights the significance of ocean engineering and naval architecture with cool and unique photos, encouraging photographers to be ethical and genuine in their art.",
+      "Aqua-Exposure showcases the importance of ocean engineering through unique photos.",
   },
   {
-    name: "WaveQuest",
+    name: "CAD Quest",
     link: "/Wavequest",
     poster: "img/event/WaveQuest_Logo.png",
     description:
-      "In an evolving world with increasing challenges, research becomes vital for innovative solutions. Samudramanthan, IIT, Kharagpur, is dedicated to fostering a culture of research and innovation to address these obstacles.",
+      "This event challenges participants to push the boundaries of CAD, fostering creativity and innovation to tackle real-world problems.",
   },
   {
     name: "Deep Sea Dispustes",
