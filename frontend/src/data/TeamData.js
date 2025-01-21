@@ -26,7 +26,7 @@ const TeamData = [
 
     {
         name: "Karamtoth Goutham Nayak",
-        position: "General Sceretary",
+        position: "General Secretary",
         image: "img/team/goutham.jpg",
         linkedin: "https://www.linkedin.com/in/goutham-nayak-5a0890256/",
         facebook: "https://www.facebook.com/profile.php?id=100087708483886",
@@ -34,7 +34,7 @@ const TeamData = [
     },
     {
         name: "Anushika srivastava",
-        position: "General Sceretary",
+        position: "General Secretary",
         image: "img/team/anushika.jpg",
         linkedin: "http://www.linkedin.com/in/anushika-srivastava-05ab90256",
         facebook: "https://www.facebook.com/anushika.shrivastava.102",
@@ -42,7 +42,7 @@ const TeamData = [
     },
     {
         name: "Potala Karthik Naidu",
-        position: "General Sceretary",
+        position: "General Secretary",
         image: "img/team/karthik.jpg",
         linkedin: "https://www.linkedin.com/in/karthik-naidu-20a88626a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         facebook: "https://www.facebook.com/potalakarthiknaidu.potalakarthiknaidu.7?mibextid=LQQJ4d",
