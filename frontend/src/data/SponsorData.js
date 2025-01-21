@@ -30,7 +30,23 @@ const SponsorData = [
     {
         id: 8,
         img: "img/Spons/tai-eng.png",
+    },
+    {
+        id: 9,
+        img: "img/Spons/DNV.png",
+    },
+    {
+        id: 10,
+        img: "img/Spons/sagarmala.png",
+    },
+    {
+        id: 11,
+        img: "img/Spons/buoy-consult.png",
+    },
+    {
+        id: 12,
+        img: "img/Spons/hover-robo.png",
     }
 ];
-    
+
 export default SponsorData;
