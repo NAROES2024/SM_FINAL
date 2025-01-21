@@ -46,7 +46,7 @@ function Tshirt() {
 
 
 
-            <div class="row g-4">
+            {/* <div class="row g-4">
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 {localStorage.getItem("token") ? (
                   <>
@@ -78,7 +78,7 @@ function Tshirt() {
                   </>
                 )}
               </div>
-            </div>
+            </div> */}
             < TshirtModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
