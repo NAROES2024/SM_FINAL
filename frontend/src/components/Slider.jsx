@@ -16,7 +16,7 @@ export default function Slider() {
           <ReactImageGallery
             items={galleryData}
             autoPlay={true}
-            showPlayButton={false}
+            showPlayButton={true}
             slideDuration={700}
             showNav={false}
           />
