@@ -28,7 +28,7 @@ const TeamData = [
         name: "Karamtoth Goutham Nayak",
         position: "General Secretary",
         image: "img/team/goutham.jpg",
-        linkedin: "https://www.linkedin.com/in/goutham-nayak-5a0890256/",
+        linkedin: "https://www.linkedin.com/in/gouthamiitkgp9/",
         facebook: "https://www.facebook.com/profile.php?id=100087708483886",
         instagram: "https://www.instagram.com/gouthamxt/",
     },
