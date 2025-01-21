@@ -806,3 +806,10 @@ h6,
     justify-content: left;
     align-items: center;
 }
+
+.spons-item {
+    height: 300px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}

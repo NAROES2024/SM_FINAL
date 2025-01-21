@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import Tshirt from "../components/Tshirt";
 import Sponsors from "../components/Sponsors";
 
+import PastSponsors from "../components/PastSponsors";
+
 function Home() {
   return (
     <>
@@ -15,6 +17,7 @@ function Home() {
           <Hero />
         </div>
         <Sponsors />
+        <PastSponsors />
         {/* <EventSection /> */}
         <Tshirt />
         <Footer />

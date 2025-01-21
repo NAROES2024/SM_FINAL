@@ -22,7 +22,7 @@ function Sponsors() {
           class="text-center pb-4 animated slideInDown"
           data-wow-delay="0.1s"
         >
-          <h5 class="text-primary-gradient fw-medium">Samudramanthan's</h5>
+          <h5 class="text-primary-gradient fw-medium">Samudramanthan's 17th edition</h5>
           <h1 class="">Our Sponsors</h1>
           <p class="mb-0">
           We extend our heartfelt gratitude to our sponsors for their invaluable support in making Samudramanthan a remarkable success.
