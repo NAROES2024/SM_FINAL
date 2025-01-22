@@ -20,7 +20,7 @@ function Navbar(page) {
     <>
       <nav className="navbar sticky-top shadow-sm navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <Link to="/" className="navbar-brand p-0">
-          <h1 className="m-0">Samudramanthan</h1>
+          <div class="nav_img"><img src="/img/logo-nav.png" alt=""/></div>
         </Link>
         <button
           className="navbar-toggler"
