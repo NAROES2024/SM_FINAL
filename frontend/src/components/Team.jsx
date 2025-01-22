@@ -23,11 +23,12 @@ export default function Team() {
                                             <h5 class="mb-2">{member.name}</h5>
                                             <p class="mb-2">{member.position}</p>
                                             <div class="mb-4">
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.facebook}><i
-                                                        class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.instagram}><i
+                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.facebook} target="_blank" ><i
+                                                        class="fab fa-facebook-f"></i>
+                                                        </a>
+                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.instagram} target="_blank" ><i
                                                         class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.linkedin}><i
+                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.linkedin} target="_blank"><i
                                                         class="fab fa-linkedin-in"></i></a>
                                             </div>
                                         </div>
