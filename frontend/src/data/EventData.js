@@ -12,7 +12,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -84,7 +84,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -151,7 +151,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -208,7 +208,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -261,7 +261,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -317,7 +317,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -371,7 +371,7 @@ const EventData = [
       date: "21st March 2025",
       brochure:
         "",
-      submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+      submission: "",
       rulestab: [
         {
           tabId: "1",
@@ -430,7 +430,7 @@ const EventData = [
           date: "21st March 2025",
           brochure:
             "",
-          submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
+          submission: "",
           rulestab: [
             {
               tabId: "1",
