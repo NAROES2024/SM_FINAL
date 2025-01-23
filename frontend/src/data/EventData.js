@@ -11,7 +11,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/12vFPkvK9WfeuJcahIrGYGNsxrWnxU3hS/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -83,7 +83,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1-D8Id_tSil1U8eMOkwuettqnC0ulyQxM/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -150,7 +150,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1RLMRAKwgG1khMZDrIMaBX0Sfl4IM13ZT/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -207,7 +207,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1IZTwOyFQgpSLfYd5DbDbNTzYB-ZidYXV/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -260,7 +260,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1gmubiELe3WKnhI81pqBNJXWl0e9TyKC_/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -316,7 +316,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1MWHt-zOfIAENnk43FEPkq14LL0lVvukw/view?usp=drive_link",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -370,7 +370,7 @@ const EventData = [
       prize: "₹3000",
       date: "21st March 2025",
       brochure:
-        "https://drive.google.com/file/d/1qqP3uPcSVa3PEvrCGpbNQX56h93Rqn3U/view?usp=sharing",
+        "",
       submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
       rulestab: [
         {
@@ -429,7 +429,7 @@ const EventData = [
           prize: "₹3000",
           date: "21st March 2025",
           brochure:
-            "https://drive.google.com/drive/folders/1rEQXEvZdw1zVHWxF7NMSR7fFdwK6em1Q",
+            "",
           submission: "https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6",
           rulestab: [
             {
