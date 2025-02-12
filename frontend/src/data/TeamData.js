@@ -73,14 +73,14 @@ const TeamData = [
         facebook: "https://www.facebook.com/profile.php?id=100087417407869",
         instagram: "https://www.instagram.com/gunashiyaa_02/",
     },
-    {
-        name: "Sirsha Banerjee",
-        position: "Events Head",
-        image: "img/team/sirsha.jpg",
-        linkedin: "https://www.linkedin.com/in/sirsha-banerjee-b8b301250/",
-        facebook: "https://www.facebook.com/profile.php?id=100086480511261",
-        instagram: "https://www.instagram.com/sirsha_17/",
-    },
+    // {
+    //     name: "Sirsha Banerjee",
+    //     position: "Events Head",
+    //     image: "img/team/sirsha.jpg",
+    //     linkedin: "https://www.linkedin.com/in/sirsha-banerjee-b8b301250/",
+    //     facebook: "https://www.facebook.com/profile.php?id=100086480511261",
+    //     instagram: "https://www.instagram.com/sirsha_17/",
+    // },
     {
         name: "Srestha Gajula",
         position: "Design Head",
