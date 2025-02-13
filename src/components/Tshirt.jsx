@@ -84,7 +84,7 @@ function Tshirt() {
     setLoading(true); // Start loading
 
     try {
-      const { data } = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.netorders", {
+      const { data } = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/orders", {
         token,
         size: selectedSize,
         type: "tshirt",
