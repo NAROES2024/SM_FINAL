@@ -13,8 +13,8 @@ function Testimonial() {
     dots: false,
     nav: true,
     navText: [
-      '<i class="bi bi-chevron-left"></i>',
-      '<i class="bi bi-chevron-right"></i>',
+      '<i className="bi bi-chevron-left"></i>',
+      '<i className="bi bi-chevron-right"></i>',
     ],
     responsive: {
       0: {
@@ -30,39 +30,39 @@ function Testimonial() {
   };
   return (
     <>
-      <div class="container-xxl py-5" id="review">
-        <div class="container py-5 px-lg-5">
-          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
-            <h1 class="mb-5">Tales from the Samudramanthan</h1>
+      <div className="container-xxl py-5" id="review">
+        <div className="container py-5 px-lg-5">
+          <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 className="text-primary-gradient fw-medium">Testimonial</h5>
+            <h1 className="mb-5">Tales from the Samudramanthan</h1>
           </div>
-          {/* <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s"> */}
+          {/* <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s"> */}
           <OwlCarousel
             className="owl-carousel testimonial-carousel wow fadeInUp"
             {...options}
           >
             {testimonialData.map((data) => {
               return (
-                <div class="testimonial-item rounded p-4">
-                  <div class="d-flex align-items-center mb-4">
+                <div className="testimonial-item rounded p-4">
+                  <div className="d-flex align-items-center mb-4">
                     <img
-                      class="img-fluid bg-white rounded flex-shrink-0 p-1"
+                      className="img-fluid bg-white rounded flex-shrink-0 p-1"
                       src={data.imglink}
                       style={{ width: "85px", height: "85px" }}
                     />
-                    <div class="ms-4">
-                      <h5 class="mb-1">{data.name}</h5>
-                      <p class="mb-1">{data.profession}</p>
+                    <div className="ms-4">
+                      <h5 className="mb-1">{data.name}</h5>
+                      <p className="mb-1">{data.profession}</p>
                       <div>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
+                        <small className="fa fa-star text-warning"></small>
+                        <small className="fa fa-star text-warning"></small>
+                        <small className="fa fa-star text-warning"></small>
+                        <small className="fa fa-star text-warning"></small>
+                        <small className="fa fa-star text-warning"></small>
                       </div>
                     </div>
                   </div>
-                  <p class="mb-0">{data.testimonial}</p>
+                  <p className="mb-0">{data.testimonial}</p>
                 </div>
               );
             })}

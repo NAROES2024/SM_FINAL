@@ -5,8 +5,8 @@ import Slider from "../components/Slider";
 
 export default function Gallery() {
     return(
-        <div class="container-xxl bg-white p-0">
-        <div class="container-xxl position-relative p-0" id="home">
+        <div className="container-xxl bg-white p-0">
+        <div className="container-xxl position-relative p-0" id="home">
           <Navbar page="gallery"/>
         </div>
         <Slider />

@@ -32,14 +32,7 @@ const TeamData = [
         facebook: "https://www.facebook.com/profile.php?id=100087708483886",
         instagram: "https://www.instagram.com/gouthamxt/",
     },
-    {
-        name: "Anushika srivastava",
-        position: "General Secretary",
-        image: "img/team/anushika.jpg",
-        linkedin: "http://www.linkedin.com/in/anushika-srivastava-05ab90256",
-        facebook: "https://www.facebook.com/anushika.shrivastava.102",
-        instagram: "https://www.instagram.com/_anushika_06_/",
-    },
+  
     {
         name: "Potala Karthik Naidu",
         position: "General Secretary",
@@ -49,14 +42,7 @@ const TeamData = [
         instagram: "https://www.instagram.com/_krtk.__/",
     },
    
-    // {
-    //     name: "Pranay Anil Darode",
-    //     position: "Web Head",
-    //     image: "img/team/pranay.jpg",
-    //     linkedin: "https://www.linkedin.com/in/pranay-darode-8b5213290/",
-    //     facebook: "https://www.facebook.com/pranay.darode.10?mibextid=ZbWKwL",
-    //     instagram: "",
-    // },
+  
     {
         name: "Satyam Jayswal",
         position: "Events Head",
@@ -73,14 +59,7 @@ const TeamData = [
         facebook: "https://www.facebook.com/profile.php?id=100087417407869",
         instagram: "https://www.instagram.com/gunashiyaa_02/",
     },
-    // {
-    //     name: "Sirsha Banerjee",
-    //     position: "Events Head",
-    //     image: "img/team/sirsha.jpg",
-    //     linkedin: "https://www.linkedin.com/in/sirsha-banerjee-b8b301250/",
-    //     facebook: "https://www.facebook.com/profile.php?id=100086480511261",
-    //     instagram: "https://www.instagram.com/sirsha_17/",
-    // },
+   
     {
         name: "Srestha Gajula",
         position: "Design Head",
@@ -89,22 +68,8 @@ const TeamData = [
         facebook: "",
         instagram: "",
     }, 
-    {
-        name: "Eshwar Naik",
-        position: "PR Head",
-        image: "img/team/eshwar.jpg",
-        linkedin: "https://www.linkedin.com/in/eshwarnaikb/",
-        facebook: "https://www.facebook.com/profile.php?id=100087757410046&mibextid=ZbWKwL",
-        instagram: "https://www.instagram.com/eshwar_xt/",
-    },
-    {
-        name: "Dipesh Goel",
-        position: "Sponsorship Head",
-        image: "img/team/dipesh.jpg",
-        linkedin: "https://www.linkedin.com/in/dipeshgoel27/",
-        facebook: "https://www.facebook.com/dipeshgoel27",
-        instagram: "https://www.instagram.com/dipeshgoel27",
-    },
+  
+    
     {
         name: "Pranit Chaudhary",
         position: "Web Sub-Head",
@@ -121,63 +86,33 @@ const TeamData = [
         facebook: "",
         instagram: "",
     },
-    {
-        name: "Subhasish Sarkar",
-        position: "Web Sub-Head",
-        image: "img/team/subhasish.jpg",
-        linkedin: "https://www.linkedin.com/in/subhasish-sarkar-27b903309",
-        facebook: "",
-        instagram: "",
-    },
-    {
-        name: "Namanya Pant",
-        position: "Web Sub-Head",
-        image: "img/team/namanya.jpg",
-        linkedin: "https://www.linkedin.com/in/namanya-pant-76899b2b0/",
-        facebook: "facebook.com/profile.php?id=61557729866848",
-        instagram: "https://www.instagram.com/namanya_1239/",
-    },
+ 
+    // {
+    //     name: "Namanya Pant",
+    //     position: "Web Sub-Head",
+    //     image: "img/team/namanya.jpg",
+    //     linkedin: "https://www.linkedin.com/in/namanya-pant-76899b2b0/",
+    //     facebook: "facebook.com/profile.php?id=61557729866848",
+    //     instagram: "https://www.instagram.com/namanya_1239/",
+    // },
+
+    // {
+    //     name: "Toni blair",
+    //     position: "Design Sub-Head",
+    //     image: "img/team/toni.jpg",
+    //     linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
+    //     facebook: "",
+    //     instagram: "",
+    // },
   
     // {
-    //     name: "Shiyam Srivasthan J",
-    //     position: "Design Sub-Head",
-    //     image: "img/team/shiyam.jpg",
-    //     linkedin: "https://www.linkedin.com/in/shiyam-srivasthan-j-8070612bb/",
-    //     facebook: "https://www.facebook.com/share/18G8ueyirn/?mibextid=LQQJ4d",
+    //     name: "Harsh Rai",
+    //     position: "Core Sub-Head",
+    //     image: "img/team/harsh.jpg",
+    //     linkedin: "https://www.linkedin.com/in/harsh-rai-18525618b/",
+    //     facebook: "https://www.facebook.com/profile.php?id=100029291851467",
     //     instagram: "",
     // },
-    {
-        name: "Toni blair",
-        position: "Design Sub-Head",
-        image: "img/team/toni.jpg",
-        linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
-        facebook: "",
-        instagram: "",
-    },
-    // {
-    //     name: "Jay Patil",
-    //     position: "Core Sub-Head",
-    //     image: "img/team/jay.jpg",
-    //     linkedin: "https://www.linkedin.com/in/jay-patil-4024a0288/",
-    //     facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
-    //     instagram: "https://www.instagram.com/jaypatil070/",
-    // },
-    // {
-    //     name: "Pranav Pathak",
-    //     position: "Core Sub-Head",
-    //     image: "img/team/pranav.jpg",
-    //     linkedin: "https://www.linkedin.com/in/pranav-pathak-5b77972b6/",
-    //     facebook: "https://www.facebook.com/share/12DvnVQPzYd/",
-    //     instagram: "",
-    // },
-    {
-        name: "Harsh Rai",
-        position: "Core Sub-Head",
-        image: "img/team/harsh.jpg",
-        linkedin: "https://www.linkedin.com/in/harsh-rai-18525618b/",
-        facebook: "https://www.facebook.com/profile.php?id=100029291851467",
-        instagram: "",
-    },
 ]
 
 export default TeamData;

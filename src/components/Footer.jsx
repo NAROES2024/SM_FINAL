@@ -4,61 +4,61 @@ function Footer() {
   return (
     <>
       <div
-        class="container-fluid bg-primary text-light footer wow fadeIn"
+        className="container-fluid bg-primary text-light footer wow fadeIn"
         data-wow-delay="0.1s"
         id="footer"
       >
-        <div class="container py-5 px-lg-5">
-          <div class="row g-5">
-            <div class="col-md-6 col-lg-8">
-              <h4 class="text-white mb-4">Address</h4>
+        <div className="container py-5 px-lg-5">
+          <div className="row g-5">
+            <div className="col-md-6 col-lg-8">
+              <h4 className="text-white mb-4">Address</h4>
               <p>
-                <i class="fa fa-map-marker-alt me-3"></i>Indian Institute of
+                <i className="fa fa-map-marker-alt me-3"></i>Indian Institute of
                 Technology Kharagpur Kharagpur, West Bengal 721302 India
               </p>
               <p>
-                <i class="fa fa-phone-alt me-3"></i>9451446743 / 8688906547 
+                <i className="fa fa-phone-alt me-3"></i>9451446743 / 8688906547 
               </p>
               <p>
-                <i class="fa fa-envelope me-3"></i>
+                <i className="fa fa-envelope me-3"></i>
                 samudramanthan.iitkgp.2025@gmail.com
               </p>
-              <div class="d-flex pt-2">
+              <div className="d-flex pt-2">
 
-                <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/samudramanthan.iitkgp/">
-                  <i class="fab fa-facebook-f"></i>
+                <a className="btn btn-outline-light btn-social" href="https://www.facebook.com/samudramanthan.iitkgp/">
+                  <i className="fab fa-facebook-f"></i>
                 </a>
-                <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/sm.iitkgp/">
-                  <i class="fab fa-instagram"></i>
+                <a className="btn btn-outline-light btn-social" href="https://www.instagram.com/sm.iitkgp/">
+                  <i className="fab fa-instagram"></i>
                 </a>
-                <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/smiitkgp/?originalSubdomain=in" >
-                  <i class="fab fa-linkedin-in"></i>
+                <a className="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/smiitkgp/?originalSubdomain=in" >
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-              <h4 class="text-white mb-4">Quick Link</h4>
-              <a class="btn btn-link" href="/">
+            <div className="col-md-6 col-lg-3">
+              <h4 className="text-white mb-4">Quick Link</h4>
+              <a className="btn btn-link" href="/">
                 Home
               </a>
-              <a class="btn btn-link" href="/event">
+              <a className="btn btn-link" href="/event">
                 Events
               </a>
-              <a class="btn btn-link" href="/about">
+              <a className="btn btn-link" href="/about">
                 About Us
               </a>
-              <a class="btn btn-link" href="/gallery">
+              <a className="btn btn-link" href="/gallery">
                 Gallery
               </a>
-              <a class="btn btn-link" href="team">
+              <a className="btn btn-link" href="team">
                 Our Team
               </a>
-              <a class="btn btn-link" href="/cap">
+              {/* <a className="btn btn-link" href="/cap">
                 CAP
               </a>
-              <a class="btn btn-link" href="/schedule">
+              <a className="btn btn-link" href="/schedule">
               Schedule
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

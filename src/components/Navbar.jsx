@@ -1,27 +1,34 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { event } from "jquery";
+import React, { useState } from "react";
+import { Events } from "react-scroll";
 
-function Navbar(page) {
-  const home = page.page === "home" ? " active" : "";
-  const about = page.page === "about" ? " active" : "";
-  const gallery = page.page === "gallery" ? " active" : "";
-  const team = page.page === "team" ? " active" : "";
-  const cap = page.page === "cap" ? " active" : "";
-  const schedule = page.page === "schedule" ? " active" : "";
-  const event = page.page === "events" ? " active" : "";
-  
+function Navbar({ page }) {
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const home = page === "home" ? " active" : "";
+  const about = page === "about" ? " active" : "";
+  const gallery = page === "gallery" ? " active" : "";
+  const team = page === "team" ? " active" : "";
+  const accommodation = page === "accomodation" ? " active" : "";
+  const cap = page === "cap" ? " active" : "";
+  const schedule = page === "schedule" ? " active" : "";
+
   function logout() {
     localStorage.removeItem("token");
-    localStorage.removeItem("smid");
+    localStorage.removeItem("user");
     window.location.href = "/";
   }
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
 
   return (
     <>
       <nav className="navbar sticky-top shadow-sm navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-        <Link to="/" className="navbar-brand p-0">
-          <div class="nav_img"><img src="/img/logo-nav.png" alt=""/></div>
-        </Link>
+        <a href="/" className="navbar-brand p-0">
+          <h1 className="m-0">Samudramanthan'25</h1>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -32,49 +39,97 @@ function Navbar(page) {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ml-auto py-0">
-            <Link to="/" className={"nav-item nav-link" + home}>
+            <a href="/" className={"nav-item nav-link" + home}>
               Home
-            </Link>
-            <Link to="/event" className={"nav-item nav-link" + event}>
+            </a>
+            {/* <a href="/event" className={"nav-item nav-link" + event}>
               Events
-            </Link>
-            <Link to="/about" className={"nav-item nav-link" + about}>
+            </a> */}
+            <a href="/about" className={"nav-item nav-link" + about}>
               About
-            </Link>
-            <Link to="/gallery" className={"nav-item nav-link" + gallery}>
+            </a>
+            <a href="/gallery" className={"nav-item nav-link" + gallery}>
               Gallery
-            </Link>
-            <Link to="/team" className={"nav-item nav-link" + team}>
+            </a>
+            <a href="/team" className={"nav-item nav-link" + team}>
               Our Team
-            </Link>
-            <Link to="/cap" className={"nav-item nav-link" + cap}>
+            </a>
+            <a href="https://rzp.io/l/mqeVcsDh" className={"nav-item nav-link" + accommodation}>
+              Accommodation
+            </a>
+            {/* <a href="/cap" className={"nav-item nav-link" + cap}>
               CAP
-            </Link>
-            <Link to="/schedule" className={"nav-item nav-link" + schedule}>
+            </a>
+            <a href="/schedule" className={"nav-item nav-link" + schedule}>
               Schedule
-            </Link>
-            {/* <Link to="/comingsoon" className={"nav-item nav-link" + schedule}>
-             cmc
-            </Link> */}
-
+            </a> */}
           </div>
-          {/* {localStorage.getItem("token") ? (
-            <button
-              onClick={logout}
-              className="btn btn-green-gredient rounded-pill py-2 px-4 navbar-nav"
-            >
-              Logout
-            </button>
+
+          {localStorage.getItem("token") ? (
+            <>
+              <button
+                className="btn btn-primary-gradient rounded-circle p-2.5 mx-3"
+                onClick={toggleSidebar}
+              >
+                <i className="fa fa-user"></i>
+              </button>
+            </>
           ) : (
-            <Link
-              to="/register"
+            <a
+              href="/register"
               className="btn btn-primary-gradient rounded-pill py-2 px-4 navbar-nav"
             >
               Login
-            </Link>
-          )} */}
+            </a>
+          )}
         </div>
       </nav>
+
+      {/* Sidebar for Profile Menu */}
+      <div
+        className={`sidebar ${isSidebarOpen ? "open" : ""}`}
+        style={{
+          position: "fixed",
+          top: 0,
+          right: isSidebarOpen ? "0" : "-300px",
+          width: "250px",
+          height: "100%",
+          backgroundColor: "#fff",
+          boxShadow: "-2px 0 5px rgba(0,0,0,0.2)",
+          transition: "right 0.3s ease-in-out",
+          padding: "20px",
+          zIndex: 1000,
+        }}
+      >
+        <button
+          className="btn-close"
+          onClick={toggleSidebar}
+          style={{ position: "absolute", right: "10px", top: "10px" }}
+        ></button>
+        <h5 className="mb-4">Profile</h5>
+        <ul className="list-unstyled">
+          <li>
+            <a href="/profile" className="nav-link">
+              View Profile
+            </a>
+          </li>
+          {/* <li>
+            <a href="/registered-events" className="nav-link">
+              Registered Events
+            </a>
+          </li>
+          <li>
+            <a href="/accommodation" className="nav-link">
+              Accommodation
+            </a>
+          </li> */}
+          <li>
+            <p className="nav-link" style={{cursor: 'pointer'}} onClick={logout}>
+              Logout
+            </p>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }

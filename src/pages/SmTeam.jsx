@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 function SmTeam() {
   return (
     <>
-      <div class="container-xxl bg-white p-0">
-        <div class="container-xxl position-relative p-0" id="home">
+      <div className="container-xxl bg-white p-0">
+        <div className="container-xxl position-relative p-0" id="home">
           <Navbar page="team"/>
         </div>
         <Team />

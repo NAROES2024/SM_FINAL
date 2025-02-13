@@ -1,93 +1,244 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
-import TshirtModal from "./TshirtModel";
+import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Tshirt() {
-  const [modalShow, setModalShow] = React.useState(false);
-  const [user, setUser] = React.useState({});
+  const [sm_id, setSm_id] = useState(null);
+  const [showSizeForm, setShowSizeForm] = useState(false);
+  const [selectedSize, setSelectedSize] = useState("");
+  const [loading, setLoading] = useState(false); // Loading state
+  const navigate = useNavigate();
 
-  async function details() {
-    const data = await axios
-      .post("http://localhost:5000/razorpay/tshirt", {
-        token: localStorage.getItem("token"),
-      })
-      .then((t) => t.data);
+  const showToastMessage = (message, type) => {
+    if (type === "success") {
+      toast.success(message);
+    } else if (type === "warn") {
+      toast.warning(message);
+    } else {
+      toast.error(message);
+    }
+  };
 
-    //set user and add link to data
-    setUser({
-      name: data.name,
-      email: data.email,
-      contact: data.contact,
-      id: data.id,
-      sm_id: data.sm_id,
-      amount: data.amount,
-      currency: data.currency,
+  const loadScript = (src) => {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = () => resolve(true);
+      script.onerror = () => resolve(false);
+      document.body.appendChild(script);
     });
-    setModalShow(true);
-  }
+  };
+
+  useEffect(() => {
+    async function checkTshirtStatus() {
+      const token = localStorage.getItem("token");
+
+      if (!token) {
+        setSm_id("Buy Now");
+        return;
+      }
+
+      try {
+        const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt/isregistered", { token });
+        const { smId, status, register } = response.data;
+
+        if (status === "success") {
+          if (register) {
+            const user = JSON.parse(localStorage.getItem("user"));
+            localStorage.setItem("user", JSON.stringify({ ...user, smId: smId }));
+            setSm_id(smId);
+          } else {
+            setSm_id("Buy Now");
+          }
+        } else {
+          setSm_id("Buy Now");
+        }
+      } catch (error) {
+        if (error.response?.status === 401) {
+          localStorage.removeItem("token");
+          navigate("/register");
+        } else {
+          setSm_id("Buy Now");
+        }
+      }
+    }
+
+    checkTshirtStatus();
+  }, [navigate]);
+
+  const handleSizeSubmit = async () => {
+    if (!selectedSize) {
+      showToastMessage("Please select a T-shirt size.", "warn");
+      return;
+    }
+
+    const token = localStorage.getItem("token");
+    if (!token) {
+      showToastMessage("Please log in to proceed.", "warn");
+      navigate("/register");
+      return;
+    }
+
+    setLoading(true); // Start loading
+
+    try {
+      const { data } = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.netorders", {
+        token,
+        size: selectedSize,
+        type: "tshirt",
+      });
+
+      if (data.status === "error") {
+        showToastMessage("Failed to fetch order details. Please try again.", "error");
+        return;
+      }
+
+      const scriptLoaded = await loadScript("https://checkout.razorpay.com/v1/checkout.js");
+      if (!scriptLoaded) {
+        showToastMessage("Failed to load Razorpay SDK. Please check your internet connection.", "error");
+        return;
+      }
+
+      const options = {
+        key: "rzp_test_ZMk8JNDw4oEY2K",
+        amount: data.amount,
+        currency: data.currency,
+        order_id: data.orderId,
+        name: "Samudramanthan Registration",
+        description: `T-shirt Purchase (Size: ${selectedSize})`,
+        image: "/img/logo.png",
+        handler: async (response) => {
+          try {
+            const verifyResponse = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/verify-payment/tshirt", {
+              razorpay_order_id: response.razorpay_order_id,
+              razorpay_payment_id: response.razorpay_payment_id,
+              razorpay_signature: response.razorpay_signature,
+            });
+
+            const result = verifyResponse.data;
+            console.log(result)
+            if (result.success === "success") {
+              showToastMessage("Payment successful!", "success");
+              window.location.reload();
+            } else {
+              showToastMessage(
+                "Payment verification failed! Please contact web team if the amount is deducted from your account.",
+                "error"
+              );
+            }
+          } catch (error) {
+            console.error("Error verifying payment:", error);
+            showToastMessage("An error occurred while verifying payment.", "error");
+          }
+        },
+        prefill: {
+          name: data.name,
+          email: data.email,
+          contact: data.contact,
+        },
+        notes: {
+          size: selectedSize,
+        },
+        theme: {
+          color: "#3399cc",
+        },
+      };
+
+      const razorpay = new window.Razorpay(options);
+      razorpay.open();
+    } catch (error) {
+      console.error("Error creating order or initiating payment:", error);
+      showToastMessage("Failed to proceed with the purchase. Please try again.", "error");
+    } finally {
+      setLoading(false); // End loading
+    }
+  };
+
   return (
-    <div class="container-xxl py-5">
-      <div class="container py-5 px-lg-5">
-        <div class  ="row g-5 align-items-center">
-          <div class="col-lg-6">
+    <div className="container-xxl py-5" id="tshirt">
+      <div className="container py-5 px-lg-5">
+        <div className="row g-5 align-items-center">
+          <div className="col-lg-6">
             <img
-              class="img-fluid wow fadeInUp merch"
+              className="img-fluid wow fadeInUp"
               data-wow-delay="0.1s"
-              src="img/merch.png"  
+              src="img/merch.png"
+              alt="T-shirt"
             />
           </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-            <h5 class="text-primary-gradient fw-medium">Buy now</h5>
-            <h1 class="mb-4">Gear up for Samudramanthan</h1>
-            <p class="mb-4">
-           Show your spirit with exclusive Samudramanthan T-shirts and more!  Don’t miss out—register now and grab your merch today!
- </p>
-<b>Please note: To purchase a T-shirt, you must register and have a valid SM ID.</b>     
-
-
-
-            {/* <div class="row g-4">
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+          <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+            <h5 className="text-primary-gradient fw-medium">Buy now</h5>
+            <h1 className="mb-4">Get ready for Samudramanthan</h1>
+            <p className="mb-4">
+              If you want to participate in Samudramanthan 2024, you must first create your SM ID and then
+              purchase a T-shirt. Please use the button below to do so.
+            </p>
+            <div className="row g-4">
+              <div className="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                 {localStorage.getItem("token") ? (
-                  <>
-                    <a
-                      onClick={details}
-                      class="d-flex btn bg-primary-gradient rounded py-3 px-4"
-                    >
-                      <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>
-                      <div class="ms-3">
-                        <p class="text-white mb-0">Available</p>
-                        <h5 class="text-white mb-0">Buy Now</h5>
-
-
+                  sm_id === "Buy Now" ? (
+                    !showSizeForm ? (
+                      <button
+                        onClick={() => setShowSizeForm(true)}
+                        className="d-flex btn bg-primary-gradient rounded py-3 px-4"
+                      >
+                        <div className="ms-3">
+                          <p className="text-white mb-0">T-shirt</p>
+                          <h5 className="text-white mb-0">Buy Now</h5>
+                        </div>
+                      </button>
+                    ) : (
+                      <form onSubmit={(e) => e.preventDefault()}>
+                        <label htmlFor="size" className="form-label">
+                          Select T-shirt Size:
+                        </label>
+                        <select
+                          id="size"
+                          className="form-select mb-3"
+                          value={selectedSize}
+                          onChange={(e) => setSelectedSize(e.target.value)}
+                          disabled={loading} // Disable during loading
+                        >
+                          <option value="">Choose Size</option>
+                          <option value="S">Small</option>
+                          <option value="M">Medium</option>
+                          <option value="L">Large</option>
+                          <option value="XL">Extra Large</option>
+                           <option value="XXL">XXL</option>
+                        </select>
+                        <button
+                          onClick={handleSizeSubmit}
+                          className="btn btn-success"
+                          disabled={loading} // Disable during loading
+                        >
+                          {loading ? "Processing..." : "Proceed to Pay"}
+                        </button>
+                      </form>
+                    )
+                  ) : (
+                    <button disabled className="d-flex btn btn-green-gredient rounded py-3 px-4">
+                      <div>
+                        <p className="text-white mb-0">SM ID</p>
+                        <h5 className="text-white mb-0">{sm_id || "Not purchased yet"}</h5>
                       </div>
-                    </a>
-                  </>
+                    </button>
+                  )
                 ) : (
-                  <>
-                    <a
-                      href="/register"
-                      class="d-flex bg-primary-gradient rounded py-3 px-4"
-                    >
-                      <i class="fab bi bi-cart-fill fa-3x text-white flex-shrink-0"></i>
-                      <div class="ms-3">
-                        <p class="text-white mb-0">Available</p>
-                        <h5 class="text-white mb-0">Buy Now</h5>
-                      </div>
-                    </a>
-                  </>
+                  <a href="/register" className="d-flex bg-primary-gradient rounded py-3 px-4">
+                    <div className="ms-3">
+                      <p className="text-white mb-0">Login</p>
+                      <h5 className="text-white mb-0">To Continue</h5>
+                    </div>
+                  </a>
                 )}
               </div>
-            </div> */}
-            < TshirtModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-                user={user}
-                setUser={setUser}
-                />
+            </div>
           </div>
         </div>
       </div>
+      <ToastContainer /> {/* Toast container */}
     </div>
   );
 }

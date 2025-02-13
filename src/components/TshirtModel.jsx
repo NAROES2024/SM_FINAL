@@ -28,9 +28,11 @@ function TshirtModal(props) {
       size: props.user.size,
     };
     axios
-      .post("http://localhost:5000/tshirt", data)
+      .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt", data)
       .then((res) => {
-        console.log("You have successfully added to the tshirt");
+        console.log("response: ");
+        console.log(res);
+        
       })
       .catch((err) => console.log(err));
   }
@@ -45,14 +47,14 @@ function TshirtModal(props) {
       return;
     }
     const options = {
-      key: "rzp_test_tzyr3bXBeGsUoZ", // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_ZMk8JNDw4oEY2K", // Enter the Key ID generated from the Dashboard
       amount: data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency: data.currency,
       order_id: data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
       name: "Capature the water Registeration", //your business name
       description: "Test Transaction",
       image: "img/logo.png",
-      callback_url: "http://localhost:5000/success/tshirt",
+      callback_url: "https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/success/tshirt",
       prefill: {
         //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
         name: data.name,
@@ -81,9 +83,9 @@ function TshirtModal(props) {
         <Modal.Title id="contained-modal-title-vcenter">Tshirt</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <div class="text-center">
-          <h5 class="text-primary-gradient fw-medium">Samudramanthan</h5>
-          <h1 class="mb-5">Hellow {props.user.name}</h1>
+        <div className="text-center">
+          <h5 className="text-primary-gradient fw-medium">Samudramanthan</h5>
+          <h1 className="mb-5">Hellow {props.user.name}</h1>
           <p>Email : {props.user.email}</p>
           <p>contact number : {props.user.contact}</p>
           <p>SM id : {props.user.sm_id}</p>

@@ -8,8 +8,8 @@ import History from "../components/History";
 export default function About() {
     return(
         <>
-        <div class="container-xxl bg-white p-0">
-        <div class="container-xxl position-relative p-0" id="home">
+        <div className="container-xxl bg-white p-0">
+        <div className="container-xxl position-relative p-0" id="home">
           <Navbar page="about"/>
         </div>
         <AboutSection />

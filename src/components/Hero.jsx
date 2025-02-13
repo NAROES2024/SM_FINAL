@@ -1,37 +1,38 @@
-import React from "react";
+import React from "react";  
 import { Link } from "react-scroll";  
 
 function Hero() {
 
-    // function logout() {
-    //     localStorage.removeItem("token");
-    //     localStorage.removeItem("smid");
-    //     window.location.href = "/";
-    // }
+    function logout() {
+        localStorage.removeItem("token");
+        localStorage.removeItem("smid");
+        window.location.href = "/";
+    }
 
     return (
         <>
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container px-lg-5">
-                    <div class="row g-5">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">Set Sail for Samudramanthan!</h1>
-                            <p class="text-white pb-3 animated slideInDown">Experience a legendary voyage where knowledge, innovation, and exploration converge. Join us as we unravel the mysteries of the ocean and pioneer new waves in Ocean Engineering and Naval Architecture.</p>
-                            {/* {localStorage.getItem("token") ? (
+            <div className="container-xxl bg-primary hero-header">
+                <div className="container px-lg-5">
+                    <div className="row g-5">
+                        <div className="col-lg-8 text-center text-lg-start">
+                            <h1 className="text-white mb-4 animated slideInDown">Welcome to Samudramanthan</h1>
+                            {/* <p className="text-white pb-3 animated slideInDown">Dive deep into the mythical waters of Samudra Manthan, where gods and demons join forces to stir the ocean's depths and reveal its timeless wonders.</p> */}
+                            <p className="text-white pb-3 animated slideInDown">Our website is currently in test mode. Please follow our social media for updates. Some event details may be incorrect, but we will update them within the next two days.</p>
+                            {localStorage.getItem("token") ? (
                                 
-                                <a onClick={logout} class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">logout</a>
+                                <a onClick={logout} className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Logout</a>
                             ) : (
-                                <a href="/register" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
-                            )} */}
-                            <Link to="footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
+                                <a href="/register" className="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Register</a>
+                            )}
+                           <Link to="footer" className="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight"
                             spy={true}
                             smooth={true}
                             offset={50}
                             duration={500}
                             >Contact Us</Link>
                         </div>
-                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp mt-0" data-wow-delay="0.3s">
-                            <img class="img-fluid" src="img/logo.png" alt=""/>
+                        <div className="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp mt-0" data-wow-delay="0.3s">
+                            <img className="img-fluid" src="img/logo.png" alt=""/>
                         </div>
                     </div>
                 </div>

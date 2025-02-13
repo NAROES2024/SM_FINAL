@@ -4,32 +4,31 @@ import TeamData from "../data/TeamData";
 export default function Team() {
 
     return(
-        <div class="container-xxl py-5" id="pricing">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Samudramanthan 2025</h5>
-                    <h1 class="mb-5">Team</h1>
+        <div className="container-xxl py-5" id="pricing">
+            <div className="container py-5 px-lg-5">
+                <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 className="text-primary-gradient fw-medium">Samudramanthan 2025</h5>
+                    <h1 className="mb-5">Team</h1>
                 </div>
-                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="tab-content text-start">
-                        <div class="tab-pane fade show mb-4 active">
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div className="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                    <div className="tab-content text-start">
+                        <div className="tab-pane fade show mb-4 active">
+                            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                                 {TeamData.map((member) => (
-                                    <div class="col">
-                                    <div class="card h-100 text-center">
-                                        <img class="img-fluid bg-white rounded flex-shrink-0 p-1 mb-2 team-image"
+                                    <div className="col">
+                                    <div className="card h-100 text-center">
+                                        <img className="img-fluid bg-white rounded flex-shrink-0 p-1 mb-2"
                                             src={member.image}/>
-                                        <div class="ms-4">
-                                            <h5 class="mb-2">{member.name}</h5>
-                                            <p class="mb-2">{member.position}</p>
-                                            <div class="mb-4">
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.facebook} target="_blank" ><i
-                                                        class="fab fa-facebook-f"></i>
-                                                        </a>
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.instagram} target="_blank" ><i
-                                                        class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.linkedin} target="_blank"><i
-                                                        class="fab fa-linkedin-in"></i></a>
+                                        <div className="ms-4">
+                                            <h5 className="mb-2">{member.name}</h5>
+                                            <p className="mb-2">{member.position}</p>
+                                            <div className="mb-4">
+                                                <a className="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.facebook}><i
+                                                        className="fab fa-facebook-f"></i></a>
+                                                <a className="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.instagram}><i
+                                                        className="fab fa-instagram"></i></a>
+                                                <a className="btn btn-outline-light btn-social btn-secondary-gradient m-2" href={member.linkedin}><i
+                                                        className="fab fa-linkedin-in"></i></a>
                                             </div>
                                         </div>
                                     </div>

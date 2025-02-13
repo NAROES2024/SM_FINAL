@@ -1,6 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Screenshot() {
   const [name, setName] = useState("");
@@ -9,58 +10,93 @@ export default function Screenshot() {
   const [password, setPassword] = useState("");
   const [confirm_password, setConfirmPassword] = useState("");
   const [contact, setContact] = useState("");
-  const [Smessage, setSmessage] = useState("Please fill your email correctly all details will be sent to this email");
-  const [color, setColor] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const showToastMessage = (message, type) => {
+    if (type === "success") {
+      toast.success(message);
+    } else if (type === "warn") {
+      toast.warning(message);
+    } else {
+      toast.error(message);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password !== confirm_password) {
-      setSmessage("Password does not match");
-      setColor("text-warning");
-    } 
-    else if(name === "" || email === "" || college === "" || password === "" || confirm_password === "" || contact === ""){
-      setSmessage("Please fill all the fields");
-      setColor("text-warning");
-    }
-    else {
+    // Email validation regex
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (
+      name === "" ||
+      email === "" ||
+      college === "" ||
+      password === "" ||
+      confirm_password === "" ||
+      contact === ""
+    ) {
+      showToastMessage("Please fill all the fields", "error");
+      return;
+    } else if (!emailRegex.test(email)) {
+      showToastMessage("Please enter a valid email address", "error");
+      return;
+    } else if (password !== confirm_password) {
+      showToastMessage("Password does not match", "warn");
+      return;
+    } else {
       const data = {
-        name: name,
-        email: email,
-        college: college,
-        password: password,
-        contact: contact,
+        name,
+        email,
+        college,
+        password,
+        contact,
       };
-      console.log(data);
+
+      setLoading(true);
       axios
-        .post("http://localhost:5000/register", data)
+        .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/register", data)
         .then((res) => {
-          console.log(res);
-          setSmessage("Registration Successful");
-          setColor("message text-success");
+          if (res.status === 201) {
+            showToastMessage("Registration Successful", "success");
+            // Redirect to the login page after a short delay
+            setTimeout(() => {
+              window.location.href = "/register";
+            }, 1000);
+          }
         })
         .catch((err) => {
-          console.log(err);
-          setSmessage("Registration Failed");
-          setColor("message text-danger");
+          if (err.response) {
+            const { status, data } = err.response;
+            if (status === 400) {
+              showToastMessage(data.message || "Registration failed", "error");
+            } else if (status === 409) {
+              showToastMessage(data.message || "User already registered", "warn");
+            } else {
+              showToastMessage(data.message || "Registration Failed. Please try again.", "error");
+            }
+          } else if (err.request) {
+            showToastMessage("No response from server. Please check your connection.", "error");
+          } else {
+            showToastMessage("An error occurred. Please try again.", "error");
+          }
+        })
+        .finally(() => {
+          setLoading(false);
         });
     }
   };
 
   return (
     <>
-      <p class={"text-center fadeInUp "+color}>
-        {Smessage}
-      </p>
-      <div class="row justify-content-center">
-        <div class="col-lg-9">
-          <div class="wow fadeInUp" data-wow-delay="0.3s">
+      <div className="row justify-content-center">
+        <div className="col-lg-9">
+          <div className="wow fadeInUp" data-wow-delay="0.3s">
             <form>
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <div class="form-floating">
+              <div className="row g-3">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Your Name"
                       name="name"
@@ -70,11 +106,11 @@ export default function Screenshot() {
                     <label>Your Name</label>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Your Email"
                       name="email"
@@ -84,11 +120,11 @@ export default function Screenshot() {
                     <label>Your Email</label>
                   </div>
                 </div>
-                <div class="col-12">
-                  <div class="form-floating">
+                <div className="col-12">
+                  <div className="form-floating">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="subject"
                       placeholder="Subject"
                       name="college"
@@ -98,13 +134,13 @@ export default function Screenshot() {
                     <label>Your Institute name</label>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="password"
-                      class="form-control"
+                      className="form-control"
                       id="password"
-                      placeholder="Your Name"
+                      placeholder="Your Password"
                       name="password"
                       onChange={(e) => setPassword(e.target.value)}
                       required
@@ -112,13 +148,13 @@ export default function Screenshot() {
                     <label>Password</label>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="password"
-                      class="form-control"
+                      className="form-control"
                       id="confirm_password"
-                      placeholder="Your Name"
+                      placeholder="Confirm Password"
                       name="confirm_password"
                       onChange={(e) => setConfirmPassword(e.target.value)}
                       required
@@ -126,13 +162,13 @@ export default function Screenshot() {
                     <label>Confirm Password</label>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="contact"
-                      placeholder="Your contact"
+                      placeholder="Your Contact"
                       name="contact"
                       pattern="[0-9]{10}"
                       onChange={(e) => setContact(e.target.value)}
@@ -141,13 +177,14 @@ export default function Screenshot() {
                     <label>Contact number</label>
                   </div>
                 </div>
-                <div class="col-12 text-center">
+                <div className="col-12 text-center">
                   <button
-                    class="btn btn-primary-gradient rounded-pill py-3 px-5 mt-0 ml-0"
-                    onClick={(e) => handleSubmit(e)}
+                    className="btn btn-primary-gradient rounded-pill py-3 px-5 mt-0 ml-0"
+                    onClick={handleSubmit}
                     type="submit"
+                    disabled={loading}
                   >
-                    Register
+                    {loading ? "Registering..." : "Register"}
                   </button>
                 </div>
               </div>
@@ -155,6 +192,7 @@ export default function Screenshot() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

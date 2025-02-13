@@ -1,60 +1,52 @@
 const Events = [
-  {
-    name: "Boat Wars",
-    link: "/Boatwars",
-    poster: "img/event/BoatWars_Logo.png",
-    description:
-      "An exhilarating water battle where strategy meets skill, as participants navigate boats, kayaks, and canoes in a fight for victory.",
-  },
-  {
-    name: "Aqua-Innovate",
-    link: "/AquaMOD",
-    poster: "img/event/AquaInnovate_Logo.png",
-    description:
-      "Aqua-Innovate lets participants showcase their skills by enhancing vessel efficiency and encouraging critical thinking.",
-  },
-  {
-    name: "Aqua-Exposure",
-    link: "/Aquaexposure",
-    poster: "img/event/AquaExposure_Logo.png",
-    description:
-      "Aqua-Exposure showcases the importance of ocean engineering through unique photos.",
-  },
-  {
-    name: "CAD Quest",
-    link: "/Wavequest",
-    poster: "img/event/WaveQuest_Logo.png",
-    description:
-      "This event challenges participants to push the boundaries of CAD, fostering creativity and innovation to tackle real-world problems.",
-  },
-  {
-    name: "Deep Sea Dispustes",
-    link: "/dispustes",
-    poster: "img/event/DeepSeaDispustes_Logo.png",
-    description:
-      "A dynamic event where passionate debates ignite fresh ideas and creative solutions to protect our oceans for future generations.",
-  },
-  {
-    name: "Quizathon",
-    link: "/Quizathon",
-    poster: "img/event/Quizathon_Logo.png",
-description:
-      "Test your knowledge of ocean science, naval architecture, and puzzles while competing for the ultimate bragging rights.",
-  },
-  {
-    name: "Ocean Oddessey",
-    link: "/paperprep",
-    poster: "img/event/OceanOddessey_Logo.png",
-    description:
-      "Embark on Ocean Odyssey, facing challenges and sparking solutions to overcome obstacles with creativity and resilience.",
-  },
-  {
-    name: "Cryptic Clues",
-    link: "/CrypticClues",
-    poster: "img/event/CrypticClues_Logo.png",
-    description:
-      "Test your wits by solving puzzles, cracking codes, and uncovering hidden treasures on this thrilling adventure.",
-  },
+    {
+        name: "Aqua-Innovate",
+        link: "/AquaMOD",
+        poster: "/img/event/AquaInnovate.png",
+        description: "Showcase your creativity by modifying a vessel for better efficiency."
+    },
+    {
+        name: "Deep Sea Disputes",
+        link: "/Dispustes",
+        poster: "/img/event/DeepSeaDispustes.png",
+        description: "Engage in debates on ocean-related topics."
+    },
+    {
+        name: "Tressure Hunt",
+        link: "/Tressurehunt",
+        poster: "/img/event/CrypticClues.png",
+        description: "Solve puzzles and uncover hidden clues in this treasure hunt."
+    },
+    {
+        name: "Boat Wars",
+        link: "/Boatwars",
+        poster: "img/event/BoatWars.png",
+        description: "Compete in boat racing, tug of war, and waste cleaning challenges."
+    },
+    {
+        name: "Quizathon",
+        link: "/Quizathon",
+        poster: "/img/event/Quizathon.png",
+        description: "A general knowledge quiz on ocean and naval topics."
+    },
+    {
+        name: "Capture the Water",
+        link: "/Aquaexposure",
+        poster: "/img/event/AquaExposure.png",
+        description: "Showcase ocean engineering through original photographs."
+    },
+    {
+        name: "WaveQuest",
+        link: "/Wavequest",
+        poster: "/img/event/WaveQuest.png",
+        description: "Solve real-world ocean engineering case studies."
+    },
+    {
+        name: "Paper Prep",
+        link: "/Oceanoddessy",
+        poster: "/img/event/Oceanoddessy.png",
+        description: "Explore research and innovation in ocean studies."
+    }
 ];
 
 export default Events;
