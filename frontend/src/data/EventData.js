@@ -7,9 +7,9 @@ const EventData = [
       description:
         "Aqua-Innovate is an event that gives an unique opportunity to showcase your skills in a real-life setting. It challenges participants to unleash their creativity and critical thinking by modifying a vessel in a way that improves its efficiency in terms of both usage and cost. By participating in this event, you'll have the chance to create something that boosts your problem-solving abilities.",
       teamSize: "1",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -79,9 +79,9 @@ const EventData = [
       description:
         "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
       teamSize: "3-4",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -146,9 +146,9 @@ const EventData = [
       poster: "img/event/CrypticClues.png",
       description:
         "Welcome to the thrilling treasure hunt of Samudra Manthan 2023! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -203,9 +203,9 @@ const EventData = [
       poster: "img/event/BoatWars.png",
       description:
         "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -256,9 +256,9 @@ const EventData = [
       poster: "img/event/Quizathon.png",
       description:
         "Quizathon is a distinctive general knowledge competition designed for quiz enthusiasts eager to participate. The event revolves around a question-and-answer format, targeting individuals passionate about expanding their knowledge of the ocean, naval architecture, and puzzle-solving. Beyond just being a fun event, it offers participants a unique opportunity for creative self-assessment and personal growth in a relaxed, enjoyable environment.",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -312,9 +312,9 @@ const EventData = [
       poster: "img/event/AquaExposure.png",
       description:
         "This event aims to showcase the significance of ocean engineering and naval architecture through captivating and original photographs. It also encourages ethical responsibility among photographers, emphasizing integrity and authenticity in their art, creating a platform to celebrate these fields while upholding high creative and professional standards.",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -366,9 +366,9 @@ const EventData = [
       poster: "img/event/WaveQuest.png",
       description:
         "WaveQuest is an exhilarating Ocean Engineering Case Study Competition that challenges participants to tackle real-world ocean engineering problems, igniting ingenuity, collaboration, critical thinking, and problem-solving skills. Participants navigate offshore structures, marine renewable energy, coastal management, and underwater systems, blending innovation and expertise to unravel maritime complexities and create solutions that resonate with the ever-evolving tides of innovation. WaveQuest is a journey beyond the ordinary, propelling participants to the forefront of modern engineering, where possibilities converge with the ocean of imagination.",
-      fee: "₹100",
-      prize: "₹3000",
-      date: "21st March 2025",
+      fee: "",
+      prize: "",
+      date: "",
       brochure:
         "",
       submission: "",
@@ -425,9 +425,9 @@ const EventData = [
           poster: "img/event/Oceanoddessy.png",
           description:
             "In an ever-changing world, the challenges of daily life are progressively intensifying. Each passing day brings forth greater difficulties, making it imperative to discover effective solutions and inspire fresh ideas to overcome these obstacles. Research plays a crucial role in this process, as it enables individuals     from around the globe to gather pertinent information  and guide innovation towards the correct course of action. Samudramanthan, Indian Institute of Technology, Kharagpur, is committed to cultivating a culture of research and innovation in our nation.",
-          fee: "₹100",
-          prize: "₹3000",
-          date: "21st March 2025",
+          fee: "",
+          prize: "",
+          date: "",
           brochure:
             "",
           submission: "",
