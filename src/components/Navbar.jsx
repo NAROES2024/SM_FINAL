@@ -54,7 +54,7 @@ function Navbar({ page }) {
             <a href="/team" className={"nav-item nav-link" + team}>
               Our Team
             </a>
-            <a href="https://rzp.io/l/mqeVcsDh" className={"nav-item nav-link" + accommodation}>
+            <a href="https://rzp.io/l/NmRVDe7" className={"nav-item nav-link" + accommodation}>
               Accommodation
             </a>
             {/* <a href="/cap" className={"nav-item nav-link" + cap}>
