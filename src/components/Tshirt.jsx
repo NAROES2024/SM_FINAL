@@ -172,7 +172,7 @@ function Tshirt() {
             <h5 className="text-primary-gradient fw-medium">Buy now</h5>
             <h1 className="mb-4">Get ready for Samudramanthan</h1>
             <p className="mb-4">
-              If you want to participate in Samudramanthan 2024, you must first create your SM ID and then
+              If you want to participate in Samudramanthan 2025, you must first create your SM ID and then
               purchase a T-shirt. Please use the button below to do so.
             </p>
             <div className="row g-4">
