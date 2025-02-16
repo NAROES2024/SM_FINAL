@@ -17,7 +17,7 @@ export default function Team() {
                                 {TeamData.map((member) => (
                                     <div className="col">
                                     <div className="card h-100 text-center">
-                                        <img className="img-fluid bg-white rounded flex-shrink-0 p-1 mb-2"
+                                        <img className="img-fluid bg-white rounded flex-shrink-0 p-1 mb-2 team-image"
                                             src={member.image}/>
                                         <div className="ms-4">
                                             <h5 className="mb-2">{member.name}</h5>

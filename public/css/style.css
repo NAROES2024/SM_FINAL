@@ -690,3 +690,9 @@ h6,
     color: var(--dark);
     scale: 1.1;
 }
+
+.team-image {
+    width: 100%; 
+    height: 70%; 
+    object-fit: cover; 
+}

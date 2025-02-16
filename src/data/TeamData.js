@@ -96,23 +96,23 @@ const TeamData = [
     //     instagram: "https://www.instagram.com/namanya_1239/",
     // },
 
-    // {
-    //     name: "Toni blair",
-    //     position: "Design Sub-Head",
-    //     image: "img/team/toni.jpg",
-    //     linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
-    //     facebook: "",
-    //     instagram: "",
-    // },
+    {
+        name: "Toni blair",
+        position: "Design Sub-Head",
+        image: "img/team/toni.jpg",
+        linkedin: "https://www.linkedin.com/in/toni-blair-a61b57297/",
+        facebook: "",
+        instagram: "",
+    },
   
-    // {
-    //     name: "Harsh Rai",
-    //     position: "Core Sub-Head",
-    //     image: "img/team/harsh.jpg",
-    //     linkedin: "https://www.linkedin.com/in/harsh-rai-18525618b/",
-    //     facebook: "https://www.facebook.com/profile.php?id=100029291851467",
-    //     instagram: "",
-    // },
+    {
+        name: "Harsh Rai",
+        position: "Core Sub-Head",
+        image: "img/team/harsh.jpg",
+        linkedin: "https://www.linkedin.com/in/harsh-rai-18525618b/",
+        facebook: "https://www.facebook.com/profile.php?id=100029291851467",
+        instagram: "",
+    },
 ]
 
 export default TeamData;
