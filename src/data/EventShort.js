@@ -35,18 +35,18 @@ const Events = [
         poster: "/img/event/AquaExposure.png",
         description: "Showcase ocean engineering through original photographs."
     },
-    {
-        name: "WaveQuest",
-        link: "/Wavequest",
-        poster: "/img/event/WaveQuest.png",
-        description: "Solve real-world ocean engineering case studies."
-    },
-    {
-        name: "Paper Prep",
-        link: "/Oceanoddessy",
-        poster: "/img/event/Oceanoddessy.png",
-        description: "Explore research and innovation in ocean studies."
-    }
+    // {
+    //     name: "WaveQuest",
+    //     link: "/Wavequest",
+    //     poster: "/img/event/WaveQuest.png",
+    //     description: "Solve real-world ocean engineering case studies."
+    // },
+    // {
+    //     name: "Paper Prep",
+    //     link: "/Oceanoddessy",
+    //     poster: "/img/event/Oceanoddessy.png",
+    //     description: "Explore research and innovation in ocean studies."
+    // }
 ];
 
 export default Events;
