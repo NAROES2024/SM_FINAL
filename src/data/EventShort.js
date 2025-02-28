@@ -29,16 +29,16 @@ const Events = [
         poster: "https://i.postimg.cc/Bb4tSm9m/Quizathon-Logo.png",
         description: "A general knowledge quiz on ocean and naval topics."
     },
-    {
-        name: "Capture the Water",
-        link: "/Aquaexposure",
-        poster: "/img/event/AquaExposure.png",
-        description: "Showcase ocean engineering through original photographs."
-    },
+    // {
+    //     name: "Capture the Water",
+    //     link: "/Aquaexposure",
+    //     poster: "/img/event/AquaExposure.png",
+    //     description: "Showcase ocean engineering through original photographs."
+    // },
     {
         name: "WaveQuest",
         link: "/Wavequest",
-        poster: "/img/event/WaveQuest.png",
+        poster: "https://i.postimg.cc/KvdWWwPS/wave-quest-png.png",
         description: "Solve real-world ocean engineering case studies."
     },
     {
