@@ -74,11 +74,11 @@ const EventData = [
 
   {
     id: 2,
-    name: "Deep Sea Dispustes",
+    name: "Deep Sea Disputes",
     link: "Dispustes",
     poster: "/img/event/DeepSeaDispustes.png",
     description:
-      "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
+      "Deep Sea Disputes is a dynamic debate competition where participants navigate complex challenges in Ocean Engineering and Naval Architecture. Across three intense rounds, competitors must think critically, defend their views, and emerge as the most insightful debaters in these uncharted waters!",
     teamSize: "3-4",
     maxTeamSize: 4,
     fee: "₹100",
@@ -143,11 +143,11 @@ const EventData = [
   },
   {
     id: 3,
-    name: "Tressure Hunt",
+    name: "Maritime Mystery",
     link: "Tressurehunt",
     poster: "/img/event/CrypticClues.png",
     description:
-      "Welcome to the thrilling treasure hunt of Samudra Manthan 2025! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
+      "Maritime Mystery: The Ultimate Treasure Hunt is an exciting event where participants navigate marine-themed puzzles, riddles, and word challenges to uncover hidden treasure. With time-penalized hints, it’s a test of wit, perseverance, and maritime knowledge!",
     fee: "₹100",
     teamSize: "1",
     maxTeamSize: 1,
