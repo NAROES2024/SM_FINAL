@@ -74,18 +74,19 @@ const EventData = [
 
   {
     id: 2,
-    name: "Deep Sea Dispustes",
+    name: "Deep Sea Disputes",
     link: "Dispustes",
     poster: "/img/event/DeepSeaDispustes.png",
     description:
-      "The Ocean Matters debate is an engaging event that aims to stimulate critical thinking, research skills, and public speaking abilities among participants. It provides a platform for lively discussions and debates on important ocean-related topics, encouraging participants to delve into the complexities of marine conservation and explore various perspectives.",
+      "Deep Sea Disputes is a dynamic debate competition where participants navigate complex challenges in Ocean Engineering and Naval Architecture. Across three intense rounds, competitors must think critically, defend their views, and emerge as the most insightful debaters in these uncharted waters!",
     teamSize: "3-4",
     maxTeamSize: 4,
-    fee: "₹100",
-    fees: 100,
-    prize: "₹3000",
+    fee: "₹200",
+    fees: 200,
+    prize: "₹15000",
     date: "21st March 2025",
-    brochure: "",
+    brochure:
+      "https://drive.google.com/drive/folders/1oKXqVmWEurGN1ZG2KBVK6YfC7C7tAzm1?usp=drive_link",
     submission: "",
     rulestab: [
       {
@@ -119,15 +120,15 @@ const EventData = [
         data: [
           "Participants will be assessed on these criteria",
 
-          "1  Knowledge and Research 15 Marks How well you understand the topic with accurate facts and evidence",
+          "1. Knowledge and Research - 15 Marks - How well you understand the topic with accurate facts and evidence",
 
-          "2  Communication and Presentation 10 Marks How clearly and persuasively you present your arguments using logical reasoning examples and evidence",
+          "2. Communication and Presentation - 10 Marks - How clearly and persuasively you present your arguments using logical reasoning examples and evidence",
 
-          "3  Rebuttal and Counter Arguments 15 Marks Your ability to respond to opposing arguments with well-articulated counterpoints and refutations",
+          "3. Rebuttal and Counter Arguments - 15 Marks - Your ability to respond to opposing arguments with well-articulated counterpoints and refutations",
 
-          "4  Engagement and Participation 5 Marks How actively you engage in the debate respect others' opinions and involve the audience",
+          "4. Engagement and Participation - 5 Marks - How actively you engage in the debate respect others' opinions and involve the audience",
 
-          "5  Overall Impact 5 Marks The coherence of your arguments your ability to make a compelling case and your demonstration of critical thinking",
+          "5. Overall Impact - 5 Marks - The coherence of your arguments your ability to make a compelling case and your demonstration of critical thinking",
         ],
       },
       {
@@ -135,7 +136,7 @@ const EventData = [
         heading: "Prizes",
         data: [
           "- All participants get participation certificates.",
-          "- Top 3 in the Debate event win a total of ₹20,000.",
+          "- Top 3 in the Debate event win a total of ₹15,000.",
           "- Winners receive e-certificates and social media recognition.",
         ],
       },
@@ -143,18 +144,19 @@ const EventData = [
   },
   {
     id: 3,
-    name: "Tressure Hunt",
+    name: "Maritime Mystery",
     link: "Tressurehunt",
     poster: "/img/event/CrypticClues.png",
     description:
-      "Welcome to the thrilling treasure hunt of Samudra Manthan 2025! Join us on an exciting voyage to uncover priceless artifacts and hints. Solve puzzles, crack codes, and unveil mysteries as you embark on this unique adventure. Are you ready to accept the challenge and unleash your inner explorer? The journey has begun!",
-    fee: "₹100",
+      "Maritime Mystery: The Ultimate Treasure Hunt is an exciting event where participants navigate marine-themed puzzles, riddles, and word challenges to uncover hidden treasure. With time-penalized hints, it’s a test of wit, perseverance, and maritime knowledge!",
+    fee: "₹120",
     teamSize: "1",
     maxTeamSize: 1,
-    fees: 100,
-    prize: "₹3000",
+    fees: 120,
+    prize: "₹15000",
     date: "21st March 2025",
-    brochure: "",
+    brochure:
+      "https://drive.google.com/drive/folders/1tdeXAHMGXbfa5zRCYJhxIiiBTcXLznPM?usp=drive_link",
     submission: "",
     rulestab: [
       {
@@ -181,6 +183,28 @@ const EventData = [
         ],
       },
       {
+        tabId: "3",
+        heading: "Evaluation Criteria",
+        data: [
+          "The evaluation will be based on the following criteria:",
+          "1. Creativity",
+          "2. Originality",
+          "The winner will be the first player to solve all the given cryptic clues cleverly in the given time.",
+        ],
+      },
+      {
+        tabId: "4",
+        heading: "Prizes",
+        data: [
+          "The top 3 winners will be awarded cash prizes and certificates.",
+          "1st Prize: ₹7500",
+          "2nd Prize: ₹4500",
+          "3rd Prize: ₹3000",
+        ],
+      },
+    ],
+  },      
+  {
         tabId: "3",
         heading: "Evaluation Criteria",
         data: [
