@@ -696,3 +696,33 @@ h6,
     height: 70%; 
     object-fit: cover; 
 }
+
+.spons-img {
+    height: 275px;
+    align-items: center;
+    justify-content: center;    
+}
+
+@media (max-width: 600px) {
+    .spons-img {
+        height: auto;
+        width: 80%;
+        align-items: center;
+        justify-self: center;
+    }
+}
+
+.spons-img-major {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .spons-img-major {
+        height: auto;
+        width: 100%;
+    }
+}

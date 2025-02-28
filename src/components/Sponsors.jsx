@@ -33,7 +33,7 @@ function Sponsors() {
           <div className="row row-cols-1 row-cols-md-1 g-4 my-2 animated slideInRight">
             <div className="spons_width2 col">
               <div className="card h-100">
-                <img src="img\Spons\Vedam.png" className="card-img-top" alt="" />
+                <img src="img\Spons\Vedam.png" className="card-img-top spons-img-major" alt="" />
               </div>
             </div>
             <h5 className="spons_txt my-4">Major Sponsor</h5>
