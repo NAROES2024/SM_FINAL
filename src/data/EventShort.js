@@ -1,32 +1,32 @@
 const Events = [
     {
-        name: "Aqua-Innovate",
+        name: "Aqua-Exposure",
         link: "/AquaMOD",
-        poster: "/img/event/AquaInnovate.png",
+        poster: "https://i.postimg.cc/GtyzRhRF/Aqua-Innovate-Logo.png",
         description: "Showcase your creativity by modifying a vessel for better efficiency."
     },
     {
         name: "Deep Sea Disputes",
         link: "/Dispustes",
-        poster: "/img/event/DeepSeaDispustes.png",
-        description: "Engage in debates on ocean-related topics."
+        poster: "https://i.postimg.cc/j5GQM0fL/Deep-Sea-Dispustes-Logo-1.png",
+        description: "Engage in debates on ocean-related topics. Showcase your debating skills"
     },
     {
-        name: "Tressure Hunt",
+        name: "Marine Time Mystery",
         link: "/Tressurehunt",
-        poster: "/img/event/CrypticClues.png",
+        poster: "https://i.postimg.cc/Y91hBJV4/Cryptic-Clues-Logo.png",
         description: "Solve puzzles and uncover hidden clues in this treasure hunt."
     },
     {
         name: "Boat Wars",
         link: "/Boatwars",
-        poster: "img/event/BoatWars.png",
+        poster: "https://i.postimg.cc/Pq7mqs22/Boat-Wars-Logo.png",
         description: "Compete in boat racing, tug of war, and waste cleaning challenges."
     },
     {
         name: "Quizathon",
         link: "/Quizathon",
-        poster: "/img/event/Quizathon.png",
+        poster: "https://i.postimg.cc/Bb4tSm9m/Quizathon-Logo.png",
         description: "A general knowledge quiz on ocean and naval topics."
     },
     {
@@ -35,18 +35,18 @@ const Events = [
         poster: "/img/event/AquaExposure.png",
         description: "Showcase ocean engineering through original photographs."
     },
-    // {
-    //     name: "WaveQuest",
-    //     link: "/Wavequest",
-    //     poster: "/img/event/WaveQuest.png",
-    //     description: "Solve real-world ocean engineering case studies."
-    // },
-    // {
-    //     name: "Paper Prep",
-    //     link: "/Oceanoddessy",
-    //     poster: "/img/event/Oceanoddessy.png",
-    //     description: "Explore research and innovation in ocean studies."
-    // }
+    {
+        name: "WaveQuest",
+        link: "/Wavequest",
+        poster: "/img/event/WaveQuest.png",
+        description: "Solve real-world ocean engineering case studies."
+    },
+    {
+        name: "Paper Prep",
+        link: "/Oceanoddessy",
+        poster: "/img/event/Oceanoddessy.png",
+        description: "Explore research and innovation in ocean studies."
+    }
 ];
 
 export default Events;

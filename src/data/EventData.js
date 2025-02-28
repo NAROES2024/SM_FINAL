@@ -1,7 +1,7 @@
 const EventData = [
   {
     id: 1,
-    name: "Aqua-Innovate",
+    name: "Aqua-Exposure",
     link: "AquaMOD",
     poster: "/img/event/AquaInnovate.png",
     description:
@@ -269,7 +269,7 @@ const EventData = [
     link: "Quizathon",
     poster: "/img/event/Quizathon.png",
     description:
-      "Quizathon is a distinctive general knowledge competition designed for quiz enthusiasts eager to participate. The event revolves around a question-and-answer format, targeting individuals passionate about expanding their knowledge of the ocean, naval architecture, and puzzle-solving. Beyond just being a fun event, it offers participants a unique opportunity for creative self-assessment and personal growth in a relaxed, enjoyable environment.",
+      "Quizathon is a thrilling general knowledge competition at Samudramanthan, testing participants on ocean facts, naval architecture, and puzzle-solving. With three dynamic stages, it challenges knowledge, strategy, and quick thinking to crown the ultimate winner!",
     fee: "₹100",
     teamSize: "1",
     maxTeamSize: 2,
