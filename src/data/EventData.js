@@ -148,12 +148,12 @@ const EventData = [
     link: "Treasurehunt",
     poster: "/img/event/CrypticClues.png",
     description:
-      "Maritime Mystery: The Ultimate Treasure Hunt is an exciting event where participants navigate marine-themed puzzles, riddles, and word challenges to uncover hidden treasure. With time-penalized hints, it’s a test of wit, perseverance, and maritime knowledge!",
+      "Maritime Mystery, the Ultimate Treasure Hunt is an exciting event where participants navigate marine-themed puzzles, riddles, and word challenges to uncover hidden treasure. With time-penalized hints, it’s a test of wit, perseverance, and maritime knowledge!",
     fee: "₹120",
     teamSize: "1",
     maxTeamSize: 1,
     fees: 120,
-    prize: "₹15000",
+    prize: "₹12000",
     date: "21st March 2025",
     brochure:
       "https://drive.google.com/drive/folders/1tdeXAHMGXbfa5zRCYJhxIiiBTcXLznPM?usp=drive_link",
@@ -163,12 +163,11 @@ const EventData = [
         tabId: "1",
         heading: "Stages and Timeline",
         data: [
-          "Complete a nautical word search puzzle containing terms related to oceans and marine life",
-          "Printed word search puzzles will be provided for all the participants",
+          "It will be played on an App more details will be provided soon",
+          "Unlock clues for the final location upon solving the riddles",
           "Receive a hint for the next challenge upon completion",
-          "Participants will face a 20-minute penalty for taking a hint, which doubles with each additional hint",
-          "Unscramble jumbled words to form correct terms,Participants have the option to request hints, with a 20-minute penalty for each hint that doubles with subsequent hints",
-          "Unlock clues for the final location upon solving the riddles,Participants will get 10 minutes penalty which doubles for every subsequent wrong answer",
+          "Participants will get 10 minutes penalty which doubles for every subsequent wrong answer",
+          
         ],
       },
       {
@@ -197,9 +196,9 @@ const EventData = [
         heading: "Prizes",
         data: [
           "The top 3 winners will be awarded cash prizes and certificates.",
-          "1st Prize: ₹7500",
-          "2nd Prize: ₹4500",
-          "3rd Prize: ₹3000",
+          "1st Prize: ₹6000",
+          "2nd Prize: ₹3600",
+          "3rd Prize: ₹2400",
         ],
       },
     ],
