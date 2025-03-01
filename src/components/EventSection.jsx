@@ -11,18 +11,18 @@ function EventSection() {
                     <h1 className="mb-5">Events</h1>
                 </div>
                 <div className="row g-4 d-flex flex-wrap align-items-start justify-content-start">
-    {Events.map((event, index) => (
-        <div key={index} className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <a href={"/event" + event.link}>
-                <div className="feature-item bg-light rounded p-4">
-                    <img src={event.poster} alt="High Resolution Icon" className="event-poster bg-primary-gradient rounded"/>
-                    <h5 className="mb-3">{event.name}</h5>
-                    <p style={{color:"#919294"}} className="m-0">{event.description}</p>
+                    {Events.map((event, index) => (
+                        <div key={index} className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <a href={"/event" + event.link}>
+                                <div className="feature-item bg-light rounded p-4">
+                                    <img src={event.poster} alt="High Resolution Icon" className="event-poster bg-primary-gradient rounded"/>
+                                    <h5 className="mb-3">{event.name}</h5>
+                                    <p style={{color:"#919294"}} className="m-0">{event.description}</p>
+                                </div>
+                            </a>
+                        </div>
+                    ))}
                 </div>
-            </a>
-        </div>
-    ))}
-</div>
 
             </div>
         </div>
