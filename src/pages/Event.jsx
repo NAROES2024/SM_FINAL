@@ -18,7 +18,7 @@ function Event({event}) {
             <div className="container-xxl position-relative p-0" id="home">
                 <Navbar />
             </div>
-            <EventSection/> {/* Passing event data as prop */}
+            <EventDetail event={event}/> {/* Passing event data as prop */}
             <Footer />
         </div>
     );
