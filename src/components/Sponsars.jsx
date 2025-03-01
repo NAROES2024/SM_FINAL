@@ -31,12 +31,21 @@ function Sponsors() {
 
         <div className="container my-2 text-center d-flex justify-content-center flex-column align-items-center">
           <div className="row row-cols-1 row-cols-md-1 g-4 my-2 animated slideInRight">
-            <div className="spons_width2 col">
+            <div className="col">
               <div className="card h-100">
                 <img src="img\Spons\Vedam.png" className="card-img-top" alt="" />
               </div>
             </div>
             <h5 className="spons_txt my-4">Major Sponsor</h5>
+          </div>
+
+          <div className="row row-cols-1 row-cols-md-1 g-4 my-2 animated slideInRight center">
+            <div className="col width-120">
+              <div className="card h-100">
+                <img src="img\Spons\boyancy.jpg" className="card-img-top" alt="" />
+              </div>
+            </div>
+            <h5 className="spons_txt my-4">Event Sponsor</h5>
           </div>
 
 
@@ -59,17 +68,39 @@ function Sponsors() {
 
             <div className="spons_width3 col">
               <div className="card spons-img">
-                <img src="img\Spons\campus-times-square.png" className="card-img-top" alt="" />
-              </div>
-              <h5 className="spons_txt my-4">Online Media Partner</h5>
-            </div>
-
-            <div className="spons_width3 col">
-              <div className="card spons-img">
                 <img src="img\Spons\irclass.png" className="card-img-top" alt="" />
               </div>
               <h5 className="spons_txt my-4">Event Sponsor</h5>
             </div>
+            
+            <div className="spons_width3 col">
+              <div className="card spons-img">
+                <img src="img\Spons\Invent-Ocean.jpg" className="card-img-top resize" alt="" />
+              </div>
+              <h5 className="spons_txt my-4">Event Sponsor</h5>
+            </div>
+
+            <div className="spons_width3 col">
+              <div className="card spons-img">
+                <img src="img\Spons\cbc.png" className="card-img-top" alt="" />
+              </div>
+              <h5 className="spons_txt my-4">Event Sponsor</h5>
+            </div>
+
+            <div className="spons_width3 col">
+              <div className="card spons-img">
+                <img src="img\Spons\sah.png" className="card-img-top resize" alt="" />
+              </div>
+              <h5 className="spons_txt my-4">Event Sponsor</h5>
+            </div>
+
+            <div className="spons_width3 col">
+              <div className="card spons-img">
+                <img src="img\Spons\campus-times-square.png" className="card-img-top" alt="" />
+              </div>
+              <h5 className="spons_txt my-4">Online Media Partner</h5>
+            </div>
+          
           </div>
 
 
