@@ -205,28 +205,6 @@ const EventData = [
     ],
   },      
   {
-        tabId: "3",
-        heading: "Evaluation Criteria",
-        data: [
-          "The evaluation will be based on the following criteria:",
-          "1. Creativity",
-          "2. Originality",
-          "The winner will be the first player to solve all the given cryptic clues cleverly in the given time.",
-        ],
-      },
-      {
-        tabId: "4",
-        heading: "Prizes",
-        data: [
-          "The top 3 winners will be awarded cash prizes and certificates.",
-          "1st Prize: ₹5000",
-          "2nd Prize: ₹3000",
-          "3rd Prize: ₹2000",
-        ],
-      },
-    ],
-  },
-  {
     id: 4,
     name: "Boat Wars",
     link: "Boatwars",
