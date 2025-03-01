@@ -72,8 +72,8 @@ function EventDetail({ event }) {
 
           <div className="row">
             <div className="col-lg-8 mb-3">
-              <img src={event.poster} className="img-fluid" alt="" />
-              <p className="mt-4 text-center">{event.description}</p>
+              <img src={event.poster} className="img-fluid" alt="event-image" />
+              {/* <p className="mt-4 text-center">{event.description}</p> */}
             </div>
             <div className="col-lg-4">
               <div className="course-info d-flex justify-content-between align-items-center mb-2">
@@ -108,7 +108,8 @@ function EventDetail({ event }) {
                 </p>
               </div>
 
-              <div className="course-info d-flex justify-content-between align-items-center mb-2">
+              {event.submission!==undefined ? (
+                <div className="course-info d-flex justify-content-between align-items-center mb-2">
                 <h5>Submission</h5>
                 <p>
                   <a
@@ -119,6 +120,12 @@ function EventDetail({ event }) {
                   </a>
                 </p>
               </div>
+              ): 
+              (
+              <>
+              </>
+              )}
+              
 
               {localStorage.getItem("token") ? (
                 <div className="course-info d-flex justify-content-between align-items-center mb-2">
