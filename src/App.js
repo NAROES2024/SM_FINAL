@@ -12,7 +12,7 @@ import Register from './pages/Register';
 // import Cap from './pages/Cap';
 // import Schedule from './pages/Schedule';
 import Profile from './pages/profile';
-
+import AllEvent from './pages/AllEvent';
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +21,7 @@ function App() {
         {EventData.map((event) => (
           <Route path={`/event/${event.link}`} element={<Event event={event} />} />
         ))}
-        <Route path='/event/' element={<Event />} />
+        <Route path='/events' element={<AllEvent />} />
         <Route path="/about" element={<About />} />
         <Route path='/team' element={<SmTeam />} />
         <Route path="/gallery" element={<Gallery />} />

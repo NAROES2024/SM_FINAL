@@ -43,7 +43,7 @@ function Navbar({ page }) {
             <a href="/" className={"nav-item nav-link" + home}>
               Home
             </a>
-            <a href="/event" className={"nav-item nav-link" + event}>
+            <a href="/events" className={"nav-item nav-link" + event}>
               Events
             </a>
             <a href="/about" className={"nav-item nav-link" + about}>
