@@ -6,6 +6,7 @@ function Navbar({ page }) {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const home = page === "home" ? " active" : "";
+  const event = page === "event" ? " active" : "";
   const about = page === "about" ? " active" : "";
   const gallery = page === "gallery" ? " active" : "";
   const team = page === "team" ? " active" : "";
@@ -42,9 +43,9 @@ function Navbar({ page }) {
             <a href="/" className={"nav-item nav-link" + home}>
               Home
             </a>
-            {/* <a href="/event" className={"nav-item nav-link" + event}>
+            <a href="/event" className={"nav-item nav-link" + event}>
               Events
-            </a> */}
+            </a>
             <a href="/about" className={"nav-item nav-link" + about}>
               About
             </a>
