@@ -19,12 +19,12 @@ function CapSection() {
     }
 
     axios
-      .get("http://localhost:5000/user", { headers: { token } })
+      .get("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/user", { headers: { token } })
       .then((res) => setData(res.data.data))
       .catch((err) => console.error("Error fetching user:", err));
 
     axios
-      .post("http://localhost:5000/cap/isregistered", { token })
+      .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/cap/isregistered", { token })
       .then((res) => {
         if (res.data.status === "success") {
           setIsSubmitted(true);
@@ -56,7 +56,7 @@ function CapSection() {
         whysm,
       };
 
-      const res = await axios.post("http://localhost:5000/cap", Capdata);
+      const res = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/cap", Capdata);
 
       if (res.data.status === "success") {
         setIsSubmitted(true);

@@ -42,7 +42,7 @@ function Tshirt() {
       }
 
       try {
-        const response = await axios.post("http://localhost:5000/tshirt/isregistered", { token });
+        const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt/isregistered", { token });
         const { smId, status, register } = response.data;
 
         if (status === "success") {
@@ -85,7 +85,7 @@ function Tshirt() {
     setLoading(true);
 
     try {
-      const { data } = await axios.post("http://localhost:5000/orders", {
+      const { data } = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/orders", {
         token,
         size: selectedSize,
         type: "tshirt",
@@ -113,7 +113,7 @@ function Tshirt() {
         image: "/img/logo.png",
         handler: async (response) => {
           try {
-            const verifyResponse = await axios.post("http://localhost:5000/verify-payment/tshirt", {
+            const verifyResponse = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/verify-payment/tshirt", {
               razorpay_order_id: response.razorpay_order_id,
               razorpay_payment_id: response.razorpay_payment_id,
               razorpay_signature: response.razorpay_signature,

@@ -53,7 +53,7 @@ export default function Screenshot() {
 
       setLoading(true);
       axios
-        .post("http://localhost:5000/register", data)
+        .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/register", data)
         .then((res) => {
           if (res.status === 201) {
             showToastMessage("Registration Successful", "success");

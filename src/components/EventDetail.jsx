@@ -22,7 +22,7 @@ function EventDetail({ event }) {
     if (localStorage.getItem("token") && event) {
       const checkRegistration = async () => {
         try {
-          const response = await axios.post("http://localhost:5000/event/isregistered", {
+          const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/event/isregistered", {
             token: localStorage.getItem("token"),
             link: event.link,
           });
@@ -66,7 +66,7 @@ function EventDetail({ event }) {
       <div className="container-xxl py-5">
         <div className="container py-5 px-lg-5">
           <div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-            <h5 className="text-primary-gradient fw-medium">How It Works</h5>
+            <h5 className="text-primary-gradient fw-medium">Event Details</h5>
             <h1 className="mb-2">{event.name}</h1>
           </div>
 

@@ -41,7 +41,7 @@ function Footer() {
               <a className="btn btn-link" href="/">
                 Home
               </a>
-              <a className="btn btn-link" href="/event">
+              <a className="btn btn-link" href="/events">
                 Events
               </a>
               <a className="btn btn-link" href="/about">
@@ -52,6 +52,9 @@ function Footer() {
               </a>
               <a className="btn btn-link" href="team">
                 Our Team
+              </a>
+              <a className="btn btn-link" href="https://rzp.io/l/NmRVDe7">
+                Accommodation
               </a>
               {/* <a className="btn btn-link" href="/cap">
                 CAP

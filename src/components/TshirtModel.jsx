@@ -31,7 +31,7 @@ function TshirtModal(props) {
       referral: referral || null, // Add referral code to the request
     };
     axios
-      .post("http://localhost:5000/tshirt", data)
+      .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt", data)
       .then((res) => {
         console.log("response: ");
         console.log(res);
@@ -56,7 +56,7 @@ function TshirtModal(props) {
       name: "Capature the water Registeration", //your business name
       description: "Test Transaction",
       image: "img/logo.png",
-      callback_url: "http://localhost:5000/success/tshirt",
+      callback_url: "https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/success/tshirt",
       prefill: {
         //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
         name: data.name,

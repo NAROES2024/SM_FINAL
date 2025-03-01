@@ -60,7 +60,7 @@ function MyVerticallyCenteredModal(props) {
         teammembers: filteredTeamMembers,
       };
 
-      const response = await axios.post("http://localhost:5000/orders", body);
+      const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/orders", body);
 
       if (response.data.status === "success") {
         return response.data;
@@ -105,7 +105,7 @@ function MyVerticallyCenteredModal(props) {
         image: "/img/logo.png",
         handler: async (response) => {
           try {
-            const verifyResponse = await axios.post("http://localhost:5000/verify-payment/event", {
+            const verifyResponse = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/verify-payment/event", {
               razorpay_order_id: response.razorpay_order_id,
               razorpay_payment_id: response.razorpay_payment_id,
               razorpay_signature: response.razorpay_signature,

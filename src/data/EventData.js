@@ -78,57 +78,63 @@ const EventData = [
     link: "Dispustes",
     poster: "/img/event/DeepSeaDispustes.png",
     description:
-      "Deep Sea Disputes is a dynamic debate competition where participants navigate complex challenges in Ocean Engineering and Naval Architecture. Across three intense rounds, competitors must think critically, defend their views, and emerge as the most insightful debaters in these uncharted waters!",
+      "Deep Sea Disputes invites participants on a captivating journey to explore the depths of their understanding and surface with compelling arguments that navigate the uncharted waters of contemporary challenges in Ocean Engineering and Naval Architecture. Competitors will engage in three dynamic rounds, each meticulously designed to test their knowledge, critical thinking, and ability to articulate and defend their perspectives. Prepare to Dive Deep into the ocean of knowledge, where only the most insightful and articulate debaters will rise to victory!",
     teamSize: "3-4",
     maxTeamSize: 4,
-    fee: "₹200",
-    fees: 200,
-    prize: "₹15000",
-    date: "21st March 2025",
+    fee: "₹160",
+    fees: 160,
+    prize: "₹18000",
+    date: "coming soon",
     brochure:
-      "https://drive.google.com/drive/folders/1oKXqVmWEurGN1ZG2KBVK6YfC7C7tAzm1?usp=drive_link",
+      "https://drive.google.com/file/d/1Q5waQpcMu6Ov4Ee-gqKAV-pcJUHjAnvT/view",
     submission: "",
     rulestab: [
       {
         tabId: "1",
         heading: "Stages and Timeline",
         data: [
-          "Stage:",
-          "1. Create teams with 3 or 4 members who represent different views.",
-          "2. Choose a topic from a list of ocean-related subjects.",
-          "3. Research and prepare arguments for your viewpoint.",
-          "4. Engage in debate rounds with speeches, rebuttals, and conclusions.",
-          "5. A moderator oversees fairness and time limits in the debate.",
+          "Round 1: Preliminary Debate",
+          "Proceedings:",
+          "Each team will be allotted a topic and decide whether to speak for or against it. Teams will take notes on paper (no electronics allowed). If there’s a conflict of interest, a coin toss will decide their stance.",
+          "Format:",
+          "One team starts the debate by presenting their point.The opposing team responds with a counterpoint.This continues for 10 minutes.",
+          "Outcome:",
+          "Teams will be judged on the strength of their arguments, quick thinking, and overall speaking skills. The 3/4th of the total teams will advance to the next round.",
+          "Round 2: Semi-Final Debate",
+          "Proceedings:",
+          "The remaining 8 teams will debate in pairs, with topics assigned at the start. The format remains similar to Round 1 but with more complex and technical topics.",
+          "Outcome:",
+          "Judging criteria remain the same, but emphasis will also be placed on depth of knowledge and articulation. Half the teams from the round will proceed to the final round.",
+          "Round 3: Grand Finale",
+          "Proceedings:",
+          "Two teams will debate for 1st position. Two teams will compete for 3rd position.",
+          "Format:",
+          "The final round will have an extended debate time of 15 minutes.Teams will be expected to present research-backed arguments and answer questions from judges.",
+          "Outcome:",
+          "The champions and runners-up will be decided based on a comprehensive evaluation",
         ],
       },
       {
         tabId: "2",
         heading: "Rules and Regulations",
         data: [
-          "1. Speak English politely and respectfully.",
-          "2. Listen without interrupting your opponents.",
-          "3. No interruptions; if you break this rule, you lose your turn.",
-          "4. You get 5-10 minutes to prepare after the topic is given.",
-          "5. Don't use phones during the debate.",
-          "6. Use a respectful tone; no shouting or aggression.",
-          "7. Stay calm, cool, and polite; the goal is to learn and have constructive conversations while respecting each other. Good luck!",
+          "Round 1: Preliminary Debate",
+          "Each team will be allotted a topic and will decide on their stance.The debate will last 10 minutes, with each team having the opportunity to present their arguments and respond to the opposing team’s points. Judging Criteria: Strength of arguments, articulation, rebuttal skills, and overall speaking ability. The Top 8 teams will move on to the next round.",
+          "Round 2: Semi-Final Debate",
+          "The remaining 8 teams will compete in pairs. The topics will be more complex and technical. The format will be similar to Round 1, but with more focus on the depth of knowledge and technical articulation. The Top 4 teams will proceed to the Grand Finale.",
+          "Round 3: Grand Finale",
+          "Two teams will compete for the 1st position and two other teams will compete for 3rd. Teams must be prepared to present research-backed arguments and answer questions. Final rankings will be based on comprehensive evaluation including argument quality, depth of knowledge, articulation, and interaction with judges.",
         ],
       },
       {
         tabId: "3",
         heading: "Evaluation Criteria",
         data: [
-          "Participants will be assessed on these criteria",
-
-          "1. Knowledge and Research - 15 Marks - How well you understand the topic with accurate facts and evidence",
-
-          "2. Communication and Presentation - 10 Marks - How clearly and persuasively you present your arguments using logical reasoning examples and evidence",
-
-          "3. Rebuttal and Counter Arguments - 15 Marks - Your ability to respond to opposing arguments with well-articulated counterpoints and refutations",
-
-          "4. Engagement and Participation - 5 Marks - How actively you engage in the debate respect others' opinions and involve the audience",
-
-          "5. Overall Impact - 5 Marks - The coherence of your arguments your ability to make a compelling case and your demonstration of critical thinking",
+          "Round 1 & 2:",
+          "Argument Strength (logical consistency, clarity, relevance). Quick Thinking & Rebuttal Skills (ability to counter opposing points effectively). Communication Skills (clarity, persuasion, structure of speech).",
+          "Round 3:",
+          "All previous criteria plus:",  
+          "Depth of Knowledge (evidence of thorough research and understanding of the topic). Engagement with Judges (ability to answer and engage with questions and challenges).",
         ],
       },
       {
@@ -136,7 +142,10 @@ const EventData = [
         heading: "Prizes",
         data: [
           "- All participants get participation certificates.",
-          "- Top 3 in the Debate event win a total of ₹15,000.",
+          "- Top 3 in the Debate event win a total of ₹18,000.",
+          "- 1st Prize: ₹9000",
+          "- 2nd Prize: ₹6,000",
+          "- 3rd Prize: ₹3000",
           "- Winners receive e-certificates and social media recognition.",
         ],
       },
@@ -156,7 +165,7 @@ const EventData = [
     prize: "₹12000",
     date: "21st March 2025",
     brochure:
-      "https://drive.google.com/drive/folders/1tdeXAHMGXbfa5zRCYJhxIiiBTcXLznPM?usp=drive_link",
+      "https://drive.google.com/file/d/1kaXaoGCARfREeaVtG9fCIglAzHT9dX95/view",
     // submission: "",
     rulestab: [
       {
@@ -209,47 +218,64 @@ const EventData = [
     link: "Boatwars",
     poster: "/img/event/BoatWars.png",
     description:
-      "Welcome to the Aquatic Mastery Challenge, where boat racing, tug of war, and environmental stewardship collide. In the Boat Racing Championship, sleek vessels compete in high-speed races. Then, the Tug of War Spectacle showcases strength and strategy. As scores accumulate, the Floating Waste Cleaning Competition takes center stage, testing teams' dedication to preserving waterways as they collect floating waste. An unforgettable journey of skills, sportsmanship, and environmental commitment awaits.",
-    fee: "₹100",
+      "Welcome to the Aquatic Mastery Challenge, an exciting event combining boat racing and tug of war. This competition tests your knowledge of ships and their practical applications. Your boat model will be evaluated for speed, stability, and handling. The event features three rounds: the Boat Racing Championship, where sleek vessels race through a demanding course, and the Tug of War Spectacle, where teams compete in a thrilling test of strength and strategy. Spectators cheer as the power and camaraderie of the participants shine through.",
+    fee: "₹300",
     teamSize: "2-4",
-    maxTeamSize: 1,
-    fees: 100,
-    prize: "₹3000",
-    date: "21st March 2025",
-    brochure: "",
-    submission: "",
+    maxTeamSize: 4,
+    fees: 300,
+    prize: "₹30000",
+    date: "coming soon",
+    brochure: "https://drive.google.com/file/d/1FwOLeCtLOUnDrdkEIBdX9AUCwkjo6Gap/view",
+    // submission: "",
     rulestab: [
       {
         tabId: "1",
         heading: "Stages and Timeline",
         data: [
-          "Welcome to the exhilarating Boat Race, where participants showcase their speed, skill, and precision in a thrilling waterborne competition. The race takes place on a challenging course, testing the agility of the boats as they navigate turns and straightaways. With the roaring engines and the spray of water, participants push their limits to cross the finish line and claim victory. It's a heart-pounding event that captivates spectators and celebrates the excitement of boat racing",
-
-          "A tug of war between boats will be held. A small rope would be tied to the rear end of both the models (*using a hook) and they would participate in a tug of war to determine the winner",
-
-          "The Water Cleaner Boat Design Challenge is a competition that focuses on designing and developing innovative boats or vessels capable of cleaning and improving the quality of water bodies. Participants are tasked with creating a boat design that efficiently collects and removes the floating solid-waste . The competition aims to promote environmental consciousness, foster creative problem-solving, and encourage the development of sustainable solutions for water pollution",
+          "Round 1: Maneuvering Test",
+          "The Participants will have to complete the path provided in the maze in the shortest time possible",
+          "The total score will be normalized based on the least and maximum time taken",
+          "Round 2: Maneuvering test with checkpoints",
+          "The participants must complete the path provided in the maze in the shortest time possible, along with crossing specific checkpoints",
+          "Participants must make a smart choice between the crossing checkpoints and time",
+          "The total score will be calculated based on both the time taken and the checkpoints crossed",
+          "Round 3: Weight Tugging Challenge",
+          "A floating platform with some weight would be tied to the rear end of the vessel",
+          "Hooks will NOT be provided. The participants need to attach hooks to their vessel at a convenient location.",
+          "Time taken to complete the maze path while tugging the boat will be considered for evaluation",
         ],
       },
       {
         tabId: "2",
         heading: "Rules And Regulations",
         data: [
-          "Each team should consist of 2-4 members.A team leader should be designated for communication and coordination. You are only allowed to carry only 1 model of boat for all rounds.Any team found indulging in unfair practices will be disqualified from the event. If the violation is found to be serious, they can also be disqualified.",
-
-          "Each Team should have a physical R/C model ready with them which should include a hook attached to the rear of the boat.We shall not be held responsible for any harm caused to your model.teams will be strategically divided into four distinct pools . The winning team from each pool will be granted the highest points.",
-
-          "Only the teams that collectively qualify with points above a certain threshold, earned from both Round 1 and Round 2, will be eligible to proceed to Round 3.Teams need to collect all the waste under a given time limit.The final winners will be determined based solely on the results from Round 3.",
+          "General:",
+          "Teams of 2-4 members, with a designated leader",
+          "Only one boat model per team for all rounds",
+          "No unfair practices or serious violations, or face disqualification",
+          "Participants are requested to provide us with the dimensions and specs of their boats before participating in the competition",
+          "Round 1 - 20 points",
+          "Boat race on a challenging course, judged by time taken",
+          "The fastest boat wins the highest point",
+          "Round 2 - 40 points",
+          "The path for this round will be complex, with added features",
+          "Checkpoints will be placed along the path, and scores will be distributed accordingly",
+          "Half of the points(20 points) will be awarded based on the time taken to cover the path",
+          "The remaining half will be awarded for the checkpoints covered",
+          "Round 3 - 40 points",
+          "The weight to be tugged by all the boats is same(1kg)",
+          "The winner of each pool gets the highest points",
+          "Length of the rope between hook and the platform can be adjusted by the participants",
         ],
       },
       {
         tabId: "3",
-        heading: "Evaluation Criteria",
+        heading: "General Information",
         data: [
-          "Round 1: The judging criteria for the Boat Race will be solely based on the time taken by each boat to complete the race. The boat that finishes the race in the shortest amount of time will be declared the winner. The participant with the fastest overall time will claim Highest point. There will be no consideration of other factors, and the focus will be solely on determining the boat that crosses the finish line first",
-
-          "Round 2: Teams will be divided into 4 different pool criteria of differentiating wiil be size of the boat but keep in mind this is not hard and fast rule.Winner from each pool wiil be rewarded highest point and vice a versa",
-
-          "Round 3: Judging criteria will be time taken to collect all the waste.The final winners will be determined based solely on the results from Round 3",
+          "Dimensions of the vessel:",
+          "Length: 30cm ± 5cm",
+          "Breadth: 15cm ± 5cm",
+          "Dimensions of the pool: 12 x 12 x 1 (in feet)/ 3.6 x 3.6 x 0.3 (in meters)"
         ],
       },
       {
@@ -257,9 +283,24 @@ const EventData = [
         heading: "Prizes",
         data: [
           "The top 3 winners will be awarded cash prizes and certificates.",
-          "1st Prize: ₹5000",
-          "2nd Prize: ₹3000",
-          "3rd Prize: ₹2000",
+          "1st Prize: ₹15000",
+          "2nd Prize: ₹9000",
+          "3rd Prize: ₹6000",
+        ],
+      },
+      {
+        tabId: "5",
+        heading: "Evaluation Criteria",
+        data: [
+          "Round 1:",
+          "The Boat Race will be judged based solely on the time taken by each boat to complete the race",
+          "The boat that finishes the race in the shortest time will be declared the winner, and the participant with the fastest overall time will claim the highest point",
+          "Round 2:",
+          "The path for this round will be the same as the previous round",
+          "The checkpoints covered by the boat to complete the race will affect the points scored",
+          "Round 3:",
+          "The path for this round will be the same as the previous round",
+          "The team with the fastest time will claim full points and other teams will get normalized score",
         ],
       },
     ],
@@ -277,7 +318,7 @@ const EventData = [
     fees: 150,
     prize: "₹12000",
     date: "coming soon",
-    brochure: "https://drive.google.com/file/d/1PCKhM-BE44HtCR_W5SvsrNcZf-EDVi1E/view?usp=drive_link",
+    brochure: "https://drive.google.com/file/d/1PCKhM-BE44HtCR_W5SvsrNcZf-EDVi1E/view",
     // submission: "",
     rulestab: [
       {
@@ -318,12 +359,13 @@ const EventData = [
     name: "Aquaexposure",
     link: "Aquaexposure",
     poster: "/img/event/AquaExposure.png",
+    teamSize: "1",
     description:
       "This competition challenges participants to explore the ocean’s many dimensions through a photo story, using 7 to 10 images to craft a compelling visual narrative. Whether capturing its breathtaking beauty, immense power, or ecological significance, each image should contribute to a story that resonates.",
     fee: "₹100",
     prize: "₹6000",
     date: "coming soon",
-    brochure: "https://drive.google.com/file/d/1kVjAi7TbkTqr0xAY6uCRkyRgeJVQt4wo/view?usp=drive_link",
+    brochure: "https://drive.google.com/file/d/1kVjAi7TbkTqr0xAY6uCRkyRgeJVQt4wo/view",
     fees: 100,
     maxTeamSize: 1,
     rulestab: [
@@ -373,7 +415,7 @@ const EventData = [
     date: "coming soon",
     fees: 180,
     maxTeamSize: 4,
-    brochure: "https://drive.google.com/file/d/1eZ0ed2nGr5wgGLUFrJRbKddpQfmcEGo3/view?usp=drive_link",
+    brochure: "https://drive.google.com/file/d/1eZ0ed2nGr5wgGLUFrJRbKddpQfmcEGo3/view",
     // submission: "",
     rulestab: [
       {
@@ -414,19 +456,19 @@ const EventData = [
     id: 8,
     name: "Paper Prep",
     link: "PaperPrep",
-    poster: "img/event/Oceanoddessy.png",
+    poster: "/img/event/paperprep.png",
     description:
       `We are thrilled to announce Paper Prep, an event that invites participants to delve
 into cutting-edge challenges in ocean-related fields and present their innovative
 solutions. This competition challenges participants to think critically, explore new
 possibilities, and create impactful research.`,
-    fee: "₹100",
-    teamSize: "1",
-    prize: "₹3000",
-    date: "21st March 2025",
+    fee: "₹180",
+    teamSize: "1-4",
+    prize: "₹18000",
+    date: "coming soon",
     brochure: "",
-    fees: 100,
-    maxTeamSize: 1,
+    fees: 180,
+    maxTeamSize: 4,
     submission: "",
     rulestab: [
       {
@@ -515,8 +557,8 @@ Team participation (all members involved): 5%`,
         heading: "Prizes",
         data: [
           "The top 3 winners will be awarded cash prizes and certificates.",
-          "1st Prize: ₹7000",
-          "2nd Prize: ₹5000",
+          "1st Prize: ₹9000",
+          "2nd Prize: ₹6000",
           "3rd Prize: ₹3000",
         ],
       },
