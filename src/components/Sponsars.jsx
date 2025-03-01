@@ -36,16 +36,16 @@ function Sponsors() {
                 <img src="img\Spons\Vedam.png" className="card-img-top" alt="" />
               </div>
             </div>
-            <h5 className="spons_txt my-4">Major Sponsor</h5>
+            <h5 className="spons_txt my-4">Title Sponsor</h5>
           </div>
 
           <div className="row row-cols-1 row-cols-md-1 g-4 my-2 animated slideInRight center">
-            <div className="col width-120">
+            <div className="col width-160">
               <div className="card h-100">
                 <img src="img\Spons\boyancy.jpg" className="card-img-top" alt="" />
               </div>
             </div>
-            <h5 className="spons_txt my-4">Event Sponsor</h5>
+            <h5 className="spons_txt my-4">Major Sponsor</h5>
           </div>
 
 

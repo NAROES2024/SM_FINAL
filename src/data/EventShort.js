@@ -46,7 +46,7 @@ const Events = [
   },
   {
     name: "Paper Prep",
-    link: "/Oceanoddessy",
+    link: "/paperprep",
     poster: "/img/event/Oceanoddessy.png",
     description: "Explore research and innovation in ocean studies.",
   },
