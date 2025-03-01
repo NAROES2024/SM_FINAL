@@ -108,7 +108,8 @@ function EventDetail({ event }) {
                 </p>
               </div>
 
-              <div className="course-info d-flex justify-content-between align-items-center mb-2">
+              {event.submission!==undefined ? (
+                <div className="course-info d-flex justify-content-between align-items-center mb-2">
                 <h5>Submission</h5>
                 <p>
                   <a
@@ -119,6 +120,12 @@ function EventDetail({ event }) {
                   </a>
                 </p>
               </div>
+              ): 
+              (
+              <>
+              </>
+              )}
+              
 
               {localStorage.getItem("token") ? (
                 <div className="course-info d-flex justify-content-between align-items-center mb-2">

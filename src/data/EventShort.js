@@ -14,7 +14,7 @@ const Events = [
   },
   {
     name: "Maritime Mystery",
-    link: "/Tressurehunt",
+    link: "/Treasurehunt",
     poster: "/img/event/Treasure_Hunt.webp",
     description:
       "Solve puzzles and uncover hidden clues in this treasure hunt.",
@@ -33,20 +33,20 @@ const Events = [
     description: "A general knowledge quiz on ocean and naval topics.",
   },
   {
-    name: "Capture the Water",
+    name: "Aqua Exposure",
     link: "/Aquaexposure",
     poster: "/img/event/AquaExposure.png",
     description: "Showcase ocean engineering through original photographs.",
   },
   {
-    name: "WaveQuest",
+    name: "Wave Quest",
     link: "/Wavequest",
     poster: "/img/event/WaveQuest.png",
     description: "Solve real-world ocean engineering case studies.",
   },
   {
     name: "Paper Prep",
-    link: "/Oceanoddessy",
+    link: "/PaperPrep",
     poster: "/img/event/Oceanoddessy.png",
     description: "Explore research and innovation in ocean studies.",
   },
