@@ -1,11 +1,11 @@
 const Events = [
-  {
-    name: "Aqua-Innovate",
-    link: "/AquaMOD",
-    poster: "/img/event/AquaInnovate.png",
-    description:
-      "Showcase your creativity by modifying a vessel for better efficiency.",
-  },
+  // {
+  //   name: "Aqua-Innovate",
+  //   link: "/AquaMOD",
+  //   poster: "/img/event/AquaInnovate.png",
+  //   description:
+  //     "Showcase your creativity by modifying a vessel for better efficiency.",
+  // },
   {
     name: "Deep Sea Disputes",
     link: "/Dispustes",

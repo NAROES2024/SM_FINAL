@@ -696,3 +696,7 @@ h6,
     height: 70%; 
     object-fit: cover; 
 }
+
+.alight-left{
+    text-align: left;
+}

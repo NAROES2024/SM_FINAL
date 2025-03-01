@@ -204,7 +204,7 @@ function EventDetail({ event }) {
                 {event.rulestab.map((tab) => (
                   <div className="tab-pane" id={"tab-" + tab.tabId} key={tab.tabId}>
                     <div className="row">
-                      <div className="col-lg-8 details order-2 order-lg-1">
+                      <div className="col-lg-8 details order-2 order-lg-1 alight-left">
                         <h3>{tab.heading}</h3>
                         {tab.data.map((data, index) => (
                           <p key={index}>{data}</p>
