@@ -8,7 +8,8 @@ function Tshirt() {
   const [sm_id, setSm_id] = useState(null);
   const [showSizeForm, setShowSizeForm] = useState(false);
   const [selectedSize, setSelectedSize] = useState("");
-  const [loading, setLoading] = useState(false); // Loading state
+  const [referral, setReferral] = useState(""); // New referral state
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const showToastMessage = (message, type) => {
@@ -41,7 +42,7 @@ function Tshirt() {
       }
 
       try {
-        const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt/isregistered", { token });
+        const response = await axios.post("http://localhost:5000/tshirt/isregistered", { token });
         const { smId, status, register } = response.data;
 
         if (status === "success") {
@@ -81,13 +82,14 @@ function Tshirt() {
       return;
     }
 
-    setLoading(true); // Start loading
+    setLoading(true);
 
     try {
-      const { data } = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/orders", {
+      const { data } = await axios.post("http://localhost:5000/orders", {
         token,
         size: selectedSize,
         type: "tshirt",
+        referral: referral || null, // Include referral if provided
       });
 
       if (data.status === "error") {
@@ -111,14 +113,15 @@ function Tshirt() {
         image: "/img/logo.png",
         handler: async (response) => {
           try {
-            const verifyResponse = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/verify-payment/tshirt", {
+            const verifyResponse = await axios.post("http://localhost:5000/verify-payment/tshirt", {
               razorpay_order_id: response.razorpay_order_id,
               razorpay_payment_id: response.razorpay_payment_id,
               razorpay_signature: response.razorpay_signature,
+              referral: referral || null, // Include referral in verification
             });
 
             const result = verifyResponse.data;
-            console.log(result)
+            console.log(result);
             if (result.success === "success") {
               showToastMessage("Payment successful!", "success");
               window.location.reload();
@@ -140,6 +143,7 @@ function Tshirt() {
         },
         notes: {
           size: selectedSize,
+          referral: referral || "None", // Add referral to notes
         },
         theme: {
           color: "#3399cc",
@@ -152,7 +156,7 @@ function Tshirt() {
       console.error("Error creating order or initiating payment:", error);
       showToastMessage("Failed to proceed with the purchase. Please try again.", "error");
     } finally {
-      setLoading(false); // End loading
+      setLoading(false);
     }
   };
 
@@ -191,6 +195,7 @@ function Tshirt() {
                       </button>
                     ) : (
                       <form onSubmit={(e) => e.preventDefault()}>
+                        <h5>Please Confirm Your Details</h5>
                         <label htmlFor="size" className="form-label">
                           Select T-shirt Size:
                         </label>
@@ -199,19 +204,33 @@ function Tshirt() {
                           className="form-select mb-3"
                           value={selectedSize}
                           onChange={(e) => setSelectedSize(e.target.value)}
-                          disabled={loading} // Disable during loading
+                          disabled={loading}
                         >
                           <option value="">Choose Size</option>
                           <option value="S">Small</option>
                           <option value="M">Medium</option>
                           <option value="L">Large</option>
                           <option value="XL">Extra Large</option>
-                           <option value="XXL">XXL</option>
+                          <option value="XXL">XXL</option>
                         </select>
+                        
+                        <label htmlFor="referral" className="form-label">
+                          Referral Code (Optional):
+                        </label>
+                        <input
+                          id="referral"
+                          type="text"
+                          className="form-control mb-3"
+                          placeholder="Enter referral code if you have one"
+                          value={referral}
+                          onChange={(e) => setReferral(e.target.value)}
+                          disabled={loading}
+                        />
+                        
                         <button
                           onClick={handleSizeSubmit}
                           className="btn btn-success"
-                          disabled={loading} // Disable during loading
+                          disabled={loading}
                         >
                           {loading ? "Processing..." : "Proceed to Pay"}
                         </button>
@@ -238,7 +257,7 @@ function Tshirt() {
           </div>
         </div>
       </div>
-      <ToastContainer /> {/* Toast container */}
+      <ToastContainer />
     </div>
   );
 }

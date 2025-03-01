@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Modal, Form } from "react-bootstrap";
 import axios from "axios";
 
@@ -20,19 +20,21 @@ function loadscript(src) {
 }
 
 function TshirtModal(props) {
+  const [referral, setReferral] = useState(""); // New referral state
+  
   console.log(props.user);
   function registerToTshirt() {
     const data = {
       token: localStorage.getItem("token"),
       orderId: props.user.id,
       size: props.user.size,
+      referral: referral || null, // Add referral code to the request
     };
     axios
-      .post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/tshirt", data)
+      .post("http://localhost:5000/tshirt", data)
       .then((res) => {
         console.log("response: ");
         console.log(res);
-        
       })
       .catch((err) => console.log(err));
   }
@@ -54,7 +56,7 @@ function TshirtModal(props) {
       name: "Capature the water Registeration", //your business name
       description: "Test Transaction",
       image: "img/logo.png",
-      callback_url: "https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/success/tshirt",
+      callback_url: "http://localhost:5000/success/tshirt",
       prefill: {
         //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
         name: data.name,
@@ -63,6 +65,7 @@ function TshirtModal(props) {
       },
       notes: {
         address: "Razorpay Corporate Office",
+        referral: referral || "None", // Add referral to notes
       },
       theme: {
         color: "#3399cc",
@@ -72,6 +75,7 @@ function TshirtModal(props) {
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   }
+  
   return (
     <Modal
       {...props}
@@ -85,12 +89,13 @@ function TshirtModal(props) {
       <Modal.Body>
         <div className="text-center">
           <h5 className="text-primary-gradient fw-medium">Samudramanthan</h5>
-          <h1 className="mb-5">Hellow {props.user.name}</h1>
-          <p>Email : {props.user.email}</p>
-          <p>contact number : {props.user.contact}</p>
-          <p>SM id : {props.user.sm_id}</p>
-          <p>Order id : {props.user.id}</p>
-          <p>Fees : {props.user.amount / 100}</p>
+          <h1 className="mb-5">Please Confirm Your Details</h1>
+          <p>Name: {props.user.name}</p>
+          <p>Email: {props.user.email}</p>
+          <p>Contact number: {props.user.contact}</p>
+          <p>SM id: {props.user.sm_id}</p>
+          <p>Order id: {props.user.id}</p>
+          <p>Fees: {props.user.amount / 100}</p>
         </div>
         <Form>
           <Form.Group className="mb-3" controlId="formSizeSelect">
@@ -111,6 +116,16 @@ function TshirtModal(props) {
                 </option>
               ))}
             </Form.Control>
+          </Form.Group>
+          
+          <Form.Group className="mb-3" controlId="formReferral">
+            <Form.Label>Referral Code (Optional)</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter referral code if you have one"
+              value={referral}
+              onChange={(e) => setReferral(e.target.value)}
+            />
           </Form.Group>
         </Form>
       </Modal.Body>

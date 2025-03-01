@@ -36,7 +36,7 @@ export default function Login() {
     const data = { email: smid, password: password };
 
     try {
-      const res = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/login", data);
+      const res = await axios.post("http://localhost:5000/login", data);
       if (res.data.status === "success") {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("user", JSON.stringify(res.data.user));

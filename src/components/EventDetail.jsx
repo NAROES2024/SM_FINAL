@@ -22,7 +22,7 @@ function EventDetail({ event }) {
     if (localStorage.getItem("token") && event) {
       const checkRegistration = async () => {
         try {
-          const response = await axios.post("https://naroes-due5fwbuc0hdh3e4.centralindia-01.azurewebsites.net/event/isregistered", {
+          const response = await axios.post("http://localhost:5000/event/isregistered", {
             token: localStorage.getItem("token"),
             link: event.link,
           });
