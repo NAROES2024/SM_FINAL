@@ -9,6 +9,7 @@ import About from './pages/About';
 import SmTeam from './pages/SmTeam';
 import Gallery from './pages/Gallery';
 import Register from './pages/Register';
+import ContactUs from './pages/ContactUs';
 // import Cap from './pages/Cap';
 // import Schedule from './pages/Schedule';
 import Profile from './pages/profile';
@@ -26,6 +27,7 @@ function App() {
         <Route path='/team' element={<SmTeam />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/contactus' element={<ContactUs />} />
         {/* <Route path='/cap' element={<Cap />} /> */}
         {/* <Route path='/schedule' element={<Schedule />} /> */}
         <Route path='/profile' element={<Profile />} />
