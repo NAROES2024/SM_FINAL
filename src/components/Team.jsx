@@ -18,7 +18,7 @@ export default function Team() {
                                     <div className="col">
                                     <div className="card h-100 text-center">
                                         <img className="img-fluid bg-white rounded flex-shrink-0 p-1 mb-2 team-image"
-                                            src={member.image}/>
+                                            src={member.image} alt="Team member"/>
                                         <div className="ms-4">
                                             <h5 className="mb-2">{member.name}</h5>
                                             <p className="mb-2">{member.position}</p>

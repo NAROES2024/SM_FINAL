@@ -25,6 +25,16 @@ const TeamData = [
     },
 
     {
+        name: "Anushika Srivastava",
+        position: "General Secretary",
+        image: "img/team/anushika.jpg",
+        linkedin: "https://www.linkedin.com/in/anushika-srivastava-05ab90256/",
+        facebook: "https://www.facebook.com/anushika.shrivastava.102",
+        instagram: "https://www.instagram.com/_anushika_06_/",
+    },
+    
+
+    {
         name: "Karamtoth Goutham Nayak",
         position: "General Secretary",
         image: "img/team/goutham.jpg",
@@ -40,6 +50,15 @@ const TeamData = [
         linkedin: "https://www.linkedin.com/in/karthik-naidu-20a88626a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         facebook: "https://www.facebook.com/potalakarthiknaidu.potalakarthiknaidu.7?mibextid=LQQJ4d",
         instagram: "https://www.instagram.com/_krtk.__/",
+    },
+
+    {
+        name: "Dipesh Goel",
+        position: "Sponsorship Head",
+        image: "img/team/dipesh.jpg",
+        linkedin: "https://www.linkedin.com/in/dipeshgoel27/",
+        facebook: "https://www.facebook.com/dipeshgoel27",
+        instagram: "https://www.instagram.com/dipeshgoel27",
     },
    
   
