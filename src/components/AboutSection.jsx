@@ -12,7 +12,7 @@ export default function AboutSection() {
                                  {/* Students from all around India participated actively in Samudramanthan in 23 <br />
                                  It was a huge success because of the diligent labour, devotion, excitement, ingenuity, and inventiveness. <br />
                                  We had the largest participation ever and received praise for the interesting and difficult competitions. <br /> */}
-                                 Students from all over India actively participated in Samudramanthan, 
+                                 Students from all over India actively participated in Samudramanthan. 
                                  The event was a true celebration of dedication, enthusiasm, creativity, and innovation, with participants showcasing their skills and pushing their limits. This year, we witnessed the highest number of participants ever, a testament to the growing popularity and prestige of the event. The engaging and challenging competitions received widespread praise, leaving a lasting impact on both participants and spectators. 
                                  Samudramanthan is not just a competition but a platform for learning, collaborationn, and unforgettable experiences.
                             </p>
